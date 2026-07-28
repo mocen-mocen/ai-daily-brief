@@ -1,0 +1,208 @@
+# AI Daily Brief - Data Sources Configuration
+# 国内AI媒体使用RSS或网页抓取，国外网站使用网页抓取
+
+sources:
+  # ========== 国内AI专业媒体 ==========
+  aibase:
+    name: "AIbase"
+    url: "https://www.aibase.cn/"
+    type: "web"
+    selector: "article, [class*='article'], .post, .news-item"
+    category: "chinese_ai"
+    enabled: true
+    
+  netease_ai:
+    name: "网易科技"
+    url: "https://tech.163.com/"
+    type: "web"
+    selector: ".news-item, .item, article, [class*='news'], .post"
+    category: "chinese_ai"
+    enabled: false  # 暂时禁用，需要专门的AI筛选逻辑
+    
+  sina_ai:
+    name: "新浪科技"
+    url: "https://tech.sina.com.cn/"
+    type: "web"
+    selector: ".news-item, .item, article, [class*='news'], .post"
+    category: "chinese_ai"
+    enabled: false  # 暂时禁用，需要专门的AI筛选逻辑
+    
+  qq_ai:
+    name: "腾讯科技"
+    url: "https://new.qq.com/ch/tech/"
+    type: "web"
+    selector: ".item, article, [class*='item'], .news-item"
+    category: "chinese_ai"
+    enabled: false  # 暂时禁用，需要专门的AI筛选逻辑
+    
+  jiqizhixin:
+    name: "机器之心"
+    url: "https://www.jiqizhixin.com/"
+    type: "rss"
+    rss_url: "https://www.jiqizhixin.com/rss"
+    category: "chinese_ai"
+    enabled: true
+    
+  qbitai:
+    name: "量子位"
+    url: "https://www.qbitai.com/"
+    type: "rss"
+    rss_url: "https://www.qbitai.com/feed"
+    category: "chinese_ai"
+    enabled: true
+    
+  infoq_ai:
+    name: "InfoQ AI"
+    url: "https://www.infoq.cn/ai"
+    type: "rss"
+    rss_url: "https://www.infoq.cn/feed/ai"
+    category: "chinese_ai"
+    enabled: true
+    
+  xinzhiyuan:
+    name: "新智元"
+    url: "https://www.xinzhiyuan.com/"
+    type: "rss"
+    rss_url: "https://www.xinzhiyuan.com/feed"
+    category: "chinese_ai"
+    enabled: true
+    
+  zhidx:
+    name: "智东西"
+    url: "https://www.zhidx.com/"
+    type: "rss"
+    rss_url: "https://www.zhidx.com/feed"
+    category: "chinese_ai"
+    enabled: true
+    
+  paperweekly:
+    name: "PaperWeekly"
+    url: "https://www.paperweekly.cn/"
+    type: "rss"
+    rss_url: "https://www.paperweekly.cn/rss"
+    category: "chinese_ai"
+    enabled: true
+
+  # ========== 国外官方 (网页抓取) ==========
+  openai:
+    name: "OpenAI Blog"
+    url: "https://openai.com/news/"
+    type: "web"
+    selector: "article, [class*='article'], .post, .blog-post"
+    category: "foreign_official"
+    enabled: true
+    
+  anthropic:
+    name: "Anthropic"
+    url: "https://www.anthropic.com/news"
+    type: "web"
+    selector: "article, [class*='article'], .card"
+    category: "foreign_official"
+    enabled: true
+    
+  deepmind:
+    name: "Google DeepMind"
+    url: "https://deepmind.google/blog/"
+    type: "web"
+    selector: "article, .blog-post, [class*='post']"
+    category: "foreign_official"
+    enabled: true
+
+  # ========== 国外研究员 (网页抓取) ==========
+  karpathy:
+    name: "Andrej Karpathy"
+    url: "https://karpathy.ai/"
+    type: "web"
+    selector: null
+    category: "foreign_researcher"
+    enabled: true
+    
+  lilian_weng:
+    name: "Lilian Weng"
+    url: "https://lilianweng.github.io/"
+    type: "web"
+    selector: "article, .post, [class*='post']"
+    category: "foreign_researcher"
+    enabled: true
+    
+  simon_willison:
+    name: "Simon Willison"
+    url: "https://simonwillison.net/"
+    type: "web"
+    selector: "article, .entry, .blog-post"
+    category: "foreign_researcher"
+    enabled: true
+    
+  distill:
+    name: "Distill.pub"
+    url: "https://distill.pub/"
+    type: "web"
+    selector: "article, .post"
+    category: "foreign_researcher"
+    enabled: true
+    
+  dario_amodei:
+    name: "Dario Amodei"
+    url: "https://darioamodei.com/"
+    type: "web"
+    selector: "article, .post, [class*='essay']"
+    category: "foreign_researcher"
+    enabled: true
+
+  # ========== 国外媒体 (网页抓取) ==========
+  hackernews:
+    name: "Hacker News"
+    url: "https://news.ycombinator.com/"
+    type: "web"
+    selector: ".athing"
+    link_selector: ".titleline > a"
+    category: "foreign_media"
+    enabled: true
+    
+  # ========== 国外AI搜索与媒体 ==========
+  exa_ai:
+    name: "Exa AI Search"
+    url: "https://exa.ai/"
+    type: "web"
+    selector: "article, .post, [class*='result'], .card"
+    category: "foreign_media"
+    enabled: true
+    
+  business_today:
+    name: "BusinessToday AI"
+    url: "https://www.businesstoday.in/artificial-intelligence"
+    type: "web"
+    selector: "article, .story, .news-item, [class*='story']"
+    category: "foreign_media"
+    enabled: true
+    
+  the_register:
+    name: "The Register AI"
+    url: "https://www.theregister.com/ai/"
+    type: "web"
+    selector: "article, .story, .news-item, [class*='article']"
+    category: "foreign_media"
+    enabled: true
+    
+  entrepreneur_ai:
+    name: "Entrepreneur AI"
+    url: "https://www.entrepreneur.com/topic/artificial-intelligence"
+    type: "web"
+    selector: "article, .post, .card, [class*='article']"
+    category: "foreign_media"
+    enabled: true
+    
+  ai_hub_today:
+    name: "AI Hub Today"
+    url: "https://ai.hubtoday.app/"
+    type: "web"
+    selector: "article, .post, .card"
+    category: "foreign_media"
+    enabled: true
+
+# Category display names - 优先级排序（靠前的先展示）
+categories:
+  chinese_ai: "🇨🇳 国内 AI 媒体"
+  foreign_official: "🏢 国际公司官方"
+  foreign_researcher: "👨‍🔬 国际研究员"
+  foreign_media: "📰 国际媒体"
