@@ -1,172 +1,512 @@
 [
   {
+    "title": "深度对话：做AI的最佳伙伴：定义Token从“生产”到“应用”的确定性旅程",
+    "url": "https://www.infoq.cn/video/G3qIla4jAZtDLCGhqvKx?utm_source=rss&utm_medium=article",
+    "summary": "",
+    "published": "2026-07-29T19:12:21",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "InfoQ 中文站"
+  },
+  {
+    "title": "基于虚拟分段和原生播放的节拍同步移动音频流",
+    "url": "https://www.infoq.cn/article/5gHaEtygF94JOKLKyDBg?utm_source=rss&utm_medium=article",
+    "summary": "在 Colossal 公司转向代理式电商之前，我们正在开发一款移动端节拍发现应用。该应用允许音乐制作人上传节拍，音乐人则可以滑动浏览个性化信息流，而机器学习（ML）推荐系统会根据实时会话信号（如跳过率、收听时长、重复段锁定和重播次数）对该信息流进行排序。该移动应用的核心交互模式包括： 从头开始播放当前曲目。锁定一段，然后在滑动浏览不同曲目时使该段处于活动状态。...",
+    "published": "2026-07-29T19:00:00",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "作者：Vladyslav Melnychenko"
+  },
+  {
+    "title": "Yelp 借助 Training Orchestrator 实现机器学习模型训练的统一管理",
+    "url": "https://www.infoq.cn/article/J3AlWZvIwrQT3R7dsoJo?utm_source=rss&utm_medium=article",
+    "summary": "Yelp 推出 了 Training Orchestrator。这一全新的内部框架取代了各团队各自独立编写的 Spark 训练脚本。现在，它采用了一种基于配置、以 DAG 为基础的执行模型。此前，每个应用机器学习团队都会创建自己的编排方案，这导致了代码重复、配置不一致以及自定义监控机制不稳定等问题。...",
+    "published": "2026-07-29T17:49:42",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "作者：Claudio Masolo"
+  },
+  {
+    "title": "深度访谈｜Agentic 时代，谁来重新定义数据库？",
+    "url": "https://www.infoq.cn/video/r4pZtYkEzaYWlFlwJXTk?utm_source=rss&utm_medium=article",
+    "summary": "",
+    "published": "2026-07-29T17:00:00",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "阿里云"
+  },
+  {
+    "title": "语义贯通：在 Snowflake 上构建可信、高效的数据智能 ｜Snowflake Discover AI 技术实战周",
+    "url": "https://www.infoq.cn/video/UVPhU4AzuNX9YkF0oQUG?utm_source=rss&utm_medium=article",
+    "summary": "",
+    "published": "2026-07-29T16:52:19",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "王玮"
+  },
+  {
+    "title": "AI智能体正击穿生物安全防线！智源、北大实测11款商用大模型，均能生成绕过筛查的拆分方案",
+    "url": "https://www.infoq.cn/article/JOOv0RAS1AEZO92E4KyU?utm_source=rss&utm_medium=article",
+    "summary": "当前大语言模型正从“聊天机器”进化为能调用工具、规划任务的“智能体”。这种进化在生物信息学、实验设计等领域展现出巨大潜力，除此之外，需要正视一个关键问题： 当 AI 的能力从信息处理延伸到物理实验操作，生物安全的边界会发生怎样的改变？ 现有研究已开始评测前沿模型的病毒学知识和实验推理能力，但在真实的潜在风险链条中，模型究竟能提供多大程度的实质性帮助，需要进行验证，特别是当模型以智能体形态出现，能组合知识库、搜索引擎、文件读写等工具时，其有效能力边界可能远超单轮问答的测试结果。智源研究院大模型安全研究团队与北京大学围绕这一核心问题，开展了一项端到端系统性评估。该评估考察大语言模型智能体是否会降低...",
+    "published": "2026-07-29T16:00:00",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "华卫"
+  },
+  {
+    "title": "GPT“失控”被索赔1亿美元，微软反手扔王炸：新模型踩翻Mythos、价格砍半，还拉上“苦主”组了联盟",
+    "url": "https://www.infoq.cn/article/HmUiGVoVoyMc0Y29cZXc?utm_source=rss&utm_medium=article",
+    "summary": "整理 | 华卫 近日，微软发布了首个网络安全专用模型 MAI-Cyber-1-Flash，同时推出全新 AI 安全平台 Perception，自称比竞争对手更好、更便宜，向该领域的主要玩家 Anthropic、谷歌和 OpenAI 发出了强势挑战。微软表示，这些新安全工具将于 11 月 3 日提供预览版，届时 AI 安全解决方案市场将迎来一个新的局面。今年早些时候，Anthropic 推出了 Mythos 安全平台，并通过名为 Glasswing 的项目向少数合作组织发布。OpenAI 也于 5 月通过名为 Daybreak 的项目推出了自己的安全解决方案。击败 Mythos、Gemini 和...",
+    "published": "2026-07-29T14:00:00",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "华卫"
+  },
+  {
+    "title": "全球六城联动，世界人工智能开源大赛（GOAI）线下宣讲即将启动",
+    "url": "https://www.infoq.cn/article/LmqJqxbZBw9cUFY4Kb9c?utm_source=rss&utm_medium=article",
+    "summary": "7 月 21 日，世界人工智能开源大赛（GOAI）在杭州云谷中心正式启动。这场以“Open. Share. Build.”为核心口号的全球赛事，设立 500 万元现金总奖池，其中 GOAI 全场大奖最高奖励 100 万元。大赛由杭州市开源人工智能基金会主办，Agentic AI Foundation（AAIF）和 LF AI & Data Foundation 作为全球开源合作伙伴参与支持，并由之江实验室、阿里云智能集团、蚂蚁科技集团股份有限公司、杭州智加未来科技有限公司、云深处科技股份有限公司、杭州群核信息技术有限公司等核心单位承办。大赛面向全球开发者、开源贡献者、高校科研团队、企业 AI ...",
+    "published": "2026-07-29T13:48:45",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "世界人工智能开源大赛"
+  },
+  {
+    "title": "I’ve Guided Companies Through AI Transformations for Years. This Is the Costliest Mistake I See Executives Making.",
+    "url": "https://www.entrepreneur.com/leadership/ive-guided-companies-through-ai-transformations-for-years/504991",
+    "summary": "URL Source: https://www.entrepreneur.com/leadership/ive-guided-companies-through-ai-transformations-for-years/504991 Published Time: 2026-07-24T19:00:00+00:00 Markdown Content: Opens in a new window Opens an external website Opens an external website in a new window This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization,",
+    "published": "2026-07-29T12:10:10.573723",
+    "source_name": "Entrepreneur AI",
+    "source_url": "https://www.entrepreneur.com/topic/artificial-intelligence",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "AI Is Quietly Creating Millionaires — and Here’s Exactly How to Copy Them (No Staff, No Code)",
+    "url": "https://www.entrepreneur.com/building-a-business/ai-is-quietly-creating-millionaires-and-heres-exactly-how-to-copy-them-no-staff-no-code",
+    "summary": "URL Source: https://www.entrepreneur.com/building-a-business/ai-is-quietly-creating-millionaires-and-heres-exactly-how-to-copy-them-no-staff-no-code Published Time: 2026-07-25T00:00:00+00:00 Markdown Content: Opens in a new window Opens an external website Opens an external website in a new window This website utilizes technologies such as cookies to enable essential site functionality, as well as",
+    "published": "2026-07-29T12:10:03.856049",
+    "source_name": "Entrepreneur AI",
+    "source_url": "https://www.entrepreneur.com/topic/artificial-intelligence",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "YouTube channel",
+    "url": "https://www.youtube.com/@AndrejKarpathy",
+    "summary": "URL Source: https://www.youtube.com/@AndrejKarpathy Warning: Target URL returned error 403: Forbidden Warning: This page contains iframe that are currently hidden, consider enabling iframe processing. Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page. Markdown Content: Back [![Image 1](https://www.youtube.com/@AndrejKarpathy)](https://www.youtube.c",
+    "published": "2026-07-29T12:09:59.194214",
+    "source_name": "Andrej Karpathy",
+    "source_url": "https://karpathy.ai/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Reward Hacking in Reinforcement Learning",
+    "url": "https://lilianweng.github.io/posts/2024-11-28-reward-hacking/",
+    "summary": "Reward hacking occurs when a reinforcement learning (RL) agent exploits flaws or ambiguities in the reward function to achieve high rewards, without genuinely learning or completing the intended task. Reward hacking exists because RL environments are often imperfect, and it is fundamentally challeng",
+    "published": "2026-07-29T12:09:58.150732",
+    "source_name": "Lilian Weng",
+    "source_url": "https://lilianweng.github.io/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Why We Think",
+    "url": "https://lilianweng.github.io/posts/2025-05-01-thinking/",
+    "summary": "Special thanks to John Schulman for a lot of super valuable feedback and direct edits on this post.\nTest time compute (Graves et al. 2016, Ling, et al. 2017, Cobbe et al. 2021) and Chain-of-thought (CoT) (Wei et al. 2022, Nye et al. 2021), have led to significant improvements in model performance, w",
+    "published": "2026-07-29T12:09:58.031681",
+    "source_name": "Lilian Weng",
+    "source_url": "https://lilianweng.github.io/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Scaling Laws, Carefully",
+    "url": "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/",
+    "summary": "Scaling laws are one of the most critical empirical findings in deep learning. The observation is simple in form: the training loss $L$ decreases predictably as we scale up model size $N$, dataset size $D$, and compute $C$, following a power-law curve, which appears as a straight line on a log-log p",
+    "published": "2026-07-29T12:09:57.972430",
+    "source_name": "Lilian Weng",
+    "source_url": "https://lilianweng.github.io/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Harness Engineering for Self-Improvement",
+    "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+    "summary": "URL Source: https://lilianweng.github.io/posts/2026-07-04-harness/ Published Time: 2026-07-04T00:00:00Z Markdown Content: The concept of **recursive self-improvement (RSI)** dates back to [I. J. Good (1965)](https://philpapers.org/rec/GOOSCT), where he defined an “ultraintelligent machine” as a system that can surpass humans in all intellectual activities and design better machines to improve itse",
+    "published": "2026-07-29T12:09:57.910742",
+    "source_name": "Lilian Weng",
+    "source_url": "https://lilianweng.github.io/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Our approach to bioresilience",
+    "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+    "summary": "URL Source: https://deepmind.google/blog/our-approach-to-bioresilience/ Published Time: 2026-07-16T11:00:00+00:00 Markdown Content: [Skip to main content](https://deepmind.google/blog/our-approach-to-bioresilience/#page-content) ## Explore our next generation AI systems [Explore models](https://deepmind.google/models/) Gemini [![Image 1](https://storage.googleapis.com/gdm-deepmind-com-prod-public/",
+    "published": "2026-07-29T12:09:57.609910",
+    "source_name": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "👋 Welcome to Lil’Log",
+    "url": "https://twitter.com/lilianweng/",
+    "summary": "URL Source: https://twitter.com/lilianweng/ Markdown Content: [](https://twitter.com/) 1.   [X](https://x.com/) 2.   [Lilian Weng](https://x.com/lilianweng) [](https://twitter.com/) [Log in](https://twitter.com/i/jf/onboarding/web?mode=login&redirect_after_login=%2Flilianweng)[Sign up](https://twitter.com/i/jf/onboarding/web?mode=signup&redirect_after_login=%2Flilianweng) Lilian Weng [![Image 5: T",
+    "published": "2026-07-29T12:09:57.594059",
+    "source_name": "Lilian Weng",
+    "source_url": "https://lilianweng.github.io/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
+    "summary": "URL Source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/ Published Time: 2026-07-21T15:00:00+00:00 Markdown Content: Jul 21, 2026 | 15 min read Our newest Gemini models deliver the efficiency, latency, and reliability to build AI agents at scale. * * * * * * ![Image 1: a hero image saying 3.6 Flash, 3.5 Flash-Lite, and 3.5",
+    "published": "2026-07-29T12:09:57.084216",
+    "source_name": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+    "url": "https://cloud.google.com/blog/topics/public-sector/accelerating-frontiers-of-scientific-discovery-40-million-dollar-commitment-genesis-mission",
+    "summary": "URL Source: https://cloud.google.com/blog/topics/public-sector/accelerating-frontiers-of-scientific-discovery-40-million-dollar-commitment-genesis-mission Published Time: 2026-07-22 Markdown Content: Scientists today face challenges of extraordinary scale and complexity. From shaping and simulating the intricate dynamics of fusion plasma, to exploring the vast search space of new materials, to mak",
+    "published": "2026-07-29T12:09:56.802877",
+    "source_name": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "Introducing Gemini 3.5 Flash Cyber",
+    "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+    "summary": "URL Source: https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/ Published Time: 2026-07-21T16:00:00+00:00 Markdown Content: July 21, 2026 Models Raluca Ada Popa and Four Flynn Google has invested in cybersecurity for years, pioneering automated vulnerability discovery to secure the world’s codebases. Tools like [CodeMender](https://deepmind.google/blog/introducing-codemender-an-ai-age",
+    "published": "2026-07-29T12:09:56.556633",
+    "source_name": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "AIBase基地 - 让更多人看到未来 通往AGI之路",
+    "url": "https://www.aibase.cn/",
+    "summary": "URL Source: https://www.aibase.cn/ Markdown Content: ## AI今日要闻 [查看更多](https://news.aibase.cn/news) [![Image 1: 月之暗面 Kimi 拿下 35 亿美元 F 轮，估值冲到 350 亿，G 轮已提前起跑](https://p1.chinaz.com/picmap-thumb-201901101704279841_1.jpg/392/259/W/jpg) 月之暗面 Kimi 拿下 35 亿美元 F 轮，估值冲到 350 亿，G 轮已提前起跑](https://news.aibase.cn/news/29985) [![Image 2: 月之暗面Kimi完成F轮超35亿美元融资 投后估值350亿美元](https://p1.chinaz.com/picmap-thumb-202604291",
+    "published": "2026-07-29T12:09:56.379507",
+    "source_name": "AIbase",
+    "source_url": "https://www.aibase.cn/",
+    "category": "chinese_ai",
+    "author": null
+  },
+  {
+    "title": "How AI Agents Are Changing the Way We Learn",
+    "url": "https://www.entrepreneur.com/living/how-ai-agents-are-changing-the-way-we-learn/490078",
+    "summary": "URL Source: https://www.entrepreneur.com/living/how-ai-agents-are-changing-the-way-we-learn/490078 Published Time: 2026-07-27T14:00:00+00:00 Markdown Content: Opens in a new window Opens an external website Opens an external website in a new window This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, and targeted adve",
+    "published": "2026-07-29T12:09:55.766243",
+    "source_name": "Entrepreneur AI",
+    "source_url": "https://www.entrepreneur.com/topic/artificial-intelligence",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "404 - The Register",
+    "url": "https://www.theregister.com/ai/",
+    "summary": "URL Source: https://www.theregister.com/ai/ Markdown Content: [Jump to main content](https://www.theregister.com/ai/#main) Search  TOPICS *   Security     *   [All Security](https://www.theregister.com/security)     *   [Cyber-crime](https://www.theregister.com/cyber_crime)     *   [Patches](https://www.theregister.com/patches)     *   [Research](https://www.theregister.com/research)     *   [CSO]",
+    "published": "2026-07-29T12:09:55.382236",
+    "source_name": "The Register AI",
+    "source_url": "https://www.theregister.com/ai/",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "Leadership Attention Is the Scarce Resource in Every Growing Company. Here Is How AI Actually Multiplies It.",
+    "url": "https://www.entrepreneur.com/growing-a-business/leadership-attention-is-the-scarce-resource-in-every/504590",
+    "summary": "URL Source: https://www.entrepreneur.com/growing-a-business/leadership-attention-is-the-scarce-resource-in-every/504590 Published Time: 2026-07-27T19:00:00+00:00 Markdown Content: Opinions expressed by Entrepreneur contributors are their own. ## Key Takeaways *   Leadership attention is the scarcest resource in a growing business. The companies moving fastest are the ones treating it that way and ",
+    "published": "2026-07-29T12:09:55.355366",
+    "source_name": "Entrepreneur AI",
+    "source_url": "https://www.entrepreneur.com/topic/artificial-intelligence",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
     "title": "Multimodal Neurons in Artificial Neural Networks",
     "url": "https://github.com/distillpub/post--multimodal/issues?q=is%3Aissue+label%3Apeer-review",
     "summary": "Gabriel Goh, Nick Cammarata †, Chelsea Voss †, Shan Carter, Michael Petrov, Ludwig Schubert, Alec Radford, and Chris Olah",
-    "published": "2026-04-14T09:17:14.336242",
+    "published": "2026-07-29T12:09:55.163451",
     "source_name": "Distill.pub",
     "source_url": "https://distill.pub/",
     "category": "foreign_researcher",
     "author": null
   },
   {
-    "title": "Newsroom",
-    "url": "mailto:press@anthropic.com",
-    "summary": "A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, the Linux Foundation, Microsoft, NVIDIA, and Palo Alto Networks in an effort to secure the world's most critical software.",
-    "published": "2026-04-14T09:16:34.332751",
-    "source_name": "Anthropic",
-    "source_url": "https://www.anthropic.com/news",
-    "category": "foreign_official",
+    "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+    "url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/",
+    "summary": "URL Source: https://simonwillison.net/2026/Jul/21/cat-and-thariq/ Markdown Content: 21st July 2026 Earlier this month I hosted a fireside chat session at the [AI Engineer World’s Fair](https://www.ai.engineer/worldsfair/2026) with Cat Wu and Thariq Shihipar from Anthropic’s Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent security, evals, tool design, and how Anthropi",
+    "published": "2026-07-29T12:09:55.162990",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "hubtoday.app",
+    "url": "https://ai.hubtoday.app/",
+    "summary": "URL Source: https://ai.hubtoday.app/ Warning: This page maybe not yet fully loaded, consider explicitly specify a timeout. Warning: This is a cached snapshot of the original page, consider retry with caching opt-out. Markdown Content:   Click here to enter",
+    "published": "2026-07-29T12:09:55.142121",
+    "source_name": "AI Hub Today",
+    "source_url": "https://ai.hubtoday.app/",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "Mark Cuban Predicts This Will Be the ‘Next Great AI Application’ in the Corporate World",
+    "url": "https://www.entrepreneur.com/business-news/mark-cuban-this-is-the-unexpected-way-companies-will-use-ai",
+    "summary": "URL Source: https://www.entrepreneur.com/business-news/mark-cuban-this-is-the-unexpected-way-companies-will-use-ai Published Time: 2026-07-28T15:08:17+00:00 Markdown Content: Opens in a new window Opens an external website Opens an external website in a new window This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, a",
+    "published": "2026-07-29T12:09:55.073707",
+    "source_name": "Entrepreneur AI",
+    "source_url": "https://www.entrepreneur.com/topic/artificial-intelligence",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "Distill Hiatus",
+    "url": "https://distill.pub/2021/distill-hiatus",
+    "summary": "URL Source: https://distill.pub/2021/distill-hiatus Published Time: Wed, 03 Aug 2022 01:57:28 GMT Markdown Content: _Over the past five years, Distill has supported authors in publishing artifacts that push beyond the traditional expectations of scientific papers. From Gabriel Goh’s [interactive exposition of momentum](https://distill.pub/2021/distill-hiatus), to an [ongoing collaboration explorin",
+    "published": "2026-07-29T12:09:55.072927",
+    "source_name": "Distill.pub",
+    "source_url": "https://distill.pub/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Hacker News",
+    "url": "https://news.ycombinator.com/",
+    "summary": "URL Source: https://news.ycombinator.com/ Markdown Content: [![Image 1](https://news.ycombinator.com/y18.svg)](https://news.ycombinator.com/)**[Hacker News](https://news.ycombinator.com/news)**[new](https://news.ycombinator.com/newest) | [past](https://news.ycombinator.com/front) | [comments](https://news.ycombinator.com/newcomments) | [ask](https://news.ycombinator.com/ask) | [show](https://news.",
+    "published": "2026-07-29T12:09:54.878650",
+    "source_name": "Hacker News",
+    "source_url": "https://news.ycombinator.com/",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened",
+    "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/",
+    "summary": "URL Source: https://simonwillison.net/2026/Jul/22/openai-cyberattack/ Published Time: Wed, 29 Jul 2026 09:54:16 GMT Markdown Content: 22nd July 2026 This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model’s guardrail features turned off. Rather than solve the test, the model broke its way out of OpenAI’s sandbox, then found exploi",
+    "published": "2026-07-29T12:09:54.744833",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/",
+    "category": "foreign_researcher",
     "author": null
   },
   {
     "title": "Essays",
     "url": "https://www.anthropic.com/",
-    "summary": "Dario Amodei is the CEO ofAnthropic, a public benefit corporation dedicated to building AI systems that are steerable, interpretable and safe....More",
-    "published": "2026-04-14T09:16:31.335058",
+    "summary": "URL Source: https://www.anthropic.com/ Published Time: Fri, 24 Jul 2026 17:04:39 GMT Markdown Content: [Skip to main content](https://www.anthropic.com/#main)[Skip to footer](https://www.anthropic.com/#footer) [](https://www.anthropic.com/) *   [Research](https://www.anthropic.com/research) *   [Policy](https://www.anthropic.com/policy) * Commitments Initiatives *   [Claude's Constitution](https:/",
+    "published": "2026-07-29T12:09:54.671204",
     "source_name": "Dario Amodei",
     "source_url": "https://darioamodei.com/",
     "category": "foreign_researcher",
     "author": null
   },
   {
-    "title": "不会写代码也能用 AI 干活了：OpenAI 正在做一个“替你用电脑”的 Super App，新模型Spud 几周内登场",
-    "url": "https://www.infoq.cn/article/lAmhJxwuoPLvsKAF8WCV?utm_source=rss&utm_medium=article",
-    "summary": "Sora 都能先停掉，说明 OpenAI 这次是真的开始做残酷取舍了。在外界眼里，视频生成明明还是最容易出圈、最能制造话题的明星业务，但 OpenAI 却选择在这个节点收缩战线，把资源转向一个更大的目标：Super App。它不只是想再做一个更强的 ChatGPT，也不只是想补上 Codex 和浏览器能力，而是想抢先造出那个真正承接 AGI 的总入口，即一个能理解你、代表你、替你操作电脑、接管工作流，甚至逐步“运行”你数字生活的系统。OpenAI 已经不再满足于赢下一两个爆款产品，而是在主动砍掉分叉的科技树，把所有最宝贵的算力、产品和组织资源，押向一条它认定最接近 AGI 的路径。近日，Gre...",
-    "published": "2026-04-13T18:48:30",
+    "title": "Newsroom",
+    "url": "mailto:press@anthropic.com",
+    "summary": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
+    "published": "2026-07-29T12:09:54.670670",
+    "source_name": "Anthropic",
+    "source_url": "https://www.anthropic.com/news",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "OpenAI News",
+    "url": "https://openai.com/news/",
+    "summary": "URL Source: https://openai.com/news/ Markdown Content: * * * Switch cards to show Media   Switch cards to hide Media ![Image 1: Scientific computing agentic AI card image (1x1)](https://images.ctfassets.net/kftzwdyauwt9/5opqp3rNWM7eax6GUc6MAl/1c710a4aba8c5c1e0b7d1c1c7c8b32db/1x1__1_.png?w=3840&q=90&fm=webp) [Scientific computing in the age of agentic AI Publication Jul 28, 2026](https://openai.com",
+    "published": "2026-07-29T12:09:54.670305",
+    "source_name": "OpenAI Blog",
+    "source_url": "https://openai.com/news/",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "最强模型“跳票”，市值一夜蒸发2000亿美元！谷歌连上三款“省油”模型，死磕每一个token的钱",
+    "url": "https://www.infoq.cn/article/It5CxXxYowEE0pE7IKJU?utm_source=rss&utm_medium=article",
+    "summary": "整理 | 华卫 近日，在 Alphabet 发布财报前一天，谷歌一口气推出了三款全新的 Gemini 模型，全部属于主打“快速、低成本”的 Flash 系列，重点聚焦于提升复杂智能体（agentic）工作流中的运行效率，并降低 token 消耗。短短一周内，xAI 的 Grok 4.5、OpenAI 的多版本 GPT-5.6 以及 Moonshot AI 的 Kimi K3 相继发布；与此同时，Anthropic 的 Fable 5 已登顶多项榜单。而在这个“被全面超车的夏天”，谷歌当前给出的回应是：更便宜的模型。牺牲峰值性能，换取效率和更低的价格 根据谷歌的说法，这一全新的 Flash 系列...",
+    "published": "2026-07-29T11:58:35",
     "source_name": "InfoQ AI",
     "source_url": "https://www.infoq.cn/ai",
     "category": "chinese_ai",
-    "author": "褚杏娟,傅宇琪"
+    "author": "华卫"
   },
   {
-    "title": "“同事.skill”不用写了，爱马仕 Hermes 主动“蒸馏”你，还让开发者集体抛弃 “龙虾”？！",
-    "url": "https://www.infoq.cn/article/Xv0OsbvHjLT34YzWKc3J?utm_source=rss&utm_medium=article",
-    "summary": "从 OpenClaw 切换到爱马仕 Hermes，你跟了吗？ 近日，Hermes Agent 在国内突然爆火。Hermes Agent 从 2 月份开源以来，现已获得超 5.2 万 stars，目前还在快速增长。“准备放弃龙虾转爱马仕了，龙虾记忆太差了，爱马仕无论怎么重开，过多久都能记住，太香了！”有网友说道。谷歌高级 AI 产品经理 Shubham Saboo 发推称赞其好用。有用户在 Mac M3 上通过 LM Studio 本地运行 Qwen 3.5-35B，并把 OpenRouter 作为备用后端，Hermes 则 24 小时持续运行。...",
-    "published": "2026-04-13T18:43:56",
+    "title": "Netflix 如何打造 GenPage：一个用于构建个性化主页的生成式 AI 模型",
+    "url": "https://www.infoq.cn/article/4M2Old24DsjxwT1ZIR3k?utm_source=rss&utm_medium=article",
+    "summary": "GenPage 是 Netflix 开发的一款生成式 AI 系统，旨在通过直接 生成个性化的用户首页 来取代传统的多阶段推荐流程。GenPage 利用用户历史记录和请求上下文作为提示来生成整个页面，从而提高了用户参与度并降低了服务延迟。Netflix 此前采用的解决方案依赖于“复杂的多阶段管道，其中候选项生成和排序由单独的组件负责”。对于每一行以及行内的每个实体，这个过程会重复执行，并在随后由最终阶段完成页面布局。相比之下，GenPage 采用单步方法，将条目选择、行构建和布局生成这三个层面的操作统一到一个模型当中： 大型语言模型已经证明，单个生成模型仅需针对提示词生成响应，即可完成多种任务。...",
+    "published": "2026-07-29T11:53:00",
     "source_name": "InfoQ AI",
     "source_url": "https://www.infoq.cn/ai",
     "category": "chinese_ai",
-    "author": "褚杏娟"
+    "author": "作者：Sergio De Simone"
   },
   {
-    "title": "Claude 吞噬一切？“Vibe Coding 公司的最大错觉是以为自己有护城河”",
-    "url": "https://www.infoq.cn/article/F88ML5vdJkc4dkreyamI?utm_source=rss&utm_medium=article",
-    "summary": "Anthropic 被爆正开发与 Lovable 相似的功能 近日，x 上 ID 名为 @marmaduke091 的网友爆料，继 Claude Code 源代码泄漏后，Anthropic 又发生了一次泄露——他们创建了一个类似 Lovable 的功能，让用户可以轻松构建全栈应用。随后，名为 @k1rallik 的网友甚至把扒出了此次泄漏的细节。他写道：“Anthropic 又泄露了一条消息，他们正在构建一个全栈式 Vibe 编码平台，与 Lovable、Bolt 和 v0 直接竞争。” 以下是泄露的内容： “让我们交付一些很棒的东西”——通过文本输入构建应用 内置浏览器中的实时预览 一键发布...",
-    "published": "2026-04-13T18:03:01",
+    "title": "黄仁勋首推引爆开源论战：Anthropic 员工催 CUDA、Windows 开源，吴恩达反击：你可以不开源，但别阻止别人",
+    "url": "https://www.infoq.cn/article/BXOUaAvzZQpGrzMg3lDK?utm_source=rss&utm_medium=article",
+    "summary": "上个周末，围绕 AI 开放权重的一场争论，从英伟达 CEO 黄仁勋的 X 首秀，迅速烧到了微软、Anthropic 和吴恩达。7 月 24 日，老黄在开通个人 X 账号后的第一条推文中，分享了英伟达参与签署的公开信《开放权重与美国 AI 领导力》。他表示，AI 将改变每个行业、服务每家公司，并由每个国家建设；开放模型有助于加强安全、推动创新和技术扩散，“世界既需要前沿闭源模型，也需要前沿开放模型”。与黄仁勋一同表态的还有微软 CEO 萨提亚·纳德拉。纳德拉称，开放权重模型是健康 AI 生态不可或缺的一部分，有助于增强美国竞争力、扩大经济机会，同时保护国家安全。...",
+    "published": "2026-07-29T11:22:48",
     "source_name": "InfoQ AI",
     "source_url": "https://www.infoq.cn/ai",
     "category": "chinese_ai",
     "author": "李冬梅"
   },
   {
-    "title": "写入快 2 倍，查询快 6 倍，存储成本反降 50%：丰巢日志平台从 ELK 升级为 Apache Doris",
-    "url": "https://www.infoq.cn/article/mmH9gF4Lqj5xRHuvcxjf?utm_source=rss&utm_medium=article",
-    "summary": "导读：丰巢日志平台从 ELK 升级至 Apache Doris，旨在构建统一、高效的可观测性底座。新架构解决了原系统在写入、存储和查询上的瓶颈：存储成本降低 50%，写入性能提升 2 倍，查询速度提升 6 倍。为未来统一可观测性平台的建设奠定了技术基础。相关阅读： 可观测性｜Elasticsearch 到 Doris 的用户实践 本文整理自丰巢大数据开发工程师 宋友刚 在 Doris Summit 2025 中的演讲。丰巢的业务覆盖快递、广告、洗护和到家四大板块。...",
-    "published": "2026-04-13T17:42:58",
+    "title": "“企业搞AI，老板要先用”！周鸿祎发布纳米Work，率先帮1000家小企业AI落地",
+    "url": "https://www.infoq.cn/article/Ey2MtxSL1FaYWesfqLGE?utm_source=rss&utm_medium=article",
+    "summary": "7 月 28 日，360 集团创始人周鸿祎正式发布新一代企业智能体工作平台“纳米 Work”。纳米Work 为企业 AI 化而生，面向企业老板、创业者及一人公司（OPC）和企业员工，打造超级组织。发布会现场，周鸿祎提出一个鲜明的观点：企业搞 AI，老板要先用。他同时宣布为首批用户每人提供 1 亿 Token 试用额度，通过专业实训和陪跑服务，率先帮助 1000 家小企业完成 AI 落地和经营提效。周鸿祎透露，发布产品前，360 先把自己作为“试验场”，将 OpenClaw 等各类智能体投入公司 1000 多个真实业务场景，收集 56000 多条用户反馈意见，在 5 个月内优化迭代 166 个版...",
+    "published": "2026-07-29T11:01:24",
     "source_name": "InfoQ AI",
     "source_url": "https://www.infoq.cn/ai",
     "category": "chinese_ai",
-    "author": "SelectDB"
+    "author": "李冬梅"
   },
   {
-    "title": "不用则废：开发者直面 AI 编码工具的隐性代价",
-    "url": "https://www.infoq.cn/article/bLageDSMAujcPRLriJi5?utm_source=rss&utm_medium=article",
-    "summary": "AI 编程工具（如 Claude Code 及各类大语言模型）正在重塑软件开发流程，重新点燃了资深程序员的热情，同时也引发了人们对代码质量的普遍担忧。当时，51 岁的程序员兼企业家 Paul Ford 为《纽约时报》撰写了一篇文章，热情地宣称 “AI 的颠覆时代已经到来”。AI 编程工具正变得愈发强大，而可能被它们取代的程序员们所抱有的希望与恐惧也在同步加剧。...",
-    "published": "2026-04-13T16:59:11",
+    "title": "OpenSandbox：重新思考 Agent 时代的 Runtime",
+    "url": "https://www.infoq.cn/article/ZTpvXKGjyzpNUaS9Gp3b?utm_source=rss&utm_medium=article",
+    "summary": "在 AI 系统架构快速演进的今天，当软件越来越多地以 Agent 形态运行时，执行环境已不再是一个简单的基础设施细节，它在很大程度上决定了整个系统的能力上限。本文整理自阿里巴巴高级技术专家、研发 TL 陶宇田 在 QCon 全球软件开发大会 2026 北京站 的分享《OpenSandbox：重新思考 Agent 时代的 Runtime》。从 2024 年 12 月底开源至今，OpenSandbox 在社区引起了广泛关注。陶宇田在分享中系统阐述了他和团队在 AI Agent 执行环境设计上的思考与探索，从 Agent 场景下执行环境面临的核心挑战出发，深入解析 OpenSandbox 的协议优先...",
+    "published": "2026-07-29T10:47:50",
     "source_name": "InfoQ AI",
     "source_url": "https://www.infoq.cn/ai",
     "category": "chinese_ai",
-    "author": "David Cassel"
+    "author": "作者 ： 陶宇田"
   },
   {
-    "title": "从拒绝 AI 到一切先问 Agent，DHH：这是我最爽的编程时刻之一，但程序员黄金时代到头了",
-    "url": "https://www.infoq.cn/article/dOey7eV1T9p3dtPWTPCV?utm_source=rss&utm_medium=article",
-    "summary": "六个月前，Ruby on Rails 作者、37signals 联合创始人兼 CTO David Heinemeier Hansson（DHH） 还在访谈中明确表示：他不会用 AI 写代码，所有代码仍然亲手完成。短短半年之后，这一状态已经发生了翻天覆地的变化。在最近的一场访谈对话中，DHH 详细介绍了他如何从最初对自动补全式 AI 工具的排斥，转向如今的 Agent-First 编程工作流 ——现在的大多数新项目，他已经不再从手写代码开始，而是先让 Agent 生成实现草稿，再由自己审阅与调整。不过，这种变化并不是理念转变，而是工具能力跃迁带来的结果。当模型开始能够稳定生成可直接合并的代码时，...",
-    "published": "2026-04-13T16:19:48",
+    "title": "模型越来越强之后，Infra 将被 AI 接管？",
+    "url": "https://www.infoq.cn/article/wJRP0eEsTxoCxgatkDms?utm_source=rss&utm_medium=article",
+    "summary": "模型的架构正在以超出工具链进化速度的方式膨胀，与此同时，国产算力的崛起让异构管理从可选项变成了必答题。那么，推理工程核心挑战如何破局？AI Infra 下一阶段技术演进方向在哪里？ 近日，InfoQ《极客有约》X AICon 直播栏目特别邀请 华为 AI 开源生态总监黄之鹏担任主持人 ，和 Inferact vLLM committer 莫梓峰、范式智能（第四范式）系统研发专家杨守仁 一起，在 AICon 全球人工智能开发与应用大会 2026 深圳站 即将召开之际，共同探讨 AI 基础设施从“可用”走向“高效可规模化”的关键路径。部分精彩观点如下： 龙虾、Hermes 等 agent 开源项目...",
+    "published": "2026-07-29T10:37:48",
     "source_name": "InfoQ AI",
     "source_url": "https://www.infoq.cn/ai",
     "category": "chinese_ai",
-    "author": "蔡芳芳"
+    "author": "AICon 全球人工智能开发与应用大会"
   },
   {
-    "title": "OpenAI 不想写 spec 了：Codex 只留 10 条要点，把执行交给 skills",
-    "url": "https://www.infoq.cn/article/C2fWkH2EgBlDPNUNlcZX?utm_source=rss&utm_medium=article",
-    "summary": "在 Codex 团队，spec 这件事已经变得很轻了。很多时候，文档里只有 10 条要点，后面就直接进入开发。前几年，大家还在反复研究 Prompt，也在努力把 spec 写得更完整、更结构化，希望模型能更稳定地照着执行。现在，Codex 团队讨论得更多的是 skills。...",
-    "published": "2026-04-13T15:43:50",
+    "title": "清华教授李升波提出具身智能破局新路线：物理原生智能是实用化答案，世界模型成核心",
+    "url": "https://www.infoq.cn/article/ircg5ZZVmWMLFG7ElCd6?utm_source=rss&utm_medium=article",
+    "summary": "近日，在 WAIC 现场，清华大学车辆与运载学院、人工智能学院教授李升波发表了题为《迈向泛在具身智能之路：物理原生的世界模型、数据结构与训练算法》的主题演讲，提出了“物理原生智能”（Physics-native Intelligence, Phi）的概念，并系统阐述其核心特征与技术体系，为破解具身智能的根本性难题提供了全新范式。第一，利用状态而不是观测表征世界且状态需要解耦：系统的状态由物理模型的“显状态”和神经网络的“隐状态”两部分构成，兼顾准确性与泛化性。第二，模型结构满足时序性和因果性：遵循时序优先的原则，原因先于结果，动作规划尽量减少对未来信息“预测”的依赖。第三，训练过程须嵌入底层物...",
+    "published": "2026-07-29T10:30:35",
     "source_name": "InfoQ AI",
     "source_url": "https://www.infoq.cn/ai",
     "category": "chinese_ai",
-    "author": "Tina"
+    "author": "华卫"
   },
   {
-    "title": "Cloudflare发布Dynamic Workers公开测试版：基于Isolates的沙箱环境执行AI智能体代码",
-    "url": "https://www.infoq.cn/article/71XfFmTWWDmIhtqjoZED?utm_source=rss&utm_medium=article",
-    "summary": "Cloudflare 近期推出了 Dynamic Worker 的公开测试版，面向所有付费 Workers 用户开放。该 API 允许 Cloudflare Worker 在运行时通过动态指定的代码创建新 Worker，每个 Worker 运行在独立的隔离沙箱中。该功能专为日益增长的 AI 生成代码安全执行需求而设计，目前大多数团队都在使用容器解决这一难题。Dynamic Workers 采用 V8 Isolates，即谷歌 Chrome 使用的 JavaScript 引擎 ，也是 Cloudflare Workers 平台过去八年所使用的底层技术，而非 Linux 容器。...",
-    "published": "2026-04-13T15:00:00",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "Steef-Jan Wiggers"
-  },
-  {
-    "title": "谷歌推出AppFunctions连接AI智能体和Android应用",
-    "url": "https://www.infoq.cn/article/y8lHXFCpi7jOcK5mspSd?utm_source=rss&utm_medium=article",
-    "summary": "谷歌为了将 Android 打造为“智能体优先（agent-first）”的操作系统， 推出了全新的早期测试功能，用以支持以任务为核心的模式 ，应用可以提供功能构块（functional building block），用户可借助 AI 智能体或助手实现自身的目标。这个新模式的核心基础是 AppFunctions ，这是一个 Jetpack API，开发者可通过它在应用内开放自描述能力，实现与 AI 智能体的无缝衔接。交互在设备本地运行，这降低了网络延迟，同时提升了隐私性与运行效率。AppFunctions 对标通过 MCP 云服务器声明后端能力的方式，为 Android 应用提供本地化的解决...",
-    "published": "2026-04-13T14:00:00",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "Sergio De Simone"
-  },
-  {
-    "title": "FOSDEM 2026：WebTransport简介，下一个 WebSocket？！",
-    "url": "https://www.infoq.cn/article/3srVq9H48FGmxEftrv5l?utm_source=rss&utm_medium=article",
-    "summary": "Max Inden 近期 在FOSDEM 2026的技术演讲中 阐述了即将到来的 WebTransport 协议与 Web API 是如何增强 WebSocket 能力的。WebTransport 适用于高频金融数据流、云游戏、实时直播、协同编辑等核心场景，会为它们提供更低的延迟与透明的网络切换能力。Inden 是 Mozilla 的工程师，负责 Firefox 网络栈的研发。他首先回顾了 WebSocket，该协议在 2011 年问世时堪称颠覆性的突破，它实现了可靠的双向通信。但时至今日，面对如今越来越普及的高端实时场景，WebSocket 暴露出了诸多的痛点。...",
-    "published": "2026-04-13T11:00:00",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "Bruno Couriol"
-  },
-  {
-    "title": "今年最火的AI产品，不止龙虾｜榜单申报中",
-    "url": "https://www.qbitai.com/2026/04/401011.html",
-    "summary": "今年最火的AI产品，不止龙虾｜榜单申报中 林樾 2026-04-13 18:35:36 来源： 量子位 火热申报中！截至4月27日。组委会 发自 凹非寺 量子位｜公众号 QbitAI 最近每个人都被“龙虾”“爱马仕”刷屏了。但AI产品总是面临的问题是，爆火的很多，真正能留下的很少。这正是我们希望回答的： 今年最值得关注的AI企业&产品是什么？ 不只是龙虾，我们也想找到那些真正跑通场景、开始被用户验证的AI产品，以及拥有技术实力、具备潜力的AI企业。如果你来自这样的团队： 有清晰落地的应用场景（而不只是demo） 有真实用户在使用，且数据在持续增长 在某个细分领域里，已经做出了差异化体验或效率提...",
-    "published": "2026-04-13T10:35:36",
+    "title": "超越OpenAI、Anthropic！国产AI安全智能体杀进全球前四、国内第一",
+    "url": "https://www.qbitai.com/2026/07/462447.html",
+    "summary": "超越OpenAI、Anthropic！国产AI安全智能体杀进全球前四、国内第一 思邈 2026-07-29 16:13:03 来源： 量子位 AI开始组团“挖漏洞” 允中 发自 凹非寺 量子位 | 公众号 QbitAI 7月29日消息， 深信服 公布其AI安全智能体Sangfor AI在AI安全评测CyberGym中的最新成绩。据了解，在基于国产大模型 GLM-5.2 的固定模型配置下，Sangfor AI面对涵盖ARVO与OSS-Fuzz的1507项漏洞挑战任务，成功完成1301项，整体成功率达到 86.3% ，最终跻身 全球前四 、位列 国内参评团队第一 ，Sangfor AI以纯国产底座...",
+    "published": "2026-07-29T08:13:03",
     "source_name": "量子位",
     "source_url": "https://www.qbitai.com/",
     "category": "chinese_ai",
-    "author": "林樾"
+    "author": "思邈"
   },
   {
-    "title": "曝京东全面拦截员工使用外部 AI；红帽裁撤中国区研发团队迁至印度，最高赔偿 N+6；传梁文峰内部发声：DeepSeek V4 本月下旬发布 | AI周报",
-    "url": "https://www.infoq.cn/article/pp8VUCpuJENbkWr169ec?utm_source=rss&utm_medium=article",
-    "summary": "传梁文峰内部发声，DeepSeek V4 将于 4 月下旬发布；宇树科技宣布人形机器人跑出 10 米/秒，逼近人类巅峰水平；曝京东全面拦截员工使用外部 AI；补偿最高 N+6！曝红帽 Red Hat 裁撤中国区研发团队，涉 419 人；曝海外某大云厂 5 月又要裁 1.4 万人，比裁员更可怕的是“随机点名”；“张雪峰.skill”上线 GitHub 引争议，律师：或侵犯人格权等多项权利；职员工被做成数字分身继续工作，已获本人同意处于内测阶段；曝字节 Seed 团队一年被挖 70 人；前首席科学家曝光 OpenAI 绝密黑料，指奥特曼“撒谎成性”…… 行业热点 传梁文峰内部发声，DeepSeek...",
-    "published": "2026-04-13T10:25:17",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
+    "title": "Opus 5游戏提示词爆火！24小时复刻3A巨作",
+    "url": "https://www.qbitai.com/2026/07/462384.html",
+    "summary": "Opus 5游戏提示词爆火！24小时复刻3A巨作 鹭羽 2026-07-29 16:04:50 来源： 量子位 百万网友已玩疯 鹭羽 发自 凹非寺 量子位 | 公众号 QbitAI 嚯！最近， 一个Opus 5游戏提示词在上火了！ 百万人在线围观，秘籍在手，AI游戏直接无限繁殖…… 最牛的是，网友Anshu一个人， 24小时 ， 从零肝出了翻版《星际拓荒》 ！ 视频链接：https://mp.weixin.qq.com/s/arwlEzeSmu_6jMaQvujWTw Prompt 背后的逻辑也很简单： 主Agent拆解任务，子Agent干活，再加一个 独立Agent PUA监督。反正只要画面...",
+    "published": "2026-07-29T08:04:50",
+    "source_name": "量子位",
+    "source_url": "https://www.qbitai.com/",
     "category": "chinese_ai",
-    "author": "褚杏娟"
+    "author": "鹭羽"
   },
   {
-    "title": "Kubescape 4.0为Kubernetes带来运行时安全和AI智能体扫描",
-    "url": "https://www.infoq.cn/article/FA7cwRtSJMI63GFiHFDX?utm_source=rss&utm_medium=article",
-    "summary": "开源的 Kubernetes 安全平台 Kubescape 4.0 版本正式发布，该版本新增了运行时威胁检测功能以及一系列 AI 时代的安全特性。这是该项目在原有扫描能力基础上，首次针对 AI 智能体自身安全展开防护。在 2026 年欧洲 KubeCon + CloudNativeCon大会 期间，Kubescape 核心维护者 Ben Hirschberg 在 CNCF 博客 发布公告 ，宣布 4.0 版本的核心亮点在于运行时威胁检测（Runtime Threat Detection）模块与 Kubescape 存储（Kubescape Storage）组件正式发布。Kubescape 是一...",
-    "published": "2026-04-13T10:00:00",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
+    "title": "OceanBase回应融资报道：全力投入AI数据创新，与资本市场保持开放沟通",
+    "url": "https://www.qbitai.com/2026/07/462380.html",
+    "summary": "OceanBase回应融资报道：全力投入AI数据创新，与资本市场保持开放沟通 量子位的朋友们 2026-07-29 14:39:43 来源： 量子位 7月29日，针对有关首次外部股权融资的报道，OceanBase回复表示，公司全力投入AI时代的数据技术与产品创新，将持续与资本市场保持开放沟通。对于融资规模、投资机构及具体进展，OceanBase未作进一步回应。此前，媒体报道称，OceanBase正在与投资者洽谈A轮融资，目前已与多家头部投资机构接洽，目标融资规模约20亿至30亿元人民币。知情人士称，此次融资将帮助OceanBase进一步增强独立运营能力，并支持其向AI数据平台领域拓展。近年来，...",
+    "published": "2026-07-29T06:39:43",
+    "source_name": "量子位",
+    "source_url": "https://www.qbitai.com/",
     "category": "chinese_ai",
-    "author": "作者：Matt Saunders"
+    "author": "量子位的朋友们"
   },
   {
-    "title": "从 Vibe Coding 到 Spec Driven：网易智企智能化软件工厂的思考和实践｜QCon北京",
-    "url": "https://www.infoq.cn/article/lpZPLmhGsOYWKApQrqY2?utm_source=rss&utm_medium=article",
-    "summary": "从「AI For What」到「Value From AI」，100+可落地实践案例打通 AI 实战最后一公里！ 4 月 16 日-4 月 18 日， QCon 全球软件开发大会 将在北京举办。本届大会锚定 Agentic AI 时代的软件工程重塑，聚焦 Agentic AI、多智能体协作、算力优化、技术债治理、多模态和 AI 原生基础设施等前沿话题，邀请来自腾讯、阿里、百度、华为、蚂蚁、小米、网易等企业技术专家，带来百余项真实落地案例，系统性分享前沿洞察与实战干货，以技术共创探索 AI 落地新路径。网易 CodeWave 业务中心技术负责人姜天意已确认出席 “ Coding Agent 驱动...",
-    "published": "2026-04-13T10:00:00",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
+    "title": "空中具身操作：让蜘蛛侠们安全落地",
+    "url": "https://www.qbitai.com/2026/07/462301.html",
+    "summary": "空中具身操作：让蜘蛛侠们安全落地 量子位的朋友们 2026-07-29 14:29:26 来源： 量子位 这是最好的时代，许多从前不敢想的事情都正在变为现实。这也是最坏的时代，每一个领域都在承受随时被颠覆的焦虑。过去两年，具身智能大概是最能承载这种双重情绪的领域，全球资本和科技新贵都在押注人形机器人与具身操作赛道。尽管人形、轮式、四足机器人形态各异，它们却有同一个约束——都受限于地面。...",
+    "published": "2026-07-29T06:29:26",
+    "source_name": "量子位",
+    "source_url": "https://www.qbitai.com/",
     "category": "chinese_ai",
-    "author": "QCon全球软件开发大会"
+    "author": "量子位的朋友们"
+  },
+  {
+    "title": "萝卜快跑抢跑无人车右舵：香港率先全无人，伦敦直面Waymo",
+    "url": "https://www.qbitai.com/2026/07/462071.html",
+    "summary": "萝卜快跑抢跑无人车右舵：香港率先全无人，伦敦直面Waymo 杰西卡 2026-07-29 13:36:38 来源： 量子位 角逐全球最难右舵市场 杰西卡 发自 凹非寺 量子位 | 公众号 QbitAI 全球Robotaxi下一轮竞争，开始驶入右舵市场。7月23日，香港运输署批准 百度萝卜快跑 在机场岛开展车上无人化测试， 车内不再设置安全员。这是香港首个车内全无人的自动驾驶公开道路测试，也是全球首次在右舵左行交通体系中推进全无人测试。萝卜快跑宣布分别携手Uber，以及Lyft旗下欧洲出行平台Freenow，在英国伦敦启动公开道路测试，至此萝卜快跑成为目前 唯一明确进入伦敦Robotaxi测试体...",
+    "published": "2026-07-29T05:36:38",
+    "source_name": "量子位",
+    "source_url": "https://www.qbitai.com/",
+    "category": "chinese_ai",
+    "author": "杰西卡"
+  },
+  {
+    "title": "首个鸿蒙PC开源AI统一工作台JiuwenSwarm，办公编程一站式搞定",
+    "url": "https://www.qbitai.com/2026/07/462065.html",
+    "summary": "首个鸿蒙PC开源AI统一工作台JiuwenSwarm，办公编程一站式搞定 思邈 2026-07-29 11:29:59 来源： 量子位 让多智能体团队随时随地为你干活 允中 发自 凹非寺 量子位 | 公众号 QbitAI 鸿蒙PC用户终于不用再等。就在上周，由华为2012实验室、华为云、终端小艺等团队联合构建的 开源Al Agent平台openjiuwen 又有新动向，其联合华为终端平板与PC产品线、软件部等团队，推出了 JiuwenSwarm蜂群智能体的鸿蒙PC版本，这也是首个面向鸿蒙PC的开源AI统一工作台。桌面办公、编程，不必再在多个应用间来回切换，一个工作台里就能派活、推进、交付。同时...",
+    "published": "2026-07-29T03:29:59",
+    "source_name": "量子位",
+    "source_url": "https://www.qbitai.com/",
+    "category": "chinese_ai",
+    "author": "思邈"
+  },
+  {
+    "title": "周鸿祎发布纳米Work：新一代企业智能体工作平台，为企业而生",
+    "url": "https://www.qbitai.com/2026/07/462062.html",
+    "summary": "周鸿祎发布纳米Work：新一代企业智能体工作平台，为企业而生 量子位的朋友们 2026-07-29 09:53:15 来源： 量子位 7月28日，360集团创始人周鸿祎正式发布新一代企业智能体工作平台“纳米Work”。纳米Work为企业AI化而生，面向企业老板、创业者及一人公司（OPC）和企业员工，打造超级组织。发布会现场，周鸿祎提出一个鲜明的观点：企业搞AI，老板要先用。他同时宣布为首批用户每人提供1亿Token试用额度，通过专业实训和陪跑服务，率先帮助1000家小企业完成AI落地和经营提效。周鸿祎透露，发布产品前，360先把自己作为“试验场”，将OpenClaw等各类智能体投入公司1000...",
+    "published": "2026-07-29T01:53:15",
+    "source_name": "量子位",
+    "source_url": "https://www.qbitai.com/",
+    "category": "chinese_ai",
+    "author": "量子位的朋友们"
+  },
+  {
+    "title": "九章云极Alaya Token完成Kimi K3适配 全球首个开源3T级模型入驻Token工厂",
+    "url": "https://www.qbitai.com/2026/07/462058.html",
+    "summary": "九章云极Alaya Token完成Kimi K3适配 全球首个开源3T级模型入驻Token工厂 量子位的朋友们 2026-07-29 09:45:36 来源： 量子位 近日，九章云极DataCanvas旗下专业Token规模化交付平台Alaya Token正式完成对Kimi K3模型的深度适配与生产级上线。此举标志着九章云极“AI工厂”战略在模型生态建设上再落关键一子，继智谱GLM-5.2、DeepSeek-V4 Flash之后，其Token工厂的“多模型矩阵”已覆盖当前国内头部开源模型梯队。据悉，Kimi K3 是全球首个开源的 3 万亿参数级大模型。它采用自研的 KDA 混合线性注意力机制...",
+    "published": "2026-07-29T01:45:36",
+    "source_name": "量子位",
+    "source_url": "https://www.qbitai.com/",
+    "category": "chinese_ai",
+    "author": "量子位的朋友们"
+  },
+  {
+    "title": "豆包搜索，走出了豆包",
+    "url": "https://www.qbitai.com/2026/07/461961.html",
+    "summary": "豆包搜索，走出了豆包 十三 2026-07-28 18:12:52 来源： 量子位 把搜索能力开放给Agent了 金磊 发自 凹非寺 量子位 | 公众号 QbitAI 豆包 APP里的 搜索 能力，现在要走出豆包了—— 一头扎进面向企业和开发者的Agent，目标是想让Agent获取信息的这件事情，变得更加靠谱。我们先用最近大热的话题 菲尔兹奖 ，来看下走出来的 豆包搜索 ，实力到底几何。这类题目看上去不算复杂，真要做好，却得同时满足几个条件。信息得足够新，获奖名单和研究贡献不能出错；来源也得足够可靠，官方公告、媒体报道和人物资料最好能够相互印证。...",
+    "published": "2026-07-28T10:12:52",
+    "source_name": "量子位",
+    "source_url": "https://www.qbitai.com/",
+    "category": "chinese_ai",
+    "author": "十三"
+  },
+  {
+    "title": "Kimi K3、Unlimited OCR包揽全球前二，中国开源模型持续刷屏海外",
+    "url": "https://www.qbitai.com/2026/07/461949.html",
+    "summary": "Kimi K3、Unlimited OCR包揽全球前二，中国开源模型持续刷屏海外 量子位的朋友们 2026-07-28 16:17:05 来源： 量子位 中国AI开源模型持续引发全球开发者关注，创新成果正在集中涌现。7月27日晚，月之暗面正式开源 Kimi K3 完整模型权重，随即登上国际开源AI模型社区Hugging Face总趋势榜第一，紧随其后的则是多日位列榜首的百度开源模型 Unlimited OCR，两者包揽了Hugging Face榜单前二，堪称中国模型“开源双子星”。模型登顶本身并不稀缺，但Kimi K3 和 Unlimited OCR 在极短时间内制造了两个现象级爆款： Kim...",
+    "published": "2026-07-28T08:17:05",
+    "source_name": "量子位",
+    "source_url": "https://www.qbitai.com/",
+    "category": "chinese_ai",
+    "author": "量子位的朋友们"
   }
 ]
