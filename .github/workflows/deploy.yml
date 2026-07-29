@@ -5,33 +5,58 @@ on:
   schedule:
     - cron: '0 0 * * *'   # 08:00 CST
     - cron: '0 12 * * *'  # 20:00 CST
-  
+
   # Allow manual trigger
   workflow_dispatch:
+
+# Allow only one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+    permissions:
+      contents: write   # Needed to commit dist/ back to repo
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      
+
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.11'
         cache: 'pip'
-    
+
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-    
+
     - name: Generate newsletter
       run: |
         python main.py --days 2
-    
+
+    - name: Commit generated files to repository
+      run: |
+        # Configure git
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+
+        # Add all files in dist/ (new dated HTML files, updated index.html, history.html, etc.)
+        git add dist/
+
+        # Commit if there are changes
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "chore: update newsletter for $(date +%Y-%m-%d)"
+          git push
+          echo "Changes committed and pushed!"
+        fi
+
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
@@ -40,15 +65,15 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    
+
     permissions:
       pages: write
       id-token: write
-    
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    
+
     steps:
     - name: Deploy to GitHub Pages
       id: deployment
