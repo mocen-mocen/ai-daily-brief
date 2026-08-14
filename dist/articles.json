@@ -1,5 +1,375 @@
 [
   {
+    "title": "InfoQ 2026 年趋势报告：文化与方法论篇",
+    "url": "https://www.infoq.cn/article/ZiLdF4HaE2o3ieYydQQv?utm_source=rss&utm_medium=article",
+    "summary": "在年度文化与方法趋势报告播客中，一群 QCon 演讲嘉宾与 InfoQ 编辑探讨了 AI 采用的成熟度与风险、工程团队结构与角色的转型，以及 2026 年软件开发中不可丢失的人文维度。本次对话由 Shane Hastie（文化与方法版本主编）主持，参与者包括 Ben Linders、Rafiq Gemmail、Craig Smith、Vanessa Formicola、Shawna Martell、Phillip Mortimer 和 Yinka Omole。你也可以收听完整版文化与方法论趋势报告 播客访谈及配套文稿。去年的访谈内容可参见 2025 年趋势报告播客。） 为了便于洞察 InfoQ...",
+    "published": "2026-08-14T15:17:00",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "作者：Shane Hastie, Ben Linders, Vanessa Formicola, Shawna Martell"
+  },
+  {
+    "title": "“写代码从来都不是难点”，这是对全世界所有程序员的严重侮辱",
+    "url": "https://www.infoq.cn/article/gkOdbZGI6RXGmN09pIeK?utm_source=rss&utm_medium=article",
+    "summary": "有人说，“大语言模型或许很擅长写代码，但软件开发的难点从来都不在这里。”还有人说，“写代码很容易，真正困难的是弄清楚该写什么。” 如果你靠代码吃饭，听到这句话什么感受？ 2026 年，信奉这种观点的人越来越多。最近一篇长文在开发者社区引爆争论，作者逐条反驳，直斥其为“对全世界程序员的严重侮辱”。...",
+    "published": "2026-08-14T14:55:20",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "Tina"
+  },
+  {
+    "title": "Zig 创始人直言，Bun 靠 Claude 生成的 Rust 重构版是“没人把关的烂代码”",
+    "url": "https://www.infoq.cn/article/5JAOs4xARzjGb5sj2LxG?utm_source=rss&utm_medium=article",
+    "summary": "一款广受欢迎的、隶属于 Anthropic 公司的 JavaScript 运行时及工具链在利用 AI 重写后，因其执行速度之快而广受赞誉，但也因其项目背后糟糕的编码实践而遭到批评。Bun 的创建者 Jarred Sumner 宣布，他利用一批并行运行的 Claude 智能体，仅用 11 天就将 Bun 从 Zig 编程语言移植到了 Rust 语言。按 API 定价计算，这项工作耗资约 16.5 万美元。这表明，此前被认为规模过大而无法实施的软件重构，如今借助 AI 技术已经变得可行。Sumner 表示，鉴于 Bun 用户发现的漏洞数量日益增多，这次移植势在必行，其中包括一个与近期 Claude...",
+    "published": "2026-08-14T14:54:05",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "Joab Jackson"
+  },
+  {
+    "title": "Claude Code没有“魔法”",
+    "url": "https://www.infoq.cn/article/aVJlp0XApUkyu6CNLOkL?utm_source=rss&utm_medium=article",
+    "summary": "过去一年，编程 Agent 的能力大幅提升，软件工程师对它们的要求也比以往任何时候都高，但上下文窗口的大小却基本停滞不前——一年前，一百万个 token 大致就是最先进的水平，如今依然如此。随着我们逐渐进入 Agent 日常处理 Monorepo（单体仓库）级任务的世界，将越来越多的信息塞进模型那固定的上下文限制中，这种需求已经变成了一项实实在在的全职工程任务。Daisy Hollman，这位曾在 C++ 标准委员会深耕近十年、当过两年主席的资深工程师，如今在 Anthropic 的 Claude Code 团队主导插件与 Agent 团队的设计。近日，她在 NDC Copenhagen 的演...",
+    "published": "2026-08-14T14:44:32",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "傅宇琪,Tina"
+  },
+  {
+    "title": "DeepSeek 把 Harness 开源了：模型、工具、Agent Loop 全是插件",
+    "url": "https://www.infoq.cn/article/de9AljWc4ejW2KAyW8dD?utm_source=rss&utm_medium=article",
+    "summary": "DeepSeek 的 Harness 终于来了。8 月 13 日，DeepSeek 面向全球开发者开放 DeepSeek Harness 开发者预览版，首个版本为 v0.1，并同步以 MIT 协议开放源代码： https://github.com/deepseek-ai/deepseek-harness 开发者现在可以通过 npx @deepseek-ai/dsh web 直接启动 Web UI，也可以从 GitHub 拉取完整项目。DeepSeek 也明确表示，当前仍有大量细节需要打磨，核心插件和基础接口将在后续快速迭代。不过，这次发布已经回答了外界最关心的问题：DeepSeek 会怎样做自...",
+    "published": "2026-08-14T14:38:24",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "Tina"
+  },
+  {
+    "title": "从“工具”到“同事”——AI 时代的产品进化",
+    "url": "https://www.infoq.cn/article/ABCk0CzDtSKMHbPXCdWF?utm_source=rss&utm_medium=article",
+    "summary": "在 AI 技术加速渗透产业生态的 2025 年， QCon 全球软件开发者大会 2026 北京站 上，良仓孵化器创始合伙人、前阿里资深产品经理 苏杰 ，以一种近乎行为艺术的方式开启了自己的分享——他将演讲主体交由自己的 AI 数字分身完成，自己仅负责翻页（ps：两个月后，已实现自动翻页，他只需要负责开场和结束后的问答互动）。这场实验本身正是他主题的注脚：AI 如何在折叠时间的过程中，根本性地解构了产品创新、组织形态乃至人类角色的既有范式。从宏观判断到新形态、新方法，再到组织与个人的重塑，他系统性地梳理了四层递进的分析，为技术社区提供了一套可操作、可推演的思考框架。以下是演讲实录（经 InfoQ...",
+    "published": "2026-08-14T14:37:37",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "作者：苏杰"
+  },
+  {
+    "title": "DeepSeek + Pi 王炸组合跑赢 Claude Code？Pi创始人：这套组合我早押中了",
+    "url": "https://www.infoq.cn/article/XpFUaftcEE3iLgGzYGZi?utm_source=rss&utm_medium=article",
+    "summary": "8 月 11 日，Pi Harness 创始人 Mario Zechner 转发了一组数据：开发者 0xEvan 用 Pi 调用 DeepSeek V4 Flash，处理了近 10 亿输入 Token，缓存命中率达到 99.93%，最终只花了 2.65 美元。如果没有缓存，同等用量预计需要 132 美元。同一天，另一名开发者 Shantanu Goel 表示，DeepSeek V4 Flash 在其他 Harness 中的缓存命中率通常为 94%至 97%，到了 Pi 中却能持续达到 99%以上。Mario 对此评论道：“使用本地模型时，这一点尤其好用。...",
+    "published": "2026-08-14T14:34:30",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "Tina"
+  },
+  {
+    "title": "从“会用”到“驾驭”：AI Coding 进入生产环境的真实碰撞",
+    "url": "https://www.infoq.cn/article/ydy2QDIAzQ1L314UH4qc?utm_source=rss&utm_medium=article",
+    "summary": "过去几年，AI Coding 快速发展，从代码补全、代码生成，到现在具备任务拆解和自主执行能力的 Coding Agent，AI 正在越来越深入地参与软件研发流程。那么，如何让 AI Coding 从“个人外挂”变成团队生产力？如何保证代码质量，构建可控、可复用、可持续演进的 Agent 工程路径？ 近日，InfoQ《极客有约》X AICon 直播栏目特别邀请 网易游戏高级技术经理林香鑫担任主持人 ，和 网龙网络资深技术总监陈洁、柏佳辰平凯数据库（TiDB） /智能研发中心负责人、汇丰科技内部开源负责人李渭宁 一起，在 AICon 全球人工智能开发与应用大会 2026 深圳站 即将召开之际，共...",
+    "published": "2026-08-14T14:28:52",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "AICon 全球人工智能开发与应用大会"
+  },
+  {
+    "title": "Rust 给 AI 编程立新规：能帮你看，不能替你写，用多了还会“熔断”",
+    "url": "https://www.infoq.cn/article/4t8SKMGI28buD345I2Ta?utm_source=rss&utm_medium=article",
+    "summary": "近期，Rust 项目中的五个团队已经正式采纳了一项关于 AI 编程的新准则，用来规范贡献者在向 rust-lang/rust 提交代码时，应该如何使用大语言模型（LLM）。rust-lang/rust 是 Rust 项目的主要单体代码库。该准则的作者 Jynn Nelson 于 2026 年 8 月 5 日在 Inside Rust 博客上宣布了这一消息。简单来说，这份文件可以用一句话总结它的核心原则： 可以用 LLM 回答问题、分析、提炼、完善、检查、提出建议和审查，但不能用它来创造。这项准则已经获得编译器、标准库、类型系统、rustdoc 和 bootstrap 五个团队批准。...",
+    "published": "2026-08-14T14:24:20",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "Tina"
+  },
+  {
+    "title": "AI 正在重塑故障处理流程，但棘手问题仍需人类解决",
+    "url": "https://www.infoq.cn/article/dxzigmlmI6BN4MWqYNI2?utm_source=rss&utm_medium=article",
+    "summary": "AI 正在飞速改变工程团队处理生产故障的模式：它不仅能汇总故障沟通记录、解析不熟悉的代码、给出修复方案、生成代码合并请求，还能越来越多地辅助故障排查诊断。不过，Uptime Labs 在其故障处理行业峰会（Incident Fest）专题研讨中指出，AI 在故障处置场景应用日益普及，却催生了一个悖论：AI 自动化的常规工作越多，当系统以新颖、复杂或意想不到的方式发生故障时，人类专业知识的重要性就越高。此次讨论汇集了 Uptime Labs、Chime 和 Rootly 的观点，旨在探讨当 AI 成为事故指挥中心的一名“参与者”时会发生什么。其核心论点并非要拒绝使用 AI，而是企业需要有意识地规...",
+    "published": "2026-08-14T13:54:40",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "作者：Craig Risi"
+  },
+  {
+    "title": "Multimodal Neurons in Artificial Neural Networks",
+    "url": "https://github.com/distillpub/post--multimodal/issues?q=is%3Aissue+label%3Apeer-review",
+    "summary": "URL Source: https://github.com/distillpub/post--multimodal/issues?q=is:issue+label:peer-review Markdown Content: [Skip to content](https://github.com/distillpub/post--multimodal/issues?q=is:issue+label:peer-review#start-of-content) ## Navigation Menu [](https://github.com/) [Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fdistillpub%2Fpost--multimodal%2Fissues%3Fq%3Dis%3Aiss",
+    "published": "2026-08-14T13:23:29.267992",
+    "source_name": "Distill.pub",
+    "source_url": "https://distill.pub/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Distill Hiatus",
+    "url": "https://distill.pub/2021/distill-hiatus",
+    "summary": "URL Source: https://distill.pub/2021/distill-hiatus Markdown Content: _Over the past five years, Distill has supported authors in publishing artifacts that push beyond the traditional expectations of scientific papers. From Gabriel Goh’s [interactive exposition of momentum](https://distill.pub/2021/distill-hiatus), to an [ongoing collaboration exploring self-organizing systems](https://distill.pub",
+    "published": "2026-08-14T13:23:25.022977",
+    "source_name": "Distill.pub",
+    "source_url": "https://distill.pub/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Not Found",
+    "url": "https://www.businesstoday.in/artificial-intelligence",
+    "summary": "URL Source: https://www.businesstoday.in/artificial-intelligence Markdown Content: August 14, 2026 18:53 IST *   [Business Today](https://www.businesstoday.in/ \"Business Today\") *   [BT Bazaar](https://bazaar.businesstoday.in/ \"BT Bazaar\") *   [India Today](https://www.indiatoday.in/ \"India Today\") *   [Northeast](https://www.indiatodayne.in/ \"Northeast\") *   [India Today Gaming](https://www.india",
+    "published": "2026-08-14T13:23:23.498879",
+    "source_name": "BusinessToday AI",
+    "source_url": "https://www.businesstoday.in/artificial-intelligence",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "YouTube channel",
+    "url": "https://www.youtube.com/@AndrejKarpathy",
+    "summary": "URL Source: https://www.youtube.com/@AndrejKarpathy Warning: Target URL returned error 401: Unauthorized Warning: This page contains iframe that are currently hidden, consider enabling iframe processing. Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page. Markdown Content: Back [![Image 1](https://www.youtube.com/@AndrejKarpathy)](https://www.youtub",
+    "published": "2026-08-14T13:23:22.696557",
+    "source_name": "Andrej Karpathy",
+    "source_url": "https://karpathy.ai/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "A Gentle Introduction to Graph Neural Networks",
+    "url": "https://github.com/distillpub/post--gnn-intro/issues?q=is%3Aissue+label%3Apeer-review",
+    "summary": "URL Source: https://github.com/distillpub/post--gnn-intro/issues?q=is:issue+label:peer-review Markdown Content: [Skip to content](https://github.com/distillpub/post--gnn-intro/issues?q=is:issue+label:peer-review#start-of-content) ## Navigation Menu [](https://github.com/) [Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fdistillpub%2Fpost--gnn-intro%2Fissues%3Fq%3Dis%3Aissue%",
+    "published": "2026-08-14T13:23:22.190729",
+    "source_name": "Distill.pub",
+    "source_url": "https://distill.pub/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Reward Hacking in Reinforcement Learning",
+    "url": "https://lilianweng.github.io/posts/2024-11-28-reward-hacking/",
+    "summary": "Reward hacking occurs when a reinforcement learning (RL) agent exploits flaws or ambiguities in the reward function to achieve high rewards, without genuinely learning or completing the intended task. Reward hacking exists because RL environments are often imperfect, and it is fundamentally challeng",
+    "published": "2026-08-14T13:23:18.315823",
+    "source_name": "Lilian Weng",
+    "source_url": "https://lilianweng.github.io/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Why We Think",
+    "url": "https://lilianweng.github.io/posts/2025-05-01-thinking/",
+    "summary": "Special thanks to John Schulman for a lot of super valuable feedback and direct edits on this post.\nTest time compute (Graves et al. 2016, Ling, et al. 2017, Cobbe et al. 2021) and Chain-of-thought (CoT) (Wei et al. 2022, Nye et al. 2021), have led to significant improvements in model performance, w",
+    "published": "2026-08-14T13:23:18.230861",
+    "source_name": "Lilian Weng",
+    "source_url": "https://lilianweng.github.io/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Scaling Laws, Carefully",
+    "url": "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/",
+    "summary": "URL Source: https://lilianweng.github.io/posts/2026-06-24-scaling-laws/ Published Time: 2026-06-24T00:00:00Z Markdown Content: Scaling laws are one of the most critical empirical findings in deep learning. The observation is simple in form: the training loss decreases predictably as we scale up model size , dataset size , and compute , following a power-law curve, which appears as a straight line ",
+    "published": "2026-08-14T13:23:18.144828",
+    "source_name": "Lilian Weng",
+    "source_url": "https://lilianweng.github.io/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Putting sign language AI into users’ hands",
+    "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+    "summary": "URL Source: https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/ Published Time: 2026-08-12T15:00:00+00:00 Markdown Content: August 12, 2026 Models Google DeepMind Sign Language Team Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users. AI's ability to process spoken languages has advanced rapidly",
+    "published": "2026-08-14T13:23:18.120479",
+    "source_name": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "That Business Idea You Couldn’t Justify Years Ago Is Worth Revisiting, Thanks to AI",
+    "url": "https://www.entrepreneur.com/business-news/tech/ai-business-ideas-revisit-before-you-automate",
+    "summary": "URL Source: https://www.entrepreneur.com/business-news/tech/ai-business-ideas-revisit-before-you-automate Published Time: 2026-08-13T17:00:00+00:00 Markdown Content: Opens in a new window Opens an external website Opens an external website in a new window This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, and target",
+    "published": "2026-08-14T13:23:18.039704",
+    "source_name": "Entrepreneur AI",
+    "source_url": "https://www.entrepreneur.com/topic/artificial-intelligence",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
+    "url": "https://simonwillison.net/2026/Aug/5/raccoon-heist/",
+    "summary": "URL Source: https://simonwillison.net/2026/Aug/5/raccoon-heist/ Published Time: Fri, 14 Aug 2026 12:37:47 GMT Markdown Content: 5th August 2026 Back in 2022 [I tweeted](https://twitter.com/simonw/status/1555626060384911360) screenshots of a game concept generated by GPT-3 and some concept “art” created using DALL-E. Today, on the fourth anniversary of that tweet, I decided to see if Claude Fable 5",
+    "published": "2026-08-14T13:23:17.829625",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Harness Engineering for Self-Improvement",
+    "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+    "summary": "URL Source: https://lilianweng.github.io/posts/2026-07-04-harness/ Published Time: 2026-07-04T00:00:00Z Markdown Content: The concept of **recursive self-improvement (RSI)** dates back to [I. J. Good (1965)](https://philpapers.org/rec/GOOSCT), where he defined an “ultraintelligent machine” as a system that can surpass humans in all intellectual activities and design better machines to improve itse",
+    "published": "2026-08-14T13:23:17.821387",
+    "source_name": "Lilian Weng",
+    "source_url": "https://lilianweng.github.io/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Understanding Convolutions on Graphs",
+    "url": "https://github.com/distillpub/post--understanding-gnns/issues?q=is%3Aissue+label%3Apeer-review",
+    "summary": "URL Source: https://github.com/distillpub/post--understanding-gnns/issues?q=is:issue+label:peer-review Markdown Content: [Skip to content](https://github.com/distillpub/post--understanding-gnns/issues?q=is:issue+label:peer-review#start-of-content) ## Navigation Menu [](https://github.com/) [Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fdistillpub%2Fpost--understanding-gnns",
+    "published": "2026-08-14T13:23:17.728383",
+    "source_name": "Distill.pub",
+    "source_url": "https://distill.pub/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Hacker News",
+    "url": "https://news.ycombinator.com/",
+    "summary": "URL Source: https://news.ycombinator.com/ Markdown Content: [![Image 1](https://news.ycombinator.com/y18.svg)](https://news.ycombinator.com/)**[Hacker News](https://news.ycombinator.com/news)**[new](https://news.ycombinator.com/newest) | [past](https://news.ycombinator.com/front) | [comments](https://news.ycombinator.com/newcomments) | [ask](https://news.ycombinator.com/ask) | [show](https://news.",
+    "published": "2026-08-14T13:23:17.685454",
+    "source_name": "Hacker News",
+    "source_url": "https://news.ycombinator.com/",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "Want to Avoid Being Replaced By AI? A Former Microsoft Exec Says This Is How to AI-Proof Your Career.",
+    "url": "https://www.entrepreneur.com/business-news/former-microsoft-executive-says-this-is-how-to-ai-proof-your-career",
+    "summary": "URL Source: https://www.entrepreneur.com/business-news/former-microsoft-executive-says-this-is-how-to-ai-proof-your-career Published Time: 2026-08-13T17:09:03+00:00 Markdown Content: Listen to this post ## Key Takeaways *   Former Microsoft executive Rob Collie says that one tactic is the best way to AI-proof your career. *   Collie says that workers should not wait to see what AI does to their jo",
+    "published": "2026-08-14T13:23:17.628952",
+    "source_name": "Entrepreneur AI",
+    "source_url": "https://www.entrepreneur.com/topic/artificial-intelligence",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+    "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+    "summary": "URL Source: https://simonwillison.net/2026/Aug/7/openai-timeline/ Published Time: Fri, 14 Aug 2026 12:30:10 GMT Markdown Content: 7th August 2026 OpenAI gave a last-minute presentation at the Black Hat security on Wednesday about “the Hugging Face Incident” ([previously](https://simonwillison.net/2026/Jul/22/openai-cyberattack/) on this blog). [The video](https://www.youtube.com/watch?v=87DyyMV0kC",
+    "published": "2026-08-14T13:23:17.578137",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Introducing Gemini 3.7 Flash",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+    "summary": "URL Source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/ Published Time: 2026-08-13T17:00:00+00:00 Markdown Content: Aug 13, 2026 | 11 min read Our most intelligent workhorse model yet for coding and agents. * * * * * * ![Image 1: Spark icon next to the text \"Gemini 3.7 Flash\", all on a light blue backgorund](https://storage.googleapis.com/g",
+    "published": "2026-08-14T13:23:17.555765",
+    "source_name": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "👋 Welcome to Lil’Log",
+    "url": "https://twitter.com/lilianweng/",
+    "summary": "URL Source: https://twitter.com/lilianweng/ Markdown Content: [![Image 1: Lilian Weng profile banner](https://pbs.twimg.com/profile_banners/96999384/1747461613/1500x500)](https://twitter.com/lilianweng/header_photo) [![Image 2: user avatar](https://pbs.twimg.com/profile_images/1923619459643711488/qmXOBhZ1_400x400.jpg)](https://twitter.com/lilianweng/photo) Co-founder of Thinking Machines Lab [@thi",
+    "published": "2026-08-14T13:23:17.550842",
+    "source_name": "Lilian Weng",
+    "source_url": "https://lilianweng.github.io/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "404 - The Register",
+    "url": "https://www.theregister.com/ai/",
+    "summary": "URL Source: https://www.theregister.com/ai/ Markdown Content: [Jump to main content](https://www.theregister.com/ai/#main) Search  TOPICS *   Security     *   [All Security](https://www.theregister.com/security)     *   [Cyber-crime](https://www.theregister.com/cyber_crime)     *   [Patches](https://www.theregister.com/patches)     *   [Research](https://www.theregister.com/research)     *   [CSO]",
+    "published": "2026-08-14T13:23:17.533764",
+    "source_name": "The Register AI",
+    "source_url": "https://www.theregister.com/ai/",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "Understanding Convolutions on Graphs",
+    "url": "https://github.com/distillpub/post--understanding-gnns/issues?q=is%3Aissue+label%3Apeer-review",
+    "summary": "URL Source: https://github.com/distillpub/post--understanding-gnns/issues?q=is:issue+label:peer-review Markdown Content: [Skip to content](https://github.com/distillpub/post--understanding-gnns/issues?q=is:issue+label:peer-review#start-of-content) ## Navigation Menu [](https://github.com/) [Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fdistillpub%2Fpost--understanding-gnns",
+    "published": "2026-08-14T13:23:17.530124",
+    "source_name": "Distill.pub",
+    "source_url": "https://distill.pub/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "OpenAI News",
+    "url": "https://openai.com/news/",
+    "summary": "URL Source: https://openai.com/news/ Markdown Content: * * * Switch cards to show Media   Switch cards to hide Media ![Image 1: The builder’s guide to GPT-5.6 — Card image — Neutral Option 075](https://images.ctfassets.net/kftzwdyauwt9/4jmIFt2vH2c51Fj99rAiqH/bf22866b22d59f6230785fe304fee20c/the-builders-guide-to-gpt-5-6-option-075-card.png?w=3840&q=90&fm=webp) [The builder’s guide to GPT‑5.6 Appli",
+    "published": "2026-08-14T13:23:17.499409",
+    "source_name": "OpenAI Blog",
+    "source_url": "https://openai.com/news/",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "Essays",
+    "url": "https://www.anthropic.com/",
+    "summary": "URL Source: https://www.anthropic.com/ Published Time: Wed, 12 Aug 2026 20:14:15 GMT Markdown Content: [Skip to main content](https://www.anthropic.com/#main)[Skip to footer](https://www.anthropic.com/#footer) [](https://www.anthropic.com/) *   [Research](https://www.anthropic.com/research) *   [Policy](https://www.anthropic.com/policy) * Commitments Initiatives *   [Claude's Constitution](https:/",
+    "published": "2026-08-14T13:23:17.491637",
+    "source_name": "Dario Amodei",
+    "source_url": "https://darioamodei.com/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Newsroom",
+    "url": "mailto:press@anthropic.com",
+    "summary": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
+    "published": "2026-08-14T13:23:17.300375",
+    "source_name": "Anthropic",
+    "source_url": "https://www.anthropic.com/news",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "走进 CTO 圆桌：构建 AI 原生组织的工程领导者经验分享 | 技术趋势",
+    "url": "https://www.infoq.cn/article/cFMO2oN8SyaR9vuUVUeQ?utm_source=rss&utm_medium=article",
+    "summary": "2026 年，智能体将在企业级应用中取得哪些实质性突破？ 点击下载 《2026 年 AI 与数据发展预测》白皮书，获悉专家一手前瞻，抢先拥抱新的工作方式！ 随着 AI 改写规则，几乎每一位工程领导者都在回答同样的问题：工程团队应该如何组织？当基础模型持续进步时，组织应该把资源投向哪里？怎样在不引入不可接受运营风险的前提下提升工程效率？AI-augmented 组织与 AI-native 组织到底有什么本质差别？ 关于如何构建一个 AI-native 工程组织，目前并不存在成熟剧本，工程领导者也很少有机会公开对比彼此学到的经验。这类讨论往往只停留在单个公司内部，并受到竞争压力和技术快速演进的影响...",
+    "published": "2026-08-14T11:30:09",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "Shruti Bhat"
+  },
+  {
+    "title": "AI 智能体开始参与交付，谁来证明它没有“动手脚”？IBM 与 Red Hat 给出一套新方案",
+    "url": "https://www.infoq.cn/article/AJz1m242RSJLpXpsC1eg?utm_source=rss&utm_medium=article",
+    "summary": "IBM 和 Red Hat 宣布 扩展 Lightwell，推出新的商业产品，旨在帮助组织为 AI 辅助软件开发时代建立可信、可验证的软件供应链。新产品以开源 Lightwell 项目 为基础，旨在简化软件签名、来源追踪、工件验证和策略执行，使企业能够确保由人类和 AI 生成的软件在整个软件交付生命周期中都值得信任。随着 AI 加速软件创建，挑战不再只是更快地生成代码，还包括在软件进入生产环境之前，证明它源自何处、如何构建、是否被修改，以及是否符合组织的安全策略。IBM 认为，随着企业越来越依赖 AI 生成的代码、开源组件和自动化软件供应链，建立可验证的“信任基础设施”将成为一项基础能力。...",
+    "published": "2026-08-14T10:35:35",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "作者：Craig Risi"
+  },
+  {
+    "title": "太初元碁助力国家级“AI+教育”大赛 “AI+加速卡模型适配赛道”开启招募",
+    "url": "https://www.qbitai.com/2026/08/473149.html",
+    "summary": "太初元碁助力国家级“AI+教育”大赛 “AI+加速卡模型适配赛道”开启招募 量子位的朋友们 2026-08-14 18:25:36 来源： 量子位 由中国教育技术协会主办的“AI+教育”创新应用技能大赛（以下简称“大赛”）正火热进行中。大赛共设基础教育、高等教育、职业教育、终身教育、大学生AI创新创业、AI For Science 六个组别。本届大赛旨在落实国家“人工智能+教育”战略部署、推动教育数字化转型，并以赛促学推动科技人才培养走深入实。作为赛事战略合作伙伴，太初（杭州）集成电路有限公司（“太初元碁”）承办大学生AI创新创业组“AI+加速卡模型适配赛道”，面向全国高校、科研院所及企业开发...",
+    "published": "2026-08-14T10:25:36",
+    "source_name": "量子位",
+    "source_url": "https://www.qbitai.com/",
+    "category": "chinese_ai",
+    "author": "量子位的朋友们"
+  },
+  {
+    "title": "Uno Platform 6.6 发布：Android 启动性能最高提升 61%",
+    "url": "https://www.infoq.cn/article/s1HsC9y7mPAAXRN4VgYs?utm_source=rss&utm_medium=article",
+    "summary": "Uno Platform 6.6 在五个目标平台上引入了原生 AOT 发布、可选的 Vulkan 渲染后端，以及框架模型上下文协议服务器的自动注册功能。该版本还减少了 XAML 样板代码，扩大了 WinUI API 的跨平台覆盖范围，并改进了无障碍支持和多语言文本处理。Uno Platform 允许开发者使用 WinUI 风格的 XAML 和 .NET，为 Windows、WebAssembly、Android、iOS、macOS 和 Linux 构建应用程序。近期版本还增加了可视化设计和 AI 辅助开发工具。版本 6.6 更加侧重于运行时性能，以及弥补 WinUI API 与 Uno 基于 ...",
+    "published": "2026-08-14T10:20:50",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "作者：Edin Kapić"
+  },
+  {
     "title": "涛思数据创始人&CEO陶建辉博士确认出席AICon深圳，将分享“大模型在工业场景落地的挑战与实践”",
     "url": "https://www.infoq.cn/article/Uiz6Ovab2eKT0T9q3Nzp?utm_source=rss&utm_medium=article",
     "summary": "大模型能力持续演进，但 AI 的下一阶段竞争正在发生变化。模型能力之外，如何构建可靠的智能体、完善 AI 工程体系，并让 AI 在复杂业务环境中稳定运行，正在成为产业探索的新重点。8 月 21 日-22 日， AICon 全球人工智能开发与应用大会 将在深圳举办。大会全日程现已 100%上线，来自产业一线的技术专家将围绕 Agent 工程化、大模型基础设施、AI Native 研发、具身智能等前沿方向，分享 AI 时代的技术探索与工程实践，共同探讨 AI 从能力突破走向系统构建的新路径。在首日的 Keynote 主题演讲 中，涛思数据创始人 &CEO 陶建辉将带来 《 大模型在工业场景落地的挑...",
@@ -10,254 +380,44 @@
     "author": "AICon 全球人工智能开发与应用大会"
   },
   {
-    "title": "Tired of AI Slop on Your LinkedIn Feed? Here’s How the Company Is Pushing Back.",
-    "url": "https://www.entrepreneur.com/business-news/tired-of-ai-slop-on-your-linkedin-feed-heres-how-the-company-is-pushing-back",
-    "summary": "URL Source: https://www.entrepreneur.com/business-news/tired-of-ai-slop-on-your-linkedin-feed-heres-how-the-company-is-pushing-back Published Time: 2026-08-12T19:31:22+00:00 Markdown Content: [Skip to main content](https://www.entrepreneur.com/business-news/tired-of-ai-slop-on-your-linkedin-feed-heres-how-the-company-is-pushing-back#main) You're viewing the US website. Looking for the Site edition",
-    "published": "2026-08-14T02:27:17.522869",
-    "source_name": "Entrepreneur AI",
-    "source_url": "https://www.entrepreneur.com/topic/artificial-intelligence",
-    "category": "foreign_media",
-    "author": null
+    "title": "刚刚，GLM-5.3发布：Coding更接近Fable 5！潜伏40年的bug都被揪出来了",
+    "url": "https://www.qbitai.com/2026/08/473038.html",
+    "summary": "刚刚，GLM-5.3发布：Coding更接近Fable 5！潜伏40年的bug都被揪出来了 十三 2026-08-14 16:47:51 来源： 量子位 顺手拿下最强开源安全模型 金磊 发自 凹非寺 量子位 | 公众号 QbitAI 太热闹了。昨儿DeepSeek V4 Pro正式版+Harness、Grok 4.6“你方唱罢”，今儿 GLM-5.3 闪亮一记 “我登场” —— 一出手便杀回 开源一哥 、 国模一哥 ，甚至在Coding方面更加 接近Claude Fable 5！ 也就是说，唐杰给马斯克“画的饼”（说国产模型超越Fable 5不会太久），往前拱了一大截，也就花了2个月整。在多项...",
+    "published": "2026-08-14T08:47:51",
+    "source_name": "量子位",
+    "source_url": "https://www.qbitai.com/",
+    "category": "chinese_ai",
+    "author": "十三"
   },
   {
-    "title": "OpenAI",
-    "url": "https://openai.com/",
-    "summary": "URL Source: https://openai.com/ Markdown Content: [Skip to main content](https://openai.com/#main) [](https://openai.com/) *   [Research](https://openai.com/research/index/) *   Products *   [Business](https://openai.com/business/) *   [Developers](https://openai.com/api/) *   [Company](https://openai.com/about/) *   [Foundation(opens in a new window)](https://openaifoundation.org/) Log in[Try Cha",
-    "published": "2026-08-14T02:27:16.775465",
-    "source_name": "Andrej Karpathy",
-    "source_url": "https://karpathy.ai/",
-    "category": "foreign_researcher",
-    "author": null
+    "title": "百度文库网盘「库库AI」AI办公MAU超2500万，新推办公独立端",
+    "url": "https://www.qbitai.com/2026/08/473144.html",
+    "summary": "百度文库网盘「库库AI」AI办公MAU超2500万，新推办公独立端 量子位的朋友们 2026-08-14 16:36:00 来源： 量子位 8月14日，在百度AI Day开放日上，百度文库网盘通用智能体GenFlow官宣中文名「库库AI」。早在今年4月，GenFlow月活用户已突破1亿，其中办公用户体量指数级飙升，目前AI办公MAU超过2500万，位居通用AI办公赛道行业第一。关注到用户在AI办公上的强烈需求和高频互动，文库网盘宣布进一步出击AI办公赛道，上线「库库AI」独立端，包括库库AI办公PC客户端、库库AI网页端、小程序及库库AI企业版等。文库网盘抢先三年布局，持续出击通用AI办公赛道...",
+    "published": "2026-08-14T08:36:00",
+    "source_name": "量子位",
+    "source_url": "https://www.qbitai.com/",
+    "category": "chinese_ai",
+    "author": "量子位的朋友们"
   },
   {
-    "title": "Multimodal Neurons in Artificial Neural Networks",
-    "url": "https://github.com/distillpub/post--multimodal/issues?q=is%3Aissue+label%3Apeer-review",
-    "summary": "Gabriel Goh, Nick Cammarata †, Chelsea Voss †, Shan Carter, Michael Petrov, Ludwig Schubert, Alec Radford, and Chris Olah",
-    "published": "2026-08-14T02:27:15.190642",
-    "source_name": "Distill.pub",
-    "source_url": "https://distill.pub/",
-    "category": "foreign_researcher",
-    "author": null
+    "title": "算力需求两年涨10倍，机器人为了走进真实物理世界，正在疯狂「吃算力」",
+    "url": "https://www.qbitai.com/2026/08/472722.html",
+    "summary": "算力需求两年涨10倍，机器人为了走进真实物理世界，正在疯狂「吃算力」 田, 晏林 2026-08-14 15:29:22 来源： 量子位 少花一半成本，部署效率提升80%！机器人研发可以不用重复造轮子了。田晏林 发自 凹非寺 量子位 | 公众号 QbitAI 上周五，逐际动力线下黑客松实训大赛「创学营2026」的收官现场，选手们正在云上跑最后一轮仿真评测。他们打开浏览器，登录一台远在云端的工作站，旋转着Isaac Sim里的机械臂场景，调整参数，生成数据。筹办类似的比赛，光是找场地、配机器就要耗费1个月的时间。...",
+    "published": "2026-08-14T07:29:22",
+    "source_name": "量子位",
+    "source_url": "https://www.qbitai.com/",
+    "category": "chinese_ai",
+    "author": "田, 晏林"
   },
   {
-    "title": "Understanding Convolutions on Graphs",
-    "url": "https://github.com/distillpub/post--understanding-gnns/issues?q=is%3Aissue+label%3Apeer-review",
-    "summary": "URL Source: https://github.com/distillpub/post--understanding-gnns/issues?q=is:issue+label:peer-review Markdown Content: [Skip to content](https://github.com/distillpub/post--understanding-gnns/issues?q=is:issue+label:peer-review#start-of-content) ## Navigation Menu [](https://github.com/) [Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fdistillpub%2Fpost--understanding-gnns",
-    "published": "2026-08-14T02:27:14.897191",
-    "source_name": "Distill.pub",
-    "source_url": "https://distill.pub/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Want to Avoid Being Replaced By AI? A Former Microsoft Exec Says This Is How to AI-Proof Your Career.",
-    "url": "https://www.entrepreneur.com/business-news/former-microsoft-executive-says-this-is-how-to-ai-proof-your-career",
-    "summary": "URL Source: https://www.entrepreneur.com/business-news/former-microsoft-executive-says-this-is-how-to-ai-proof-your-career Published Time: 2026-08-13T17:09:03+00:00 Markdown Content: Listen to this post ## Key Takeaways *   Former Microsoft executive Rob Collie says that one tactic is the best way to AI-proof your career. *   Collie says that workers should not wait to see what AI does to their jo",
-    "published": "2026-08-14T02:27:14.570009",
-    "source_name": "Entrepreneur AI",
-    "source_url": "https://www.entrepreneur.com/topic/artificial-intelligence",
-    "category": "foreign_media",
-    "author": null
-  },
-  {
-    "title": "YouTube channel",
-    "url": "https://www.youtube.com/@AndrejKarpathy",
-    "summary": "URL Source: https://www.youtube.com/@AndrejKarpathy Warning: Target URL returned error 401: Unauthorized Warning: This page contains iframe that are currently hidden, consider enabling iframe processing. Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page. Markdown Content: Back [![Image 1](https://www.youtube.com/@AndrejKarpathy)](https://www.youtub",
-    "published": "2026-08-14T02:27:13.097481",
-    "source_name": "Andrej Karpathy",
-    "source_url": "https://karpathy.ai/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "404 - The Register",
-    "url": "https://www.theregister.com/ai/",
-    "summary": "URL Source: https://www.theregister.com/ai/ Markdown Content: [Jump to main content](https://www.theregister.com/ai/#main) Search  TOPICS *   Security     *   [All Security](https://www.theregister.com/security)     *   [Cyber-crime](https://www.theregister.com/cyber_crime)     *   [Patches](https://www.theregister.com/patches)     *   [Research](https://www.theregister.com/research)     *   [CSO]",
-    "published": "2026-08-14T02:27:10.105582",
-    "source_name": "The Register AI",
-    "source_url": "https://www.theregister.com/ai/",
-    "category": "foreign_media",
-    "author": null
-  },
-  {
-    "title": "Understanding Convolutions on Graphs",
-    "url": "https://github.com/distillpub/post--understanding-gnns/issues?q=is%3Aissue+label%3Apeer-review",
-    "summary": "URL Source: https://github.com/distillpub/post--understanding-gnns/issues?q=is:issue+label:peer-review Markdown Content: [Skip to content](https://github.com/distillpub/post--understanding-gnns/issues?q=is:issue+label:peer-review#start-of-content) ## Navigation Menu [](https://github.com/) [Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fdistillpub%2Fpost--understanding-gnns",
-    "published": "2026-08-14T02:27:09.978464",
-    "source_name": "Distill.pub",
-    "source_url": "https://distill.pub/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Gemini Robotics 2 brings whole body intelligence to robots",
-    "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-    "summary": "URL Source: https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/ Published Time: 2026-07-30T16:00:00+00:00 Markdown Content: July 30, 2026 Models Carolina Parada From feet to fingertips — we are teaching robots intelligent whole-body control, fine dexterity, and teamwork to complete a broad range of complex tasks For decades, we’ve dreamed of robots that can sea",
-    "published": "2026-08-14T02:27:09.885010",
-    "source_name": "Google DeepMind",
-    "source_url": "https://deepmind.google/blog/",
-    "category": "foreign_official",
-    "author": null
-  },
-  {
-    "title": "Access Denied",
-    "url": "https://www.businesstoday.in/artificial-intelligence",
-    "summary": "URL Source: https://www.businesstoday.in/artificial-intelligence Warning: Target URL returned error 403: Forbidden Markdown Content: You don't have permission to access \"http://www.businesstoday.in/artificial-intelligence\" on this server. Reference #18.55dd2f17.1786674428.5687c9eb https://errors.edgesuite.net/18.55dd2f17.1786674428.5687c9eb",
-    "published": "2026-08-14T02:27:08.956305",
-    "source_name": "BusinessToday AI",
-    "source_url": "https://www.businesstoday.in/artificial-intelligence",
-    "category": "foreign_media",
-    "author": null
-  },
-  {
-    "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
-    "url": "https://simonwillison.net/2026/Aug/5/raccoon-heist/",
-    "summary": "URL Source: https://simonwillison.net/2026/Aug/5/raccoon-heist/ Published Time: Fri, 14 Aug 2026 02:27:06 GMT Markdown Content: 5th August 2026 Back in 2022 [I tweeted](https://twitter.com/simonw/status/1555626060384911360) screenshots of a game concept generated by GPT-3 and some concept “art” created using DALL-E. Today, on the fourth anniversary of that tweet, I decided to see if Claude Fable 5",
-    "published": "2026-08-14T02:27:07.063195",
-    "source_name": "Simon Willison",
-    "source_url": "https://simonwillison.net/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Reward Hacking in Reinforcement Learning",
-    "url": "https://lilianweng.github.io/posts/2024-11-28-reward-hacking/",
-    "summary": "Reward hacking occurs when a reinforcement learning (RL) agent exploits flaws or ambiguities in the reward function to achieve high rewards, without genuinely learning or completing the intended task. Reward hacking exists because RL environments are often imperfect, and it is fundamentally challeng",
-    "published": "2026-08-14T02:27:07.054241",
-    "source_name": "Lilian Weng",
-    "source_url": "https://lilianweng.github.io/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Why We Think",
-    "url": "https://lilianweng.github.io/posts/2025-05-01-thinking/",
-    "summary": "URL Source: https://lilianweng.github.io/posts/2025-05-01-thinking/ Published Time: 2025-05-01T00:00:00Z Markdown Content: Special thanks to [John Schulman](https://scholar.google.com/citations?user=itSa94cAAAAJ&hl=en) for a lot of super valuable feedback and direct edits on this post. Test time compute ([Graves et al. 2016](https://arxiv.org/abs/1603.08983), [Ling, et al. 2017](https://arxiv.org/",
-    "published": "2026-08-14T02:27:06.982546",
-    "source_name": "Lilian Weng",
-    "source_url": "https://lilianweng.github.io/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-    "summary": "URL Source: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/ Published Time: 2026-07-30T15:00:00+00:00 Markdown Content: Jul 30, 2026 | 7 min read Gemini Robotics ER 2 represents a step change in powering robots with video understanding, task orchestration, and multi-robot collaboration — making it possible for robots to be more helpful in the physica",
-    "published": "2026-08-14T02:27:06.765426",
-    "source_name": "Google DeepMind",
-    "source_url": "https://deepmind.google/blog/",
-    "category": "foreign_official",
-    "author": null
-  },
-  {
-    "title": "Scaling Laws, Carefully",
-    "url": "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/",
-    "summary": "URL Source: https://lilianweng.github.io/posts/2026-06-24-scaling-laws/ Published Time: 2026-06-24T00:00:00Z Markdown Content: Scaling laws are one of the most critical empirical findings in deep learning. The observation is simple in form: the training loss decreases predictably as we scale up model size , dataset size , and compute , following a power-law curve, which appears as a straight line ",
-    "published": "2026-08-14T02:27:06.688671",
-    "source_name": "Lilian Weng",
-    "source_url": "https://lilianweng.github.io/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
-    "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-    "summary": "URL Source: https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/ Published Time: 2026-08-06T16:00:00+00:00 Markdown Content: August 6, 2026 Science WeatherNext team WeatherNext enables accurate cyclone forecasts that can give an extra day of warning. Now we are open sourcing the model. Predicting how dangerous cyclones develop is a longstanding challenge",
-    "published": "2026-08-14T02:27:06.513091",
-    "source_name": "Google DeepMind",
-    "source_url": "https://deepmind.google/blog/",
-    "category": "foreign_official",
-    "author": null
-  },
-  {
-    "title": "Harness Engineering for Self-Improvement",
-    "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
-    "summary": "URL Source: https://lilianweng.github.io/posts/2026-07-04-harness/ Published Time: 2026-07-04T00:00:00Z Markdown Content: The concept of **recursive self-improvement (RSI)** dates back to [I. J. Good (1965)](https://philpapers.org/rec/GOOSCT), where he defined an “ultraintelligent machine” as a system that can surpass humans in all intellectual activities and design better machines to improve itse",
-    "published": "2026-08-14T02:27:06.348905",
-    "source_name": "Lilian Weng",
-    "source_url": "https://lilianweng.github.io/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Putting sign language AI into users’ hands",
-    "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-    "summary": "URL Source: https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/ Published Time: 2026-08-12T15:00:00+00:00 Markdown Content: August 12, 2026 Models Google DeepMind Sign Language Team Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users. AI's ability to process spoken languages has advanced rapidly",
-    "published": "2026-08-14T02:27:06.232894",
-    "source_name": "Google DeepMind",
-    "source_url": "https://deepmind.google/blog/",
-    "category": "foreign_official",
-    "author": null
-  },
-  {
-    "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
-    "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
-    "summary": "URL Source: https://simonwillison.net/2026/Aug/7/openai-timeline/ Published Time: Fri, 14 Aug 2026 00:30:52 GMT Markdown Content: 7th August 2026 OpenAI gave a last-minute presentation at the Black Hat security on Wednesday about “the Hugging Face Incident” ([previously](https://simonwillison.net/2026/Jul/22/openai-cyberattack/) on this blog). [The video](https://www.youtube.com/watch?v=87DyyMV0kC",
-    "published": "2026-08-14T02:27:06.173290",
-    "source_name": "Simon Willison",
-    "source_url": "https://simonwillison.net/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Essays",
-    "url": "https://www.anthropic.com/",
-    "summary": "URL Source: https://www.anthropic.com/ Published Time: Wed, 12 Aug 2026 20:14:15 GMT Markdown Content: [Skip to main content](https://www.anthropic.com/#main)[Skip to footer](https://www.anthropic.com/#footer) [](https://www.anthropic.com/) *   [Research](https://www.anthropic.com/research) *   [Policy](https://www.anthropic.com/policy) * Commitments Initiatives *   [Claude's Constitution](https:/",
-    "published": "2026-08-14T02:27:06.114676",
-    "source_name": "Dario Amodei",
-    "source_url": "https://darioamodei.com/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Hacker News",
-    "url": "https://news.ycombinator.com/",
-    "summary": "URL Source: https://news.ycombinator.com/ Markdown Content: [![Image 1](https://news.ycombinator.com/y18.svg)](https://news.ycombinator.com/)**[Hacker News](https://news.ycombinator.com/news)**[new](https://news.ycombinator.com/newest) | [past](https://news.ycombinator.com/front) | [comments](https://news.ycombinator.com/newcomments) | [ask](https://news.ycombinator.com/ask) | [show](https://news.",
-    "published": "2026-08-14T02:27:06.065463",
-    "source_name": "Hacker News",
-    "source_url": "https://news.ycombinator.com/",
-    "category": "foreign_media",
-    "author": null
-  },
-  {
-    "title": "Introducing Gemini 3.7 Flash",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-    "summary": "URL Source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/ Published Time: 2026-08-13T17:00:00+00:00 Markdown Content: Aug 13, 2026 | 11 min read Our most intelligent workhorse model yet for coding and agents. * * * * * * ![Image 1: Spark icon next to the text \"Gemini 3.7 Flash\", all on a light blue backgorund](https://storage.googleapis.com/g",
-    "published": "2026-08-14T02:27:05.985576",
-    "source_name": "Google DeepMind",
-    "source_url": "https://deepmind.google/blog/",
-    "category": "foreign_official",
-    "author": null
-  },
-  {
-    "title": "👋 Welcome to Lil’Log",
-    "url": "https://twitter.com/lilianweng/",
-    "summary": "URL Source: https://twitter.com/lilianweng/ Markdown Content: [![Image 1: Lilian Weng profile banner](https://pbs.twimg.com/profile_banners/96999384/1747461613/1500x500)](https://twitter.com/lilianweng/header_photo) [![Image 2: user avatar](https://pbs.twimg.com/profile_images/1923619459643711488/qmXOBhZ1_400x400.jpg)](https://twitter.com/lilianweng/photo) Co-founder of Thinking Machines Lab [@thi",
-    "published": "2026-08-14T02:27:05.971849",
-    "source_name": "Lilian Weng",
-    "source_url": "https://lilianweng.github.io/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "OpenAI News",
-    "url": "https://openai.com/news/",
-    "summary": "URL Source: https://openai.com/news/ Markdown Content: * * * Switch cards to show Media   Switch cards to hide Media ![Image 1: The builder’s guide to GPT-5.6 — art card v2](https://images.ctfassets.net/kftzwdyauwt9/3FY1eL8uKr6sk8u8D1Io9H/834a0d53ff5209b0ad2bd90b12798c8d/index-builders-guide-to-gpt-5-6-cover.png?w=3840&q=90&fm=webp) [The builder’s guide to GPT‑5.6 Applied AI Aug 13, 2026](https://",
-    "published": "2026-08-14T02:27:05.928555",
-    "source_name": "OpenAI Blog",
-    "source_url": "https://openai.com/news/",
-    "category": "foreign_official",
-    "author": null
-  },
-  {
-    "title": "Newsroom",
-    "url": "mailto:press@anthropic.com",
-    "summary": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
-    "published": "2026-08-14T02:27:05.826536",
-    "source_name": "Anthropic",
-    "source_url": "https://www.anthropic.com/news",
-    "category": "foreign_official",
-    "author": null
+    "title": "德塔智能与舞肌科技达成战略合作，联合规范全身协同灵巧操作数据采集",
+    "url": "https://www.qbitai.com/2026/08/472718.html",
+    "summary": "德塔智能与舞肌科技达成战略合作，联合规范全身协同灵巧操作数据采集 量子位的朋友们 2026-08-14 14:18:56 来源： 量子位 8月14日，原生人形机器人基础模型公司德塔智能（Delta Intelligence）宣布与灵巧手硬件企业舞肌科技正式签署战略合作协议。双方将围绕全身协同灵巧操作的数据采集与模型训练展开协同，打通“数据采集—模型训练—灵巧操作”全链路，并计划于年内推出联合定义的“全身协同灵巧操作数据标准”与“模型训练基线”。灵巧操作并非孤立发生于手部，躯干的支撑姿态、手臂的运动轨迹与视觉焦点的变化，共同构成一次完整的操作过程。然而，现有的灵巧操作数据大多只记录手部自由度信息...",
+    "published": "2026-08-14T06:18:56",
+    "source_name": "量子位",
+    "source_url": "https://www.qbitai.com/",
+    "category": "chinese_ai",
+    "author": "量子位的朋友们"
   },
   {
     "title": "从“开放模型”到“开放生态”，AI 开源进入下半场",
@@ -270,36 +430,6 @@
     "author": "世界人工智能开源大赛"
   },
   {
-    "title": "微软 AI Gateway 新层级引热议：统一治理背后的权限隐忧",
-    "url": "https://www.infoq.cn/article/zYYwyGD3opKVwhTKYqaM?utm_source=rss&utm_medium=article",
-    "summary": "微软已发布 Azure API Management 专用 AI Gateway 层 的公开预览版。这是一种网关资源，其控制平面围绕模型、MCP 服务器和工具而非 API 进行组织。它被构建为一种独立体验，而不是现有网关上的另一层策略，不过经典层和 v2 层仍保留它们已有的 AI 网关功能。其核心理念是，如今团队需要接入多个提供商，而非单一提供商，工具也应反映这一点。该预览版可发布托管在 Foundry 上的模型，包括 OpenAI、Anthropic 和 Mistral，以及 AWS Bedrock、Google Vertex AI 和 OpenAI 直接提供的模型。...",
-    "published": "2026-08-13T17:46:14",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "作者：Steef-Jan Wiggers"
-  },
-  {
-    "title": "软件不是文件：KDC 的知识工程主张",
-    "url": "https://www.infoq.cn/article/N43yEF08JflwxI0S0Uec?utm_source=rss&utm_medium=article",
-    "summary": "作者 ：vivo 肖博 AI 合作者 ：ChatGPT（GPT-5.5） 创作模式 ：Human-led, AI-collaborated 责任声明 ：文章观点、理论体系及最终内容由作者负责；AI 参与讨论、推演、表达优化及部分内容生成。研究说明：知识驱动计算（Knowledge-driven Computing, KDC）是我们正在提出和持续打磨的一套 AI 应用软件工程理论，目前仍处于开放研究阶段。上一篇讨论了应用软件为什么应该从领域现实出发，以及数据、文档、API 和事件为什么只是现实的数字表示。这一篇继续追问：表示在什么条件下，才能成为 AI 系统可以信任和复用的知识？ 本文摘要：检索...",
-    "published": "2026-08-13T16:53:43",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "vivo肖博"
-  },
-  {
-    "title": "少开会、讲契约：平台团队如何降低跨团队协作成本？",
-    "url": "https://www.infoq.cn/article/2uH7CYREyZV2VOqCesSV?utm_source=rss&utm_medium=article",
-    "summary": "仅仅拥有一个平台还不够；真正的挑战在于确保用户能够理解和使用它，并且真正采用它。Eugenia Bergman 和 Hagen Tonnies 在 KubeCon & CloudNativeCon Europe 大会上介绍了他们如何让自己的平台 从项目思维转向产品思维。Bergman 提到，他们引入了生产者—消费者模型，以简化团队理解交互关系的方式。在该模型中，提供某项能力的团队是生产者，使用该能力的团队则是消费者。这有助于明确依赖关系： 生产者定义清晰的接口和预期 消费者通过这些接口进行交互，而不是采取临时协调的方式 Bergman 表示，其中一项关键转变，是从通过会议和中间人进行协调，转向...",
-    "published": "2026-08-13T16:08:28",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "作者：Ben Linders"
-  },
-  {
     "title": "深度体验DeepSeek Harness，我原谅它涨价了",
     "url": "https://www.qbitai.com/2026/08/472208.html",
     "summary": "深度体验DeepSeek Harness，我原谅它涨价了 Jay 2026-08-14 00:03:19 来源： 量子位 欢迎，为后人种点树 Jay 发自 凹非寺 量子位 | 公众号 QbitAI DeepSeek Harness ，终于发布，并且将源代码开源了。为啥说「终于」呢？因为我已经内测了快半个月，现在也是终于能发了。这段时间里，为了测试，我几乎把我所有Vibe Coding项目，都从Codex迁移到了黑鲸（是的，logo黑化了）。...",
@@ -308,26 +438,6 @@
     "source_url": "https://www.qbitai.com/",
     "category": "chinese_ai",
     "author": "Jay"
-  },
-  {
-    "title": "鸿蒙元服务的“体验密码” | 从京东到深圳万象城，看技术底层如何让服务直达用户",
-    "url": "https://www.infoq.cn/article/idSeoMsu4WCrNlxYNC5H?utm_source=rss&utm_medium=article",
-    "summary": "如果回顾过去十年用户获取数字服务的方式，主线很清晰：从搜索引擎到应用商店，再到推荐信息流，每一次演进都在缩短“需求产生”到“服务获得”之间的路径。但无论形式如何变化，底层逻辑始终是“人找服务”——用户需要知道去哪找、怎么找，然后主动完成操作。AI 时代，系统不再被动等待用户点开图标，而是能感知用户所处的场景和潜在需求，在恰当的时间将服务直接推送到用户面前。特别是在暑期这种出行、观赛、逛街集中爆发的时刻，需求往往是一连串的：去商场停车，从导航、找车位到离场缴费；看一场球赛，从提醒开赛、看实时比分到看直播。...",
-    "published": "2026-08-13T15:56:29",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "李文朋"
-  },
-  {
-    "title": "TanStack Table V9测试版：Tree-Shakable特性、TanStack Store状态与更低内存的使用",
-    "url": "https://www.infoq.cn/article/sw9Wgh5VPpzpuUmQvFo1?utm_source=rss&utm_medium=article",
-    "summary": "TanStack Table 是一个用于在各种 JavaScript 框架中构建表格和数据网格的 headless UI 库，最近发布了 TanStack Table V9 beta版本 ，该版本在保持开发者熟悉的核心表格逻辑的同时，重构了状态管理、内存使用、打包体积与可扩展性。该 beta 版本于 2026 年 6 月 8 日通过 X 发布，引入了基于 TanStack Store 的状态管理、通过状态订阅实现的细粒度重渲染控制、大规模下更低的内存占用、带类型安全的可 tree-shake 特性、更清晰的插件模型以及重写的开发者工具。它支持 React、Preact、Angular、Soli...",
-    "published": "2026-08-13T14:23:01",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "作者：Daniel Curtis"
   },
   {
     "title": "4.8亿美元砸向端侧算力！Agent芯片新贵冲出重围",
@@ -350,16 +460,6 @@
     "author": "克雷西"
   },
   {
-    "title": "Azure Cosmos DB 严重漏洞曝光：一条查询可攻破所有租户数据库",
-    "url": "https://www.infoq.cn/article/L9IqUuWzSB4zgP0PBqG2?utm_source=rss&utm_medium=article",
-    "summary": "Wiz Research 披露了 CosmosEscape ，这是 Azure Cosmos DB 中的一条漏洞利用链，可获得对该服务上每个数据库的读写权限。Microsoft 已完成修复，客户无需采取任何行动。此次披露的重要性，与其说在于漏洞本身，不如说在于它揭示了从一个运行中的多租户系统里移除全局密钥需要多长时间，以及在此期间客户几乎无能为力。这条利用链始于针对研究人员自行控制的 Gremlin 数据库发起的一条特制查询。Cosmos DB 会在旨在将查询限制于 Gremlin 操作范围内的约束条件下，把 Gremlin 查询编译成 .NET 代码，但这些限制并未充分考虑 .NET 反射。...",
-    "published": "2026-08-13T11:53:15",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "作者：Steef-Jan Wiggers"
-  },
-  {
     "title": "具身数据来了实战派！40天2轮融资数千万，瞄准物理AI基础设施",
     "url": "https://www.qbitai.com/2026/08/472060.html",
     "summary": "具身数据来了实战派！40天2轮融资数千万，瞄准物理AI基础设施 允中 2026-08-13 19:53:02 来源： 量子位 重新定义物理AI数据基础设施 允中 发自 凹非寺 量子位 | 公众号 QbitAI 近日，具身智能数据基础设施公司元点科技（SCALEFORCE）完成数千万元人民币融资，投资者包含国内顶级具身智能产业方、恒旭资本和凯联资本。本轮融资将主要用于元点科技物理AI操作系统MatrixOS技术迭代、大规模数据生产网络建设及团队扩展，加速成为全球领先的具身智能数据基础设施公司。元点科技创始人郭江亮表示： 具身智能的竞争已进入主打数据与智能的下半场，元点科技旨在为全行业提供来自物理...",
@@ -378,125 +478,5 @@
     "source_url": "https://www.qbitai.com/",
     "category": "chinese_ai",
     "author": "衡宇"
-  },
-  {
-    "title": "与运行时无关的 AI 工作流：一种兼顾生产环境稳定性和快速评估迭代的模式",
-    "url": "https://www.infoq.cn/article/Za8vaFWPCM7LtuRfhDmD?utm_source=rss&utm_medium=article",
-    "summary": "AI 工作流是一系列为完成某项任务而串联起来的步骤，其中一个或多个步骤包含对 大语言模型（LLM） 的调用。在此，我们将这些步骤组合在一起的逻辑（包括步骤的顺序和分支）称为工作流的协调逻辑。对于这些工作流的生产要求，与过去十年间任何长期运行的分布式系统相同：它们需要能够经受住部署和崩溃的考验，能够以幂等的方式重试，并实现水平扩展。工作流引擎早在多年前就已经解决了这一类问题。AI 工作流的独特之处在于，LLM 步骤的输出质量可能会随着每次提示词微调或模型变更而发生漂移。...",
-    "published": "2026-08-13T11:06:51",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "作者：Mateus Moury"
-  },
-  {
-    "title": "中国人能飞！杭州发布全球首款站姿载人飞行器",
-    "url": "https://www.qbitai.com/2026/08/471893.html",
-    "summary": "中国人能飞！杭州发布全球首款站姿载人飞行器 杰西卡 2026-08-13 18:20:32 来源： 量子位 让一部分人先飞起来 杰西卡 发自 凹非寺 量子位 | 公众号 QbitAI 《蜘蛛侠》里的绿魔滑翔翼，走进现实了？！ 经过相应培训，站上飞行平台，你自己就能飞起来。来自杭州的飞行器技术公司 酷飞 ，刚刚发布了 站姿个人飞行器Urban、坐姿个人飞行器Dream、自研NA80飞控系统。整个过程没有复杂的仪表盘，也不需要驾驶者反复调整机身姿态。这个场景，或许你会觉得似曾相识——在 2026年央视春晚哈尔滨分会场 ，当时零下三十多度的天气下，唯一出镜进行载人表演的飞行器就来自酷飞。...",
-    "published": "2026-08-13T10:20:32",
-    "source_name": "量子位",
-    "source_url": "https://www.qbitai.com/",
-    "category": "chinese_ai",
-    "author": "杰西卡"
-  },
-  {
-    "title": "科大讯飞发布企业服务全系列产品 覆盖七大核心场景",
-    "url": "https://www.qbitai.com/2026/08/471884.html",
-    "summary": "科大讯飞发布企业服务全系列产品 覆盖七大核心场景 量子位的朋友们 2026-08-13 18:01:47 来源： 量子位 8月12日，围绕“共创行业智能体，激活增长新动能”主题，2026科大讯飞智能交互暨企业服务创新发布会在线上举行。科大讯飞正式发布覆盖智能管理、流程IT、供应链交易、营销销售、研发制造、决策分析、出海智能化七大核心场景的全场景智能体矩阵。此次发布标志着科大讯飞企业服务从单点AI工具向全场景智能体体系的系统性升级，也是其“做深B端”战略的一次集中亮相。行业拐点已至：企业AI从“完成动作”走向“交付业务” 当前企业需求正在发生结构性转变——从生成内容、整理文档等单点任务，转向能够...",
-    "published": "2026-08-13T10:01:47",
-    "source_name": "量子位",
-    "source_url": "https://www.qbitai.com/",
-    "category": "chinese_ai",
-    "author": "量子位的朋友们"
-  },
-  {
-    "title": "智象未来 (HiDream.ai)算法科学家潘滢炜博士确认出席AICon深圳，将分享“从 Token 预测到状态预测：迈向世界模型的原生全模态之路”",
-    "url": "https://www.infoq.cn/article/9d9Oik3uZpqfjbfElZaq?utm_source=rss&utm_medium=article",
-    "summary": "大模型能力持续演进，但 AI 的下一阶段竞争正在发生变化。模型能力之外，如何构建可靠的智能体、完善 AI 工程体系，并让 AI 在复杂业务环境中稳定运行，正在成为产业探索的新重点。8 月 21 日-22 日， AICon 全球人工智能开发与应用大会 将在深圳举办。大会全日程现已 100%上线，来自产业一线的技术专家将围绕 Agent 工程化、大模型基础设施、AI Native 研发、具身智能等前沿方向，分享 AI 时代的技术探索与工程实践，共同探讨 AI 从能力突破走向系统构建的新路径。在首日的 Keynote 主题演讲 中，智象未来 (HiDream.ai)算法科学家潘滢炜博士将带来 《 从...",
-    "published": "2026-08-13T10:00:00",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "AICon 全球人工智能开发与应用大会"
-  },
-  {
-    "title": "刚刚！Ilya首个模型曝光了",
-    "url": "https://www.qbitai.com/2026/08/471701.html",
-    "summary": "刚刚！Ilya首个模型曝光了 henry 2026-08-13 16:36:53 来源： 量子位 SSI第一剑，劈向持续学习 henry 发自 凹非寺 量子位 | 公众号 QbitAI 前OpenAI首席科学家 Ilya ，大概就是「哥已不在江湖，但江湖却到处都是哥的传说」的典型代表。亲手缔造深度学习时代的他，离开OpenAI已两年有余。自己创办的SSI不发模型，不做产品，几乎从牌桌上消失。可AI圈每隔一段时间，还是会有人追问同一个问题：Ilya在干嘛？ 现在，这件问题突然有了一个答案。就在刚刚，X上网友「三只草莓」爆料，SSI正在探索一种基于 TTT（Test-Time Training，测...",
-    "published": "2026-08-13T08:36:53",
-    "source_name": "量子位",
-    "source_url": "https://www.qbitai.com/",
-    "category": "chinese_ai",
-    "author": "henry"
-  },
-  {
-    "title": "联想集团Q1再创史上最佳业绩，AI服务器业务迎来爆发期",
-    "url": "https://www.qbitai.com/2026/08/471697.html",
-    "summary": "联想集团Q1再创史上最佳业绩，AI服务器业务迎来爆发期 允中 2026-08-13 14:33:52 来源： 量子位 当季实现营收1834亿元人民币，同比猛增43%，创历史新高 2026年8月13日，联想集团公布截至2026年6月30日的2026/27财年第一季度业绩：当季实现营收1834亿元人民币，同比猛增43%，创历史新高；单季经调整净利润首次突破10亿美元大关（折合超过73亿元人民币），同比增长176%；经调整净利润率同比接近翻倍至4.0%，同样刷新历史纪录。与此同时，联想集团三大主营业务营收均实现大双位数高速增长，并创历史同期新高；各市场大区营收同比增幅介于25%-58%的高速增长区间...",
-    "published": "2026-08-13T06:33:52",
-    "source_name": "量子位",
-    "source_url": "https://www.qbitai.com/",
-    "category": "chinese_ai",
-    "author": "允中"
-  },
-  {
-    "title": "倒计时｜2026世界机器人大会主论坛议程发布！",
-    "url": "https://www.qbitai.com/2026/08/471668.html",
-    "summary": "倒计时｜2026世界机器人大会主论坛议程发布！ 量子位的朋友们 2026-08-13 13:10:50 来源： 量子位 2026世界机器人大会开幕8月19-8月3日。2026 世界机器人大会主论坛全部议程今日揭晓。） 距离2026世界机器人大会开幕还有 7天。期待与全球机器人领域从业者、科研学者、产业伙伴齐聚，共探技术前沿，共绘发展蓝图！ 即刻报名， 共同见证机器人产业的现在与未来。",
-    "published": "2026-08-13T05:10:50",
-    "source_name": "量子位",
-    "source_url": "https://www.qbitai.com/",
-    "category": "chinese_ai",
-    "author": "量子位的朋友们"
-  },
-  {
-    "title": "从亚百毫秒级启动到生产级部署，腾讯云为何重构 Agent 沙箱？",
-    "url": "https://www.infoq.cn/article/KwZX2bLcaHRjuLG95vHI?utm_source=rss&utm_medium=article",
-    "summary": "2026 年初，OpenClaw 以一己之力掀起了本地终端 Agent 热潮，人们开始习惯把文件系统、浏览器、邮件、终端，以及各种账号权限交给 Agent。但“养虾”的背后，潜藏着比模型幻觉更直接的风险。Meta 超级智能实验室对齐负责人 Summer Yue 曾公开表示，她的“小龙虾”擅自删除和归档了数百封个人邮件，完全无视她给出的停止指令，最后只能通过手动关闭运行设备来终止相关进程。...",
-    "published": "2026-08-12T18:07:43",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "凌敏"
-  },
-  {
-    "title": "Vercel 发布新语言 Zero：代码不是写给人看的，而是写给 AI 的",
-    "url": "https://www.infoq.cn/article/KEq5kQG53vxPd0bXCY7y?utm_source=rss&utm_medium=article",
-    "summary": "Vercel Labs 发布了实验性系统编程语言 Zero ，其设计基于这样一个前提：编译器输出的主要阅读者不再是人类，而是 AI 智能体。Vercel 的 Chris Tate 于 2026 年 5 月 15 日发布了这门语言 ，将其定位为一门“速度更快、体积更小，而且更便于智能体使用和修复”的系统语言。此后，该项目快速推进，已发布 v0.3.4，并在 GitHub 上获得了超过 5200 个 Star。Zero 使用 .0 文件扩展名，采用 Apache 2.0 许可证，并可编译为适用于 Linux、macOS 和 Windows 的原生二进制文件。早期报道主要关注其体积和速度，据称一个 ...",
-    "published": "2026-08-12T17:22:00",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "作者：Daniel Curtis"
-  },
-  {
-    "title": "别再所有人平分AI算力：顶级模型给资深工程师才省钱，新人刷题式成长已失效",
-    "url": "https://www.infoq.cn/article/YBCpst8secs3xWqZwWLe?utm_source=rss&utm_medium=article",
-    "summary": "随着 Claude Code、Codex、Kimi Code 等编程智能体快速迭代，软件开发正从“人写代码、工具辅助”，转向“人定义目标、Agent 持续执行”。模型不仅能够生成代码，还开始自主调用工具、调试程序、压缩上下文，甚至连续工作数小时。与此同时，模型调用成本、生产环境责任、验证闭环、人才培养和软件组织结构等问题，也逐渐从技术讨论进入企业经营层面。在 2026 世界人工智能大会期间的 InfoQ 媒体直播间，AI Coding 成为“AI 正在重写什么”这一主题下最具争议的话题之一。拥有近 20 年企业软件开发经验、Sirius contributor 滕昱，以及曾在 Google 担...",
-    "published": "2026-08-12T17:19:22",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "褚杏娟"
-  },
-  {
-    "title": "面壁智能正式启动IPO：中信证券辅导，端侧模型走向资本市场",
-    "url": "https://www.infoq.cn/article/hMG80lZUX1kaJWpr58g1?utm_source=rss&utm_medium=article",
-    "summary": "中国证监会官网 IPO 辅导公示系统显示，北京面壁智能科技股份有限公司已向北京证监局提交首次公开发行股票并上市辅导备案，中信证券担任辅导机构。这意味着面壁智能已经进入境内上市辅导阶段，但目前尚未披露拟申报的具体上市板块、募资规模及时间表。需要说明的是，辅导备案是企业推进境内 IPO 的重要环节，但并不等同于已经向交易所递交上市申请。面壁智能后续仍需完成上市辅导、规范公司治理和财务体系，并经过验收、申报、审核及注册等程序。辅导备案报告显示，面壁智能目前注册资本为 154 万元，公司无控股股东。...",
-    "published": "2026-08-12T16:48:13",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "褚杏娟"
-  },
-  {
-    "title": "SkiaSharp 4 连发多个版本：GPU 渲染提速，WebAssembly 支持升级",
-    "url": "https://www.infoq.cn/article/pKprBfc9MPLZVaNpMQgg?utm_source=rss&utm_medium=article",
-    "summary": "Microsoft 和 Uno Platform 发布了 SkiaSharp 4 系列的首批稳定版本 ，首先是 SkiaSharp 4.148.0，随后不久又发布了 4.150.0。4.151.0 预发布版本线也已推出，这体现了该项目将软件包版本和发布节奏与上游 Skia 里程碑保持一致的新方法。SkiaSharp 为 谷歌的 Skia 2D 图形引擎 提供 .NET 绑定，覆盖移动、桌面、Web 和服务器应用。此前的稳定分支 SkiaSharp 3.119 已落后上游 Skia 数个里程碑。版本 4 对引擎进行了现代化改造，移除了较旧的 API，并引入了一种更可预测的模式，使稳定版和预览版软...",
-    "published": "2026-08-12T15:28:00",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "作者：Edin Kapić"
   }
 ]
