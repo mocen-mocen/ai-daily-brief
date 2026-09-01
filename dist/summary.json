@@ -1,29 +1,30 @@
 {
   "success": true,
-  "total_articles": 52,
+  "total_articles": 51,
   "categories": {
-    "chinese_ai": 22,
-    "foreign_media": 10,
+    "chinese_ai": 26,
     "foreign_researcher": 13,
-    "foreign_official": 7
+    "foreign_media": 9,
+    "foreign_official": 3
   },
   "sources": [
-    "The Register AI",
-    "Exa AI Search",
-    "Anthropic",
-    "InfoQ AI",
-    "Lilian Weng",
-    "Distill.pub",
-    "Google DeepMind",
-    "BusinessToday AI",
     "Andrej Karpathy",
-    "Hacker News",
-    "Simon Willison",
-    "OpenAI Blog",
     "Entrepreneur AI",
+    "Exa AI Search",
+    "Lilian Weng",
+    "The Register AI",
+    "Distill.pub",
     "Dario Amodei",
-    "量子位"
+    "AIbase",
+    "BusinessToday AI",
+    "InfoQ AI",
+    "OpenAI Blog",
+    "Simon Willison",
+    "Hacker News",
+    "Anthropic",
+    "量子位",
+    "Google DeepMind"
   ],
   "output_path": "dist/index.html",
-  "generated_at": "2026-09-01T04:41:49.090143"
+  "generated_at": "2026-09-01T16:31:19.586405"
 }
