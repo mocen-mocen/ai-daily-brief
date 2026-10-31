@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Daily Brief - 2026-10-31</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0a0f;
+            --bg-secondary: #12121a;
+            --bg-card: #1a1a24;
+            --bg-hover: #22222e;
+            --text-primary: #ffffff;
+            --text-secondary: #a0a0b0;
+            --text-muted: #6b6b7b;
+            --accent-blue: #3b82f6;
+            --accent-purple: #8b5cf6;
+            --accent-cyan: #06b6d4;
+            --accent-green: #10b981;
+            --border-color: #2a2a3a;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+            border-bottom: 1px solid var(--border-color);
+            padding: 2rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .logo-text {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--text-primary), var(--accent-cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .date-badge {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+
+        /* Stats */
+        .stats-bar {
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1rem 0;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 0.75rem;
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent-cyan);
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* Main Content */
+        .main {
+            padding: 2rem 0;
+        }
+
+        /* Category Sections */
+        .category-section {
+            margin-bottom: 3rem;
+        }
+
+        .category-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .category-icon {
+            font-size: 1.25rem;
+        }
+
+        .category-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+
+        .category-count {
+            background: var(--bg-hover);
+            color: var(--text-secondary);
+            padding: 0.25rem 0.75rem;
+            border-radius: 12px;
+            font-size: 0.875rem;
+        }
+
+        /* Article Cards */
+        .articles-grid {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .article-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.25rem;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .article-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+            border-color: var(--accent-blue);
+        }
+
+        .article-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 1rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .article-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            line-height: 1.4;
+            flex: 1;
+        }
+
+        .article-card:hover .article-title {
+            color: var(--accent-blue);
+        }
+
+        .article-source {
+            font-size: 0.75rem;
+            color: var(--accent-purple);
+            background: rgba(139, 92, 246, 0.1);
+            padding: 0.25rem 0.5rem;
+            border-radius: 6px;
+            white-space: nowrap;
+        }
+
+        .article-summary {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.7;
+            margin: 0.75rem 0;
+            padding: 0.75rem 0;
+            border-top: 1px dashed var(--border-color);
+            border-bottom: 1px dashed var(--border-color);
+        }
+
+        .article-summary.empty {
+            color: var(--text-muted);
+            font-style: italic;
+            border: none;
+            padding: 0.5rem 0;
+        }
+
+        .read-more {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            color: var(--accent-blue);
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-top: 0.5rem;
+        }
+
+        .article-meta {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .article-date {
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+        }
+
+        .article-author {
+            color: var(--accent-green);
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--bg-secondary);
+            border-top: 1px solid var(--border-color);
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .footer-text {
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+
+        .footer-links {
+            margin-top: 0.5rem;
+        }
+
+        .footer-links a {
+            color: var(--accent-blue);
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .article-header {
+                flex-direction: column;
+            }
+
+            .article-source {
+                align-self: flex-start;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .article-card {
+            animation: fadeIn 0.3s ease forwards;
+        }
+
+        /* Scroll to top */
+        .scroll-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: var(--accent-blue);
+            color: white;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            opacity: 0;
+            transition: opacity 0.3s, transform 0.3s;
+            border: none;
+            font-size: 1.25rem;
+        }
+
+        .scroll-top.visible {
+            opacity: 1;
+        }
+
+        .scroll-top:hover {
+            transform: translateY(-3px);
+            background: var(--accent-purple);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">🤖</div>
+                    <h1 class="logo-text">AI Daily Brief</h1>
+                </div>
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                    <nav class="nav-links" style="display: flex; gap: 0.5rem;">
+                        <a href="index.html" style="color: var(--accent-blue); text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; background: var(--bg-card); font-size: 0.875rem;">今日日报</a>
+                        <a href="history.html" style="color: var(--text-secondary); text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; transition: all 0.2s; font-size: 0.875rem;">历史归档</a>
+                    </nav>
+                    <div class="date-badge">
+                        📅 2026年10月31日 · 周六
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="stats-bar">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-value">50</div>
+                    <div class="stat-label">今日文章</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">4</div>
+                    <div class="stat-label">分类</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">15</div>
+                    <div class="stat-label">来源</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="main">
+        <div class="container">
+            
+            
+            <section class="category-section">
+                <div class="category-header">
+                    
+                    <span class="category-icon">🇨🇳</span>
+                    <h2 class="category-title">国内 AI 媒体</h2>
+                    <span class="category-count">25 篇</span>
+                </div>
+                <div class="articles-grid">
+                    
+                    <a href="https://www.infoq.cn/article/tNLFh02J0koQswlY5Oqe?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">GitHub Actions Runner Controller 0.15.0 致力于实现大规模场景下的可靠性</h3>
+                            <span class="article-source">InfoQ AI</span>
+                        </div>
+                        
+                        <p class="article-summary">GitHub 发布 Actions Runner Controller (ARC) 0.15.0 版本，为在 Kubernetes 上运行自托管 GitHub Actions 运行器的组织带来了可靠性、可扩展性和可观测性方面的改进。该版本于 10 月 1 日发布，重点在于减少不必要的 Kubernetes API 请求、提升控制器吞吐量，并使升级和关机操作更具可预测性，对于管理大量运行器扩展集的环境而言尤其如此。ARC 是一个 Kubernetes 操作符，可以根据工作流需求自动扩展自托管的运行器。它允许组织运行自己的执行基础设施，并在任务到达和完成时动态地创建和删除运行器实例。如果企业需要控...</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="article-author">👤 作者：Craig Risi</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.infoq.cn/article/fcdAAd69U452t9b39rLU?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">终于不是 AI 了：Lambda 直接运行 Express，API Gateway 还需要吗？</h3>
+                            <span class="article-source">InfoQ AI</span>
+                        </div>
+                        
+                        <p class="article-summary">亚马逊云科技最近 推出了 Lambda Web Functions ，让开发者能够直接在 Lambda 上运行使用 Express 和 Hono 等框架构建的 Node.js Web 应用，并支持并发请求和流式响应。根据 Lambda Web Functions 文档 ，新函数支持并发 HTTP 请求和流式响应。其计费依据是活跃 CPU 时间和内存，而不是等待下游服务期间的 CPU 时间。多区域路由会将请求发送到距离最近的区域，而一个已经预热的执行环境可以同时处理多个并发请求，从而显著减少冷启动。现有 Lambda 函数现在被称为 Lambda Event Functions，无须进行任何改动...</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="article-author">👤 作者：Renato Losio</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.infoq.cn/article/C9FJGQ0ptRp8F8kHRRdZ?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">27 岁程序员获无限 Token，挑战两个月重写思科 98% 的遗留代码</h3>
+                            <span class="article-source">InfoQ AI</span>
+                        </div>
+                        
+                        <p class="article-summary">在一家市值数千亿美元、拥有庞大工程体系的科技巨头内部，谁有资格主导一场大规模的软件重构？按照传统逻辑，答案通常是经验丰富的高级工程师、架构师，或者拥有数十年企业系统开发经验的技术负责人。被埋没在思科的 27 岁前 CEO，突然拿到一项不可能完成的任务 但 Cisco 总裁兼首席产品官 Jeetu Patel，却把机会交给了一位只有 27 岁的年轻人。更让人意外的是，这位年轻人提出，自己只需要两个人，就有机会完成一项惊人的任务：在 24 个月内，重写 Cisco 98% 的遗留代码。Jeetu Patel 不仅没有否决这个想法，还给了他近乎无限的 AI Token 预算。“我给了他无限量的 To...</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-30</span>
+                            
+                            <span class="article-author">👤 李冬梅</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.infoq.cn/article/sCKczimP9lSEl0rgJ7VY?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">AI+垂类Agent：任务跑得久、工具用得熟，撑不起Agent公司长期竞争力｜贝联珠贯创始人兼CEO 毕玄分享</h3>
+                            <span class="article-source">InfoQ AI</span>
+                        </div>
+                        
+                        <p class="article-summary">在 1024 模力工场 · AI社区日 主论坛上，模力工场贝联珠贯创始人兼 CEO、前阿里巴巴集团研究员毕玄，以 《以 SREAgent 为例：看垂类 Agent 的竞争力》 为题作主题分享。SREAgent，是一款面向企业 IT 系统的 AI 运维助手 ，通过分析监控数据和日志，帮助运维人员排查故障、定位原因并处理问题。毕玄以 SREAgent 的实践为例，讨论了一个垂类 Agent 公司绕不开的问题：大模型越来越强，客户为什么还需要垂类 Agent？ 毕玄坦言，他们团队曾认为，让 Agent 长时间执行任务、熟练使用通用工具，是拉开竞争差距的关键；但随着大模型进步，这些能力正逐步成为模型本...</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-30</span>
+                            
+                            <span class="article-author">👤 木子</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.infoq.cn/article/f3FdeDczctAdHMhvBdKw?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">AI+社区：「模力工场」连接AI供需，补上信任缺口｜极客邦科技创始人兼CEO 霍太稳分享</h3>
+                            <span class="article-source">InfoQ AI</span>
+                        </div>
+                        
+                        <p class="article-summary">极客邦科技创始人兼 CEO 霍太稳，为 1024 模力工场·AI 社区日的主论坛开场致辞，并以《AI 破局的生态法则：从零和博弈到共生智能》为题作主题分享。霍太稳在开场致辞中表示，举办此次社区日、推动总部落地杭州，是希望立足本地，通过持续的社区建设与交流合作，为 AI 应用落地培育生态。在主题分享中，他提出，AI 行业的关注点，正从大模型的参数竞争转向智能体及具体业务应用，于此同时，企业的需求正在变化：相比几天的培训，它们更希望服务方带着团队做出能用的智能体与 Skill，让学习直接连接实践。所以极客邦科技，也将“助力企业 AI 加速落地”作为业务升级的重要方向。霍太稳表示，会用 AI 工具，...</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-30</span>
+                            
+                            <span class="article-author">👤 木子</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.infoq.cn/article/O6mtiB7FVd0VSDHJe348?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">EmbeddingGemma 2：Google 把五种模态塞进同一个向量空间</h3>
+                            <span class="article-source">InfoQ AI</span>
+                        </div>
+                        
+                        <p class="article-summary">Google 的 EmbeddingGemma 2 是一款紧凑、开放权重的多模态嵌入模型 ，基于 Gemma 4 构建，并采用 Apache 2.0 许可证发布。该模型旨在提高语义搜索和检索增强生成（RAG）的效率，同时针对设备端部署优化性能。EmbeddingGemma 2 旨在移动设备和笔记本电脑等消费级硬件上运行，可为设备端搜索、检索增强生成（RAG）、分类和聚类等应用提供低延迟的语义表示。得益于多模态能力，EmbeddingGemma 2 支持广泛的检索任务，包括根据查询查找相关文档、屏幕截图和录音，使用自然语言搜索源代码，以及根据文本描述检索视频内容。Google 表示，Embedd...</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-30</span>
+                            
+                            <span class="article-author">👤 作者：Sergio De Simone</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.infoq.cn/article/ZolBIJdvK5Icdqg6FB0X?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">超节点火了一年后，“算力不够就加机器”的扩张逻辑正在被改写</h3>
+                            <span class="article-source">InfoQ AI</span>
+                        </div>
+                        
+                        <p class="article-summary">几十卡、数百卡、上千卡，AI 算力基础设施的规模竞赛，正在进入一个新的阶段。过去，大模型厂商展示算力实力，最直观的方式是拥有多少张 GPU、建设了多大规模的计算集群。如今，随着超节点成为 AI 基础设施领域的热门方向，厂商展示实力的方式又多了一个：能够把多少颗 AI 芯片连接起来，让它们像一台计算机一样协同工作。从英伟达的 GB200 NVL72，到华为的数百卡、千卡级超节点，再到各家国产厂商陆续推出的紧耦合计算系统，超节点的规模不断扩大。72 卡、384 卡、1024 卡，这些数字也越来越频繁地出现在产品发布和技术讨论中。...</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-30</span>
+                            
+                            <span class="article-author">👤 李冬梅</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.infoq.cn/article/A8YgLsG4VOhoJkUVq9Jq?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">.NET 11 第 2 个候选版本发布，带来生产环境部署许可以及针对库、F#、MAUI 和 WinForms 的更新</h3>
+                            <span class="article-source">InfoQ AI</span>
+                        </div>
+                        
+                        <p class="article-summary">微软发布 .NET 11 的 第 2 个候选版本。如公告所述，该版本附带可用于生产环境部署的许可。Visual Studio 2026 Insiders 以及安装了 C# 开发工具包（Dev Kit）的 Visual Studio Code 都支持这一构建。据报道，该版本对库、运行时、SDK、NuGet、F#、ASP.NET Core、.NET MAUI 和 Windows Forms 进行了多项更新，不过并未引入新的 C# 语言特性。在库方面， CborReader 现在可以通过 isFinalBlock 和 SlideData 读取分块传输的有效载荷，但仅限于宽松一致性模式。...</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-30</span>
+                            
+                            <span class="article-author">👤 作者：Almir Vuk</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.infoq.cn/minibook/lmVM6XjSDMpMb6QTbK0l?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">2026年AI技术演进与2027年趋势前瞻报告</h3>
+                            <span class="article-source">InfoQ AI</span>
+                        </div>
+                        
+                        <p class="article-summary empty">暂无摘要，点击查看原文阅读完整内容 →</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-30</span>
+                            
+                            <span class="article-author">👤 极客时间企业版</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.infoq.cn/article/cyfZ34rycDPzIrzohosZ?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">NestJS 12：ESM 包、标准模式验证和原生可观测性</h3>
+                            <span class="article-source">InfoQ AI</span>
+                        </div>
+                        
+                        <p class="article-summary">用于构建服务器端 Node.js 应用程序的 TypeScript 框架 NestJS 发布了 12 版本。这个大版本将核心包迁移至 ESM，新增了作为一等公民的 Standard Schema 验证功能，重构了 CLI，并推出了官方可观测性 SDK。该版本符合 4 月份公布的 路线图 ，其创建者 Kamil Myśliwiec 在 X 平台发布的公告 已获得超过 1100 个赞和 6.6 万次浏览。迁移到 ESM 成为头条新闻，这很大程度上是因为它对现有团队的要求极低。现在，核心包以 ESM 格式发布，但借助 Node.js 对 require(esm) 的支持， CommonJS 应用程序...</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-30</span>
+                            
+                            <span class="article-author">👤 作者：Daniel Curtis</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.infoq.cn/article/FJqN3mFVyN1lMqHOiegs?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">谷歌推出 EnvHarness，支持自进化智能体动态环境学习</h3>
+                            <span class="article-source">InfoQ AI</span>
+                        </div>
+                        
+                        <p class="article-summary">谷歌研究人员开源 EnvHarness ，这是一个能够根据智能体的短板动态调整智能体训练环境的框架，且无需修改智能体、环境或评估系统。研究人员表示，这种方法既能提高学习效果和效率，又能帮助智能体克服自身缺陷。研究人员表示，自我进化型智能体通常通过重写提示词和获取新技能来改进自身，但很少会对其运行的环境进行调整。这带来了一个关键问题： 一个在固定基准上不断改进的智能体最终将无法再从该基准中学到东西。对于处于每个学习阶段的每个学习者而言，初始状态、规则和反馈都是相同的，因此一旦智能体能够解决这些任务，环境就再也无法提供新的知识。...</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-30</span>
+                            
+                            <span class="article-author">👤 作者：Sergio De Simone</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.infoq.cn/article/5EaQcXCgMWaZaRvFBeoh?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">4 条提示词，如何把 98 条产品评论变成工程决策依据 ｜ 技术实践</h3>
+                            <span class="article-source">InfoQ AI</span>
+                        </div>
+                        
+                        <p class="article-summary">2026 年，智能体将在企业级应用中取得哪些实质性突破？ 点击下载 《2026 年 AI 与数据发展预测》白皮书，获悉专家一手前瞻，抢先拥抱新的工作方式！ 问题：一款 3.7 星产品背后隐藏的安全危机 GE Profile Opal 2.0 是一款售价 500 美元的台面式颗粒冰制冰机。但在这些评论中，藏着一个星级评分永远无法告诉你的问题： 消费者报告称，机器内部长出了 黑霉； 多位评论者提到，在收到有缺陷的翻新替换机后，他们 向美国商业改进局（BBB）投诉； 一位评论者的标题是：“ 严重的健康隐患——千万别买 ”； 另一位写道：“ 千万别买。...</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-30</span>
+                            
+                            <span class="article-author">👤 Naveen Alan</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.infoq.cn/article/u23wUVUDcFqL7hLBWXuW?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed</h3>
+                            <span class="article-source">InfoQ AI</span>
+                        </div>
+                        
+                        <p class="article-summary">近日，前腾讯 AI Lab R4 部门合伙人、“王者绝悟”技术负责人叶德珩（Deheng Ye）在个人主页更新了职业信息，确认已加入字节跳动 Seed 团队，担任研究员，从事基础模型（Foundation Models）相关研究。叶德珩在托管于 GitHub Pages 的个人主页中写道： I am a Researcher at ByteDance Seed working on foundation models. 即“我目前是字节跳动 Seed 团队的一名研究员，从事基础模型研究”。页面列出的工作履历显示，他于 2017 年至 2026 年供职腾讯，2026 年起加入字节跳动。在项目经历...</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-30</span>
+                            
+                            <span class="article-author">👤 李冬梅</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.infoq.cn/article/pwQAXtApbhdQRN2vQfdS?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">希望这不会拖慢创新：DuckLabs 被收购，社区既高兴又警惕</h3>
+                            <span class="article-source">InfoQ AI</span>
+                        </div>
+                        
+                        <p class="article-summary">DuckLabs 总部位于阿姆斯特丹，是分析型数据库 DuckDB 背后的公司。根据相关消息，DuckDB 创建者兼 DuckLabs 联合创始人 Hannes Mühleisen 和 Mark Raasveldt 将加入亚马逊云科技，继续领导团队并负责该开源项目的技术方向。Mühleisen 和 Raasveldt 在 DuckLabs 博客的公告中 解释了决定加入亚马逊云科技的原因： 加入亚马逊云科技让我们获得了相应的资源和影响力，可以将这项技术带给更多开发者和组织，并以我们独自发展时难以达到的规模探索各种想法。参与这项交易的各方都向社区保证，DuckLabs 所维护项目的未来不会受到影响...</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-30</span>
+                            
+                            <span class="article-author">👤 作者：Gianmarco Nalin</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.infoq.cn/article/UNli8x0wc8XUNjI5ETya?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力</h3>
+                            <span class="article-source">InfoQ AI</span>
+                        </div>
+                        
+                        <p class="article-summary">软件供应链安全公司 Chainguard 发布两款测试版产品，用于运行和测试开发者与 AI 智能体编写的代码。Chainguard Workspaces 提供基于加固型微型虚拟机的远程开发环境，而 Chainguard Checks 将持续集成能力融入开发流程。该公司在伦敦 Assemble 大会上公布了这两款产品。推出这两款产品是为了解决代码智能体面临的一个实际难题。智能体需要权限来安装软件包、执行 shell 命令和编辑配置文件，还可能并行执行多项任务。...</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-30</span>
+                            
+                            <span class="article-author">👤 作者：Matt Saunders</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.qbitai.com/2026/10/506743.html" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">英伟达团队基于 MiniMax H3 开源视频增强方案，最高支持 4K 重生成</h3>
+                            <span class="article-source">量子位</span>
+                        </div>
+                        
+                        <p class="article-summary">英伟达与麻省理工学院团队，在 Hugging Face 发布了视频增强项目 Open-H3-Regenerate-2K 的模型权重</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-30</span>
+                            
+                            <span class="article-author">👤 量子位的朋友们</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.qbitai.com/2026/10/506686.html" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">RSI立大功！国产开源登顶全球第一，1.3B OXR重塑OCR</h3>
+                            <span class="article-source">量子位</span>
+                        </div>
+                        
+                        <p class="article-summary">RSI立大功！国产开源登顶全球第一，1.3B OXR重塑OCR Jay 2026-10-30 13:52:47 来源： 量子位 解析一切 Jay发自 凹非寺 量子位|公众号QbitAI 不er，RSI应用在OCR上，效果这么猛？？ 最近，一个参数量仅1.3B的国产开源模型，打爆了文档解析。OmniDocBench、olmOCR-Bench和DocParsingBench，三榜第一。...</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-30</span>
+                            
+                            <span class="article-author">👤 Jay</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.qbitai.com/2026/10/506674.html" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">Claude新模型曝光：新Fable，新Opus…</h3>
+                            <span class="article-source">量子位</span>
+                        </div>
+                        
+                        <p class="article-summary">Claude新模型曝光：新Fable，新Opus… Jay 2026-10-30 13:50:44 来源： 量子位 Jay 发自 凹非寺 量子位 | 公众号 QbitAI 上市在即的Anthropic，开启了连发模式。刚刚，两款全新的Claude，被曝光了—— Fable 5.5，还有下一代Opus。这Opus 5.5才发布多久啊，又有新模型了，还是俩？？？ 目前，这些新模型已经悄悄进入了早期测试阶段，一些网友放出的实测效果图，也是相当离谱。A社你小子，为了IPO偷偷藏了不少好东西啊！ 所以，新模型，什么时候能出来？ 最快的话—— 下周。...</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-30</span>
+                            
+                            <span class="article-author">👤 Jay</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.qbitai.com/2026/10/506662.html" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">从学习人类到学习机器人同伴，清华大学联合无问芯穹、智元提出具身智能规模化落地新路径</h3>
+                            <span class="article-source">量子位</span>
+                        </div>
+                        
+                        <p class="article-summary">从学习人类到学习机器人同伴，清华大学联合无问芯穹、智元提出具身智能规模化落地新路径 量子位的朋友们 2026-10-30 11:48:04 来源： 量子位 让机器人成为彼此的“老师” 近日，清华大学、无问芯穹与智元联合提出群体经验学习（Collective Experience Learning，CEL）新范式，并在96台真实机器人组成的集群中完成规模化验证。CEL 让机器人可以不只依靠人类示范学习，还能借鉴群体中其他机器人的成功经验：一台机器人在执行任务时遇到困难，可以从同伴过去的经验中寻找解决方法，不断改进自己的表现。通过共享和积累经验，机器人群体能够在持续实践中共同提升能力，为推动机器人...</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-30</span>
+                            
+                            <span class="article-author">👤 量子位的朋友们</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.qbitai.com/2026/10/506609.html" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">前排围观！MEET2027报名通道正式开启，首批重磅嘉宾已就位</h3>
+                            <span class="article-source">量子位</span>
+                        </div>
+                        
+                        <p class="article-summary">前排围观！MEET2027报名通道正式开启，首批重磅嘉宾已就位 量子位的朋友们 2026-10-30 11:40:21 来源： 量子位 MEET组委会 发自 凹非寺 量子位 | 公众号QbitAI 2026年，AI正在从“会聊天”走向“能干活”。当模型开始调用工具、执行任务、嵌入组织流程，智能科技与产业之间的那道墙正在被推倒。12月9日，量子位MEET2027智能未来大会 如期而至。今年大会以 「智行合一·驭见未来」 为主题，和大家聊一聊：AI如何从演示走向交付，从工具走向组织，从单点能力走向系统效能。大模型与Agent的工程化落地、具身智能的规模化进场、AI原生组织的管理重构、企业数智化转型...</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-30</span>
+                            
+                            <span class="article-author">👤 量子位的朋友们</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.qbitai.com/2026/10/506569.html" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">买车送终身AI？智己LS8纯电版25万起！全系线控底盘宁德时代标配</h3>
+                            <span class="article-source">量子位</span>
+                        </div>
+                        
+                        <p class="article-summary">买车送终身AI？智己LS8纯电版25万起！全系线控底盘宁德时代标配 杰西卡 2026-10-30 08:19:06 来源： 量子位 Momenta世界模型上车 杰西卡 发自 ROBO-车 量子位ROBO | 公众号 AI4ROBO 车圈这是卷到汽车的筋骨了。上汽八年磨一剑的全线控底盘，被智己带进了 25万元级纯电SUV市场 ，而且 全系标配。刚刚， 智己LS8 NEO纯电版 正式开启预售： 车长超过5米，但转弯半径只有4.85米，还配备了三重安全冗余、全域线控矢量扭矩协同控制，甚至可以实现方向盘静默泊车。三电同样下足了功夫，新车 全系搭载宁德时代定制电池 ，提供93度、103度两个版本，最高续...</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-30</span>
+                            
+                            <span class="article-author">👤 杰西卡</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.qbitai.com/2026/10/506554.html" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">STEPX Neo 发布两周即迎首次升级，智能体能力持续释放</h3>
+                            <span class="article-source">量子位</span>
+                        </div>
+                        
+                        <p class="article-summary">STEPX Neo 发布两周即迎首次升级，智能体能力持续释放 量子位的朋友们 2026-10-29 17:58:26 来源： 量子位 阶跃终端旗下大模型原生智能体手机 STEPX Neo 在发布两周后即迎来首次升级 10 月 29 日消息，阶跃终端旗下大模型原生智能体手机 STEPX Neo 在发布两周后即迎来首次升级，更新覆盖视频创作、生活服务、工作任务，以及底层体验优化。此次更新呈现出 AI 时代智能体产品的一种演进路径：能力随模型进化与生态拓展持续释放。此次升级后，用户可通过个人智能体阶跃 Amoo 轻松调用剪映，一句话生成 Vlog，也可进行图片、视频再创作，并获得主动创作建议；还可主...</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-29</span>
+                            
+                            <span class="article-author">👤 量子位的朋友们</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.qbitai.com/2026/10/506550.html" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">中国MaaS市场TOP2，商汤大装置再度蝉联</h3>
+                            <span class="article-source">量子位</span>
+                        </div>
+                        
+                        <p class="article-summary">中国MaaS市场TOP2，商汤大装置再度蝉联 量子位的朋友们 2026-10-29 17:52:05 来源： 量子位 在大模型私有化市场，商汤大装置以9.4%的市场份额，再次稳居第二位 近日，国际数据公司（IDC）发布2026上半年中国企业级MaaS市场最新格局分析报告。报告显示，2026H1，中国MaaS市场规模达到106.3亿元人民币，同比增长近9倍；在大模型私有化市场，商汤大装置以9.4%的市场份额，再次稳居第二位，持续领跑行业第一梯队。报告重点聚焦今年上半年中国企业级MaaS市场的格局变化，认为模型升级、场景放量、模态扩容三大趋势，带动中国MaaS市场规模爆发式增长。对云厂商和模型厂商...</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-29</span>
+                            
+                            <span class="article-author">👤 量子位的朋友们</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.qbitai.com/2026/10/506544.html" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">AI安全是AI规模化应用“加速器”</h3>
+                            <span class="article-source">量子位</span>
+                        </div>
+                        
+                        <p class="article-summary">AI安全是AI规模化应用“加速器” 量子位的朋友们 2026-10-29 16:50:14 来源： 量子位 AI安全不是AI发展的“刹车片”，而是AI高质量发展的“加速器”。当AI真正参与业务决策、调用工具、操作系统乃至控制设备时，决策者关心的，不只是“能力有多强”，还关心“安全不安全”。进入智能体时代，AI安全也已不只是防止数据泄露或回答错误，而是关系到现实资产、业务连续性和责任承担。由此，一个常被讨论的问题正在发生变化：AI安全究竟是技术发展的约束，还是产业应用的前提条件？目前看，AI安全已从附加条件转变为AI进入生产系统、核心业务和关键行业的基础能力。...</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-29</span>
+                            
+                            <span class="article-author">👤 量子位的朋友们</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.qbitai.com/2026/10/506478.html" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">奥特曼和Dario同台唱rap！Genspark新视频Agent上线，零基础也能拍短剧</h3>
+                            <span class="article-source">量子位</span>
+                        </div>
+                        
+                        <p class="article-summary">奥特曼和Dario同台唱rap！Genspark新视频Agent上线，零基础也能拍短剧 听雨 2026-10-29 14:53:19 来源： 量子位 All in one、任何人都能用 Genspark 的视频Agent工作台， Genspark Media Studio ，正式发布了！ 这次，它把一批前沿模型拉到了一起，组了个AI剧组。负责当「导演」的大语言模型有三档可选：DeepSeek V4.1 Flash、Claude Opus 5.5，以及Claude Fable 5.1。是的，在这里面甚至能用上Fable 5.1…… 说实话因为某些众所周知的原因，我已经很久没有用到了。...</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-29</span>
+                            
+                            <span class="article-author">👤 听雨</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                </div>
+            </section>
+            
+            
+            
+            <section class="category-section">
+                <div class="category-header">
+                    
+                    <span class="category-icon">🏢</span>
+                    <h2 class="category-title">国际公司官方</h2>
+                    <span class="category-count">9 篇</span>
+                </div>
+                <div class="articles-grid">
+                    
+                    <a href="https://www.anthropic.com/science" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">Early progress on accelerating drug development with Claude</h3>
+                            <span class="article-source">Anthropic</span>
+                        </div>
+                        
+                        <p class="article-summary">URL Source: https://www.anthropic.com/science Markdown Content: [Skip to main content](https://www.anthropic.com/science#main-content) [News](https://www.anthropic.com/news)Research Policy Commitments [](https://www.anthropic.com/) Company Try Claude [](https://www.anthropic.com/search) # The Science effort at Anthropic focuses on how AI can increase the pace of scientific progress. We work to imp</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">Beyond tree cover: mapping the world’s forest types</h3>
+                            <span class="article-source">Google DeepMind</span>
+                        </div>
+                        
+                        <p class="article-summary">URL Source: https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/ Published Time: 2026-10-22T14:30:00+00:00 Markdown Content: October 22, 2026 Research Maxim Neumann and Charlotte Stanton A new 10-meter resolution map shows which of the world&#39;s forests are natural, planted, or farmed, and how they are changing over time Protecting the planet&#39;s forests starts with a simple</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.anthropic.com/news/announcements" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">Anthropic files S-1 with the SEC for proposed initial public offering</h3>
+                            <span class="article-source">Anthropic</span>
+                        </div>
+                        
+                        <p class="article-summary">URL Source: https://www.anthropic.com/news/announcements Markdown Content: [Skip to main content](https://www.anthropic.com/news/announcements#main-content) [News](https://www.anthropic.com/news)Research Policy Commitments [](https://www.anthropic.com/) Company Try Claude [](https://www.anthropic.com/search) [News](https://www.anthropic.com/news) # Announcements 78 ARTICLES Most recent Title Descr</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/?utm_source=deepmind.google&amp;utm_medium=referral&amp;utm_campaign=gdm&amp;utm_content=" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">Gemini 4 Carbon: Our next frontier model</h3>
+                            <span class="article-source">Google DeepMind</span>
+                        </div>
+                        
+                        <p class="article-summary">URL Source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/ Published Time: 2026-10-28T17:00:00+00:00 Markdown Content: Oct 28, 2026 | 6 min read Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities. * * * * * * ![Image 1: Faceted iridescent crystal surrounded by floating white number 4s.](http</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.anthropic.com/news/announcements" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">Investing in the public benefit</h3>
+                            <span class="article-source">Anthropic</span>
+                        </div>
+                        
+                        <p class="article-summary">URL Source: https://www.anthropic.com/news/announcements Markdown Content: [Skip to main content](https://www.anthropic.com/news/announcements#main-content) [News](https://www.anthropic.com/news)Research Policy Commitments [](https://www.anthropic.com/) Company Try Claude [](https://www.anthropic.com/search) [News](https://www.anthropic.com/news) # Announcements 78 ARTICLES Most recent Title Descr</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.anthropic.com/news/announcements" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">Introducing Claude Opus 5.5</h3>
+                            <span class="article-source">Anthropic</span>
+                        </div>
+                        
+                        <p class="article-summary">URL Source: https://www.anthropic.com/news/announcements Markdown Content: [Skip to main content](https://www.anthropic.com/news/announcements#main-content) [News](https://www.anthropic.com/news)Research Policy Commitments [](https://www.anthropic.com/) Company Try Claude [](https://www.anthropic.com/search) [News](https://www.anthropic.com/news) # Announcements 78 ARTICLES Most recent Title Descr</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">Genie 4: A new generation of world simulation</h3>
+                            <span class="article-source">Google DeepMind</span>
+                        </div>
+                        
+                        <p class="article-summary">URL Source: https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/ Published Time: 2026-10-27T16:13:00+00:00 Markdown Content: [Skip to main content](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/#page-content) ## Explore our next generation AI systems [Explore models](https://deepmind.google/models/) Gemini [![Image 1](https://storage.googleapis.com</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://openai.com/news/" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">OpenAI News</h3>
+                            <span class="article-source">OpenAI Blog</span>
+                        </div>
+                        
+                        <p class="article-summary">URL Source: https://openai.com/news/ Markdown Content: * * * Switch cards to show Media   Switch cards to hide Media ![Image 1: Making it easier for websites to express AI training preferences — Cover](https://images.ctfassets.net/kftzwdyauwt9/2k1vMnTZUeR0P30sHZA5P0/f6b841637d5d703414e3044fcb7196a0/websites-toeexpress-ai-training-preferences-cover.png?w=3840&amp;q=90&amp;fm=webp) [Making it easier for web</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.anthropic.com/news/announcements" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">Introducing Claude Opus 5.5</h3>
+                            <span class="article-source">Anthropic</span>
+                        </div>
+                        
+                        <p class="article-summary">URL Source: https://www.anthropic.com/news/announcements Markdown Content: [Skip to main content](https://www.anthropic.com/news/announcements#main-content) [News](https://www.anthropic.com/news)Research Policy Commitments [](https://www.anthropic.com/) Company Try Claude [](https://www.anthropic.com/search) [News](https://www.anthropic.com/news) # Announcements 78 ARTICLES Most recent Title Descr</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                </div>
+            </section>
+            
+            
+            
+            <section class="category-section">
+                <div class="category-header">
+                    
+                    <span class="category-icon">👨‍🔬</span>
+                    <h2 class="category-title">国际研究员</h2>
+                    <span class="category-count">11 篇</span>
+                </div>
+                <div class="articles-grid">
+                    
+                    <a href="https://openai.com/" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">OpenAI</h3>
+                            <span class="article-source">Andrej Karpathy</span>
+                        </div>
+                        
+                        <p class="article-summary">URL Source: https://openai.com/ Markdown Content: [Skip to main content](https://openai.com/#main) [](https://openai.com/) *   [Research](https://openai.com/research/index/) *   Products *   [Business](https://openai.com/business/) *   [Developers](https://openai.com/api/) *   [Company](https://openai.com/about/) *   [Foundation(opens in a new window)](https://openaifoundation.org/) Log in[Try Cha</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://lilianweng.github.io/posts/2024-11-28-reward-hacking/" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">Reward Hacking in Reinforcement Learning</h3>
+                            <span class="article-source">Lilian Weng</span>
+                        </div>
+                        
+                        <p class="article-summary">Reward hacking occurs when a reinforcement learning (RL) agent exploits flaws or ambiguities in the reward function to achieve high rewards, without genuinely learning or completing the intended task. Reward hacking exists because RL environments are often imperfect, and it is fundamentally challeng</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://lilianweng.github.io/posts/2025-05-01-thinking/" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">Why We Think</h3>
+                            <span class="article-source">Lilian Weng</span>
+                        </div>
+                        
+                        <p class="article-summary">Special thanks to John Schulman for a lot of super valuable feedback and direct edits on this post.
+Test time compute (Graves et al. 2016, Ling, et al. 2017, Cobbe et al. 2021) and Chain-of-thought (CoT) (Wei et al. 2022, Nye et al. 2021), have led to significant improvements in model performance, w</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://lilianweng.github.io/posts/2026-06-24-scaling-laws/" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">Scaling Laws, Carefully</h3>
+                            <span class="article-source">Lilian Weng</span>
+                        </div>
+                        
+                        <p class="article-summary">URL Source: https://lilianweng.github.io/posts/2026-06-24-scaling-laws/ Published Time: 2026-06-24T00:00:00Z Markdown Content: Scaling laws are one of the most critical empirical findings in deep learning. The observation is simple in form: the training loss decreases predictably as we scale up model size , dataset size , and compute , following a power-law curve, which appears as a straight line </p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://lilianweng.github.io/posts/2026-07-04-harness/" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">Harness Engineering for Self-Improvement</h3>
+                            <span class="article-source">Lilian Weng</span>
+                        </div>
+                        
+                        <p class="article-summary">URL Source: https://lilianweng.github.io/posts/2026-07-04-harness/ Published Time: 2026-07-04T00:00:00Z Markdown Content: The concept of **recursive self-improvement (RSI)** dates back to [I. J. Good (1965)](https://philpapers.org/rec/GOOSCT), where he defined an “ultraintelligent machine” as a system that can surpass humans in all intellectual activities and design better machines to improve itse</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://github.com/distillpub/post--multimodal/issues?q=is%3Aissue+label%3Apeer-review" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">Multimodal Neurons in Artificial Neural Networks</h3>
+                            <span class="article-source">Distill.pub</span>
+                        </div>
+                        
+                        <p class="article-summary">Gabriel Goh, Nick Cammarata †, Chelsea Voss †, Shan Carter, Michael Petrov, Ludwig Schubert, Alec Radford, and Chris Olah</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://github.com/distillpub/post--understanding-gnns/issues?q=is%3Aissue+label%3Apeer-review" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">Understanding Convolutions on Graphs</h3>
+                            <span class="article-source">Distill.pub</span>
+                        </div>
+                        
+                        <p class="article-summary">URL Source: https://github.com/distillpub/post--understanding-gnns/issues?q=is:issue+label:peer-review Markdown Content: [Skip to content](https://github.com/distillpub/post--understanding-gnns/issues?q=is:issue+label:peer-review#start-of-content) ## Navigation Menu [](https://github.com/) [Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fdistillpub%2Fpost--understanding-gnns</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://twitter.com/lilianweng/" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">👋 Welcome to Lil’Log</h3>
+                            <span class="article-source">Lilian Weng</span>
+                        </div>
+                        
+                        <p class="article-summary">URL Source: https://twitter.com/lilianweng/ Final URL: https://x.com/lilianweng Markdown Content: Lilian Weng 221 posts [![Image 1: Lilian Weng profile banner](https://pbs.twimg.com/profile_banners/96999384/1747461613/1500x500)](https://x.com/lilianweng/header_photo) [![Image 2: @lilianweng](https://pbs.twimg.com/profile_images/2099378394706448384/pkLvzVZe_400x400.jpg)](https://x.com/lilianweng/ph</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://simonwillison.net/2026/Oct/20/battledrones/" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">Battle Drones—a vibe coded RTS with audio-based multiplayer</h3>
+                            <span class="article-source">Simon Willison</span>
+                        </div>
+                        
+                        <p class="article-summary">URL Source: https://simonwillison.net/2026/Oct/20/battledrones/ Markdown Content: 20th October 2026 My latest vibe coded game experiment is a Command &amp; Conquer style RTS (Real Time Strategy) game called [Battle Drones](https://github.com/simonw/battledrones#readme) ([play it here](https://simonw.github.io/battledrones/)). Unlike [my previous experiments](https://simonwillison.net/2026/Aug/5/raccoo</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://simonwillison.net/2026/Oct/28/vibe-game-development/" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">The October inflection point for vibe game development</h3>
+                            <span class="article-source">Simon Willison</span>
+                        </div>
+                        
+                        <p class="article-summary">URL Source: https://simonwillison.net/2026/Oct/28/vibe-game-development/ Published Time: Sat, 31 Oct 2026 02:32:26 GMT Markdown Content: 28th October 2026 I’ve written before about how November 2025 was [an inflection point for coding agents](https://simonwillison.net/tags/november-2025-inflection/)—the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding age</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.anthropic.com/" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">Essays</h3>
+                            <span class="article-source">Dario Amodei</span>
+                        </div>
+                        
+                        <p class="article-summary">URL Source: https://www.anthropic.com/ Markdown Content: ## 2026 Public Benefit Report Anthropic is a Public Benefit Corporation (PBC), a designation that requires us to balance the financial interests of shareholders with the benefit to the broader public. This report takes stock of what we are doing to serve the public benefit, and of the work ahead. [Learn more](https://www.anthropic.com/public</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                </div>
+            </section>
+            
+            
+            
+            <section class="category-section">
+                <div class="category-header">
+                    
+                    <span class="category-icon">📰</span>
+                    <h2 class="category-title">国际媒体</h2>
+                    <span class="category-count">5 篇</span>
+                </div>
+                <div class="articles-grid">
+                    
+                    <a href="https://www.theregister.com/ai/" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">404 - The Register</h3>
+                            <span class="article-source">The Register AI</span>
+                        </div>
+                        
+                        <p class="article-summary">URL Source: https://www.theregister.com/ai/ Markdown Content: [![Image 1](https://image.theregister.com/225671.jpg?imageId=225671&amp;panox=0.00&amp;panoy=0.00&amp;panow=100.00&amp;panoh=100.00&amp;heightx=0.00&amp;heighty=0.00&amp;heightw=100.00&amp;heighth=100.00&amp;width=480&amp;height=216&amp;format=webp&amp;format=jpg) science ## NASA ponders a Hubble servicing mission or a controlled deorbit Agency only looking for information, but reent</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://ai.hubtoday.app/" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">HeadlineLogic News Portal</h3>
+                            <span class="article-source">AI Hub Today</span>
+                        </div>
+                        
+                        <p class="article-summary">URL Source: https://ai.hubtoday.app/ Final URL: https://headlinelogic.com/?d=hubtoday.app&amp;pcid=56&amp;a=false&amp;uuid=51aebcc782aed572a1881944b3f3ced8&amp;brand=hubtoday.app Markdown Content: [![Image 1: HeadlineLogic Banner](https://headlinelogic.com/templates/newstemplate/images/logo_small.png)](https://headlinelogic.com/) *   [](javascript:void(0);) *   [News](https://headlinelogic.com/ &#34;News&#34;) *   [Enter</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://exa.ai/products/search" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">Thedocsyourcodingagent needs</h3>
+                            <span class="article-source">Exa AI Search</span>
+                        </div>
+                        
+                        <p class="article-summary">URL Source: https://exa.ai/products/search Markdown Content: &gt; **Exa Site Index** &gt; &gt; &gt; Fetch the Exa site index at:[https://exa.ai/llms.txt](https://exa.ai/llms.txt) &gt; &gt; &gt; Use this file to discover Exa products, pricing, evaluations, comparisons, use cases, agent interfaces, and technical documentation before exploring further. [Introducing Exa 3.0](https://exa.ai/blog/exa-3)[Introducing Exa 3.0:</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.entrepreneur.com/business-news/tech/the-90-day-plan-to-become-ai-native-when-you-dont-have-a-transformation-budget" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">The 90-Day Plan to Become AI-Native When You Don’t Have a Transformation Budget</h3>
+                            <span class="article-source">Entrepreneur AI</span>
+                        </div>
+                        
+                        <p class="article-summary">URL Source: https://www.entrepreneur.com/business-news/tech/the-90-day-plan-to-become-ai-native-when-you-dont-have-a-transformation-budget Published Time: 2026-10-30T18:30:00+00:00 Markdown Content: Opinions expressed by Entrepreneur contributors are their own. Listen to this post ## Key Takeaways *   The first 30 days: Write down how the work actually happens. Choose one process that touches reve</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://news.ycombinator.com/" target="_blank" rel="noopener" class="article-card">
+                        <div class="article-header">
+                            <h3 class="article-title">Hacker News</h3>
+                            <span class="article-source">Hacker News</span>
+                        </div>
+                        
+                        <p class="article-summary">URL Source: https://news.ycombinator.com/ Markdown Content: 1.[](https://news.ycombinator.com/vote?id=50311686&amp;how=up&amp;goto=news)[Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game](https://tng.episodle.com/) ([episodle.com](https://news.ycombinator.com/from?site=episodle.com)) 130 points by [francisofascii](https://news.ycombinator.com/user?id=francisofascii)[5 hours ago](h</p>
+                        
+                        <div class="article-meta">
+                            <span class="article-date">📅 2026-10-31</span>
+                            
+                            <span class="read-more">阅读全文 →</span>
+                        </div>
+                    </a>
+                    
+                </div>
+            </section>
+            
+            
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                AI Daily Brief · 每日 AI 资讯聚合
+            </p>
+            <p class="footer-text" style="margin-top: 0.5rem; font-size: 0.75rem;">
+                生成于 2026-10-31 05:06
+            </p>
+        </div>
+    </footer>
+
+    <button class="scroll-top" onclick="scrollToTop()" id="scrollTop">↑</button>
+
+    <script>
+        // Scroll to top button
+        const scrollTopBtn = document.getElementById('scrollTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                scrollTopBtn.classList.add('visible');
+            } else {
+                scrollTopBtn.classList.remove('visible');
+            }
+        });
+        
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Add stagger animation to cards
+        document.querySelectorAll('.article-card').forEach((card, index) => {
+            card.style.animationDelay = `${index * 0.05}s`;
+        });
+    </script>
+</body>
+</html>
