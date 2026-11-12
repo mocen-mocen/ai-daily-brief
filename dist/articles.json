@@ -1,5 +1,335 @@
 [
   {
+    "title": "智能体 AI 架构中记忆、知识与上下文的系统化方案",
+    "url": "https://www.infoq.cn/article/COuPKpA6rTf05C6JM10y?utm_source=rss&utm_medium=article",
+    "summary": "随着行业从聊天机器人向自主智能体演进，架构层面的瓶颈正在发生转移。难点不再仅仅是数据检索，而是决定智能体应该知道什么、何时应该知道、应该记住多久，以及应该遗忘什么。和人类一样，“知道”是一回事，“记住”是另一回事。根据任务上下文判断何时动用现有的各种“知道”并将其调入记忆才是关键。...",
+    "published": "2026-11-12T13:00:00",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "作者：Adi Polak"
+  },
+  {
+    "title": "谷歌发布首款决策模型 Gemini Decision 1：9 项测试拿下 7 项第一，准确率最高92.2%",
+    "url": "https://www.infoq.cn/article/E7QKIMUz3h0G0IE5Paii?utm_source=rss&utm_medium=article",
+    "summary": "当整个 AI 行业还在比拼谁能生成更多 Token、谁的推理能力更强时，谷歌却推出了一款不靠逐字生成答案的新模型。刚刚，谷歌正式发布 Gemini Decision 1，同时推出由该模型驱动的 Gemini Decisions API。与传统生成式大模型不同，这款模型专门用于快速决策，不需要逐个 Token 生成文字，而是通过单次前向传播，对预先设定的候选答案进行评分。谷歌 CEO Sundar Pichai 也在 X 平台发文介绍了 Gemini Decision 1 的主要能力。他写道： 今天，我们在 Google AI Studio 中正式推出 Gemini Decisions API，...",
+    "published": "2026-11-12T11:00:00",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "李冬梅"
+  },
+  {
+    "title": "Token越烧越多，利润却没涨：李彦宏要重新设计企业组织",
+    "url": "https://www.infoq.cn/article/JPf7ud6wuk9fYmUDoMjo?utm_source=rss&utm_medium=article",
+    "summary": "“为什么我的 Token 花费越来越多，但是收入和利润不见涨？”百度创始人李彦宏在 2026 百度世界大会上抛出了一个不少企业正在面对的问题。他观察到，一些年初还在强调 Tokenmaxing 的企业，如今也开始掉头控制预算。AI 工具用得越来越多，Token 消耗持续增长，业务收益却没有同步提升，问题究竟出在哪里？李彦宏将这一现象类比为工业时代的电气化：早期工厂只是更换了电机，却没有重新设计生产线，因此电气化并没有立即带来预期的生产力提升。“没有一家公司会因为用了几个 AI 工具，一夜之间就变得更有竞争力了。”李彦宏认为，企业需要围绕 AI 重新设计组织和业务流程，让智能体真正进入销售、客服...",
+    "published": "2026-11-12T10:45:04",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "褚杏娟"
+  },
+  {
+    "title": "InfoQ 2026 年趋势报告：AI、ML与数据工程",
+    "url": "https://www.infoq.cn/article/7Pecd1CshYIMvCTeBhrm?utm_source=rss&utm_medium=article",
+    "summary": "InfoQ 人工智能与机器学习年度趋势报告为 InfoQ 读者提供 AI、ML 和数据工程领域新兴趋势和技术的全面概述。本报告总结了 InfoQ 编辑团队与外部嘉宾的播客内容，讨论 2026 年 AI 和 ML 技术的趋势以及未来十二个月值得关注的方向。我们的 配套播客 对所有这些趋势进行了深入讨论。人工智能与机器学习技术采用曲线图 年度趋势报告的重要组成部分是曲线图，它展示了进入创新者阶段的趋势、技术和主题，以及进入早期采用者和早期大众阶段的趋势。这些阶段的划分参考了 Geoffrey Moore 的著作 《跨越鸿沟》。...",
+    "published": "2026-11-12T10:23:32",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "作者：Srini Penchikala, Chip Huyen, Daniel Dominguez, Hien Luu, Art"
+  },
+  {
+    "title": "让系统接管底层算法：HarmonyOS 7 FAST Kit 的性能与接入实践",
+    "url": "https://www.infoq.cn/article/kIw9Wp2uSgCwrsgicIZ0?utm_source=rss&utm_medium=article",
+    "summary": "随着 HarmonyOS 7（API 26）的更新，系统在算法加速方面提供了新的能力。对于开发者而言，文件列表排序、数字信号处理等看似基础的功能，往往涉及复杂的底层算法实现与性能优化。如何在保证计算结果准确的同时，减少开发成本、提升运行效率，是实际应用开发中值得关注的问题。FAST Kit（算法加速服务）为这些场景提供了新的实现方式。通过将部分底层算法封装为系统级能力，开发者可以直接调用相关接口，减少自行实现和优化算法的工作量。...",
+    "published": "2026-11-12T10:20:59",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "HarmonyOS"
+  },
+  {
+    "title": "从“搜到知识”到“理解约束”：差旅 Agent 的业务语义、偏好图谱与上下文工程实践｜AICon北京",
+    "url": "https://www.infoq.cn/article/V5Fwpg9gOBefx6xADcdd?utm_source=rss&utm_medium=article",
+    "summary": "当 Agent 真正进入企业流程，哪些工作可以交给 AI ？50 + 实战案例揭晓答案！ AI 正在从回答问题的辅助工具，走向理解目标、调用系统、完成任务的工作承担者。当 Agent 真正进入企业流程，问题不再是 “如何把 AI 做出来”，而是哪些工作可以交给 AI、结果如何验收、权限、成本与风险如何收住。随着大模型向推理、工具调用、多模态和长任务延伸，开发重心正从单次调用转向上下文、工具、执行环境与反馈回路的设计，Coding Agent 也从代码补全演进为能理解代码库、运行测试、完成复杂任务的工程协作者。OpenAI、Google Cloud、Anthropic 的最新实践共同指向一个结论...",
+    "published": "2026-11-12T10:00:00",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "AICon 全球人工智能开发与应用大会"
+  },
+  {
+    "title": "谷歌采用 DPoP 增强 OAuth 2.0，抵御令牌窃取与重放攻击",
+    "url": "https://www.infoq.cn/article/FQHBH7cfSYPFUUdbmyui?utm_source=rss&utm_medium=article",
+    "summary": "谷歌 OAuth 平台最近新增了对 Demonstrating Proof-of-Possession（DPoP）的支持 ，这是一种 OAuth 2.0 安全机制，用于缓解令牌盗取和重放攻击。传统的 OAuth 持有者令牌（Bearer Token）遵循“谁拿到、谁可用”的模式，容易遭到信息窃取恶意程序（例如 RedLine、NodeStealer）以及中间人攻击者（AiTM）的攻击。为防范这类攻击，DPoP 通过密码学将令牌绑定到客户端生成的一对非对称密钥上。因此，就算令牌被盗，攻击者没有对应的私钥也无法重放使用，而私钥始终由客户端保管。谷歌 OAuth 平台仅对刷新令牌启用 DPoP，寿命...",
+    "published": "2026-11-12T09:05:00",
+    "source_name": "InfoQ AI",
+    "source_url": "https://www.infoq.cn/ai",
+    "category": "chinese_ai",
+    "author": "作者：Sergio De Simone"
+  },
+  {
+    "title": "404 - The Register",
+    "url": "https://www.theregister.com/ai/",
+    "summary": "URL Source: https://www.theregister.com/ai/ Markdown Content: [Jump to main content](https://www.theregister.com/ai/#main) Search  TOPICS *   Security     *   [All Security](https://www.theregister.com/security)     *   [Cyber-crime](https://www.theregister.com/cyber_crime)     *   [Patches](https://www.theregister.com/patches)     *   [Research](https://www.theregister.com/research)     *   [CSO]",
+    "published": "2026-11-12T06:49:59.009558",
+    "source_name": "The Register AI",
+    "source_url": "https://www.theregister.com/ai/",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "Reward Hacking in Reinforcement Learning",
+    "url": "https://lilianweng.github.io/posts/2024-11-28-reward-hacking/",
+    "summary": "Reward hacking occurs when a reinforcement learning (RL) agent exploits flaws or ambiguities in the reward function to achieve high rewards, without genuinely learning or completing the intended task. Reward hacking exists because RL environments are often imperfect, and it is fundamentally challeng",
+    "published": "2026-11-12T06:49:53.248458",
+    "source_name": "Lilian Weng",
+    "source_url": "https://lilianweng.github.io/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Why We Think",
+    "url": "https://lilianweng.github.io/posts/2025-05-01-thinking/",
+    "summary": "Special thanks to John Schulman for a lot of super valuable feedback and direct edits on this post.\nTest time compute (Graves et al. 2016, Ling, et al. 2017, Cobbe et al. 2021) and Chain-of-thought (CoT) (Wei et al. 2022, Nye et al. 2021), have led to significant improvements in model performance, w",
+    "published": "2026-11-12T06:49:53.107206",
+    "source_name": "Lilian Weng",
+    "source_url": "https://lilianweng.github.io/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Scaling Laws, Carefully",
+    "url": "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/",
+    "summary": "Scaling laws are one of the most critical empirical findings in deep learning. The observation is simple in form: the training loss $L$ decreases predictably as we scale up model size $N$, dataset size $D$, and compute $C$, following a power-law curve, which appears as a straight line on a log-log p",
+    "published": "2026-11-12T06:49:53.042810",
+    "source_name": "Lilian Weng",
+    "source_url": "https://lilianweng.github.io/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Harness Engineering for Self-Improvement",
+    "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+    "summary": "The concept of recursive self-improvement (RSI) dates back to I. J. Good (1965), where he defined an “ultraintelligent machine” as a system that can surpass humans in all intellectual activities and design better machines to improve itself. Yudkowsky (2008) used the phrase “recursive self-improvemen",
+    "published": "2026-11-12T06:49:52.977755",
+    "source_name": "Lilian Weng",
+    "source_url": "https://lilianweng.github.io/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "👋 Welcome to Lil’Log",
+    "url": "https://twitter.com/lilianweng/",
+    "summary": "URL Source: https://twitter.com/lilianweng/ Final URL: https://x.com/lilianweng Markdown Content: Lilian Weng 221 posts [![Image 1: Lilian Weng profile banner](https://pbs.twimg.com/profile_banners/96999384/1747461613/1500x500)](https://x.com/lilianweng/header_photo) [![Image 2: @lilianweng](https://pbs.twimg.com/profile_images/2099378394706448384/pkLvzVZe_400x400.jpg)](https://x.com/lilianweng/ph",
+    "published": "2026-11-12T06:49:52.882149",
+    "source_name": "Lilian Weng",
+    "source_url": "https://lilianweng.github.io/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "OpenAI",
+    "url": "https://openai.com/",
+    "summary": "URL Source: https://openai.com/ Markdown Content: [Skip to main content](https://openai.com/#main) [](https://openai.com/) *   [Research](https://openai.com/research/index/) *   Products *   [Business](https://openai.com/business/) *   [Developers](https://openai.com/api/) *   [Company](https://openai.com/about/) *   [Foundation(opens in a new window)](https://openaifoundation.org/) Log in[Contact",
+    "published": "2026-11-12T06:49:52.382121",
+    "source_name": "Andrej Karpathy",
+    "source_url": "https://karpathy.ai/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "YouTube channel",
+    "url": "https://www.youtube.com/@AndrejKarpathy",
+    "summary": "URL Source: https://www.youtube.com/@AndrejKarpathy Warning: Target URL returned error 401: Unauthorized Markdown Content: This is a general audience deep dive into the Large Language Model (LLM) AI technology that powers ChatGPT and related products. It is covers the full training stack of how the models are developed, along with mental models of how to think about their \"psychology\", and how to ",
+    "published": "2026-11-12T06:49:52.158422",
+    "source_name": "Andrej Karpathy",
+    "source_url": "https://karpathy.ai/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Redirecting...",
+    "url": "https://ai.hubtoday.app/",
+    "summary": "URL Source: https://ai.hubtoday.app/ Warning: This page maybe not yet fully loaded, consider explicitly specify a timeout. Markdown Content: Loading...",
+    "published": "2026-11-12T06:49:52.083684",
+    "source_name": "AI Hub Today",
+    "source_url": "https://ai.hubtoday.app/",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "Multimodal Neurons in Artificial Neural Networks",
+    "url": "https://github.com/distillpub/post--multimodal/issues?q=is%3Aissue+label%3Apeer-review",
+    "summary": "Gabriel Goh, Nick Cammarata †, Chelsea Voss †, Shan Carter, Michael Petrov, Ludwig Schubert, Alec Radford, and Chris Olah",
+    "published": "2026-11-12T06:49:49.877759",
+    "source_name": "Distill.pub",
+    "source_url": "https://distill.pub/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Distill Hiatus",
+    "url": "https://distill.pub/2021/distill-hiatus",
+    "summary": "URL Source: https://distill.pub/2021/distill-hiatus Final URL: https://distill.pub/2021/distill-hiatus/ Markdown Content: _Over the past five years, Distill has supported authors in publishing artifacts that push beyond the traditional expectations of scientific papers. From Gabriel Goh’s [interactive exposition of momentum](https://distill.pub/2021/distill-hiatus/), to an [ongoing collaboration e",
+    "published": "2026-11-12T06:49:49.831071",
+    "source_name": "Distill.pub",
+    "source_url": "https://distill.pub/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Token-efficient contents withhighlights",
+    "url": "https://exa.ai/docs/search/highlights",
+    "summary": "URL Source: https://exa.ai/docs/search/highlights Published Time: Wed, 11 Nov 2026 23:05:08 GMT Markdown Content: > ## Documentation Index > > > Fetch the complete documentation index at:[/docs/llms.txt](https://exa.ai/docs/llms.txt) > > > Use this file to discover all available pages before exploring further. [Skip to main content](https://exa.ai/docs/search/highlights#content-area) Assistant Res",
+    "published": "2026-11-12T06:49:49.709043",
+    "source_name": "Exa AI Search",
+    "source_url": "https://exa.ai/",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "Early progress on accelerating drug development with Claude",
+    "url": "https://www.anthropic.com/science",
+    "summary": "URL Source: https://www.anthropic.com/science Markdown Content: [Skip to main content](https://www.anthropic.com/science#main-content) [News](https://www.anthropic.com/news)Research Policy Commitments [](https://www.anthropic.com/) Company Try Claude [](https://www.anthropic.com/search) # The Science effort at Anthropic focuses on how AI can increase the pace of scientific progress. We work to imp",
+    "published": "2026-11-12T06:49:49.202560",
+    "source_name": "Anthropic",
+    "source_url": "https://www.anthropic.com/news",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+    "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+    "summary": "URL Source: https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/ Published Time: 2026-11-11T15:00:00+00:00 Markdown Content: November 11, 2026 Science Adam Gayoso, Natasha Latysheva, Pushmeet Kohli and Žiga Avsec Our next-generation DNA sequence model bridges single-cell biology and human genetics, predicting how genetic variants affect hundreds o",
+    "published": "2026-11-12T06:49:49.115840",
+    "source_name": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "As AI Gets Cheaper, the Real Business Opportunity Is Shifting. Here’s Where the Value Is Moving.",
+    "url": "https://www.entrepreneur.com/business-news/tech/as-ai-gets-cheaper-the-real-business-opportunity-is-shifting-heres-where-the-value-is-moving",
+    "summary": "URL Source: https://www.entrepreneur.com/business-news/tech/as-ai-gets-cheaper-the-real-business-opportunity-is-shifting-heres-where-the-value-is-moving Published Time: 2026-11-11T19:30:00+00:00 Markdown Content: Opinions expressed by Entrepreneur contributors are their own. Listen to this post ## Key Takeaways *   As leading AI models converge in performance and competition increases, cost, relia",
+    "published": "2026-11-12T06:49:49.106760",
+    "source_name": "Entrepreneur AI",
+    "source_url": "https://www.entrepreneur.com/topic/artificial-intelligence",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "Hide your slop PR descriptions behind <details><summary>",
+    "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+    "summary": "URL Source: https://simonwillison.net/2026/Nov/9/details-summary/ Published Time: Thu, 12 Nov 2026 05:10:58 GMT Markdown Content: 9th November 2026 Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work—I use them to bundle commits together, iterating on them until a feature is complete, document decisions and t",
+    "published": "2026-11-12T06:49:48.962689",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Thedocsyourcodingagent needs",
+    "url": "https://exa.ai/products/search",
+    "summary": "URL Source: https://exa.ai/products/search Markdown Content: /search Structured, token-efficient results for AI agents, drawn from the world's largest index of the public web and private information. Trusted by industry leaders and 900,000+ developers ## Search the public web and proprietary data through one API Give your agent fresh, comprehensive context through one search API. Exa brings togeth",
+    "published": "2026-11-12T06:49:48.851531",
+    "source_name": "Exa AI Search",
+    "source_url": "https://exa.ai/",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+    "url": "https://www.anthropic.com/news/announcements",
+    "summary": "URL Source: https://www.anthropic.com/news/announcements Markdown Content: [Skip to main content](https://www.anthropic.com/news/announcements#main-content) [News](https://www.anthropic.com/news)Research Policy Commitments [](https://www.anthropic.com/) Company Try Claude [](https://www.anthropic.com/search) [News](https://www.anthropic.com/news) # Announcements 79 ARTICLES Most recent Title Descr",
+    "published": "2026-11-12T06:49:48.725027",
+    "source_name": "Anthropic",
+    "source_url": "https://www.anthropic.com/news",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "Dario Amodei",
+    "url": "https://www.anthropic.com/",
+    "summary": "URL Source: https://www.anthropic.com/ Markdown Content: ## AI research and products that put safety at the frontier.AI will have a vast impact on the world. Anthropic is a public benefit corporation dedicated to securing its benefits and mitigating its risks. ## Claude Fable 5.2 and Mythos 5.2 Our most capable models for daunting technical work, setting a new bar in coding, finance, and the scien",
+    "published": "2026-11-12T06:49:48.632216",
+    "source_name": "Dario Amodei",
+    "source_url": "https://darioamodei.com/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Investing in the public benefit",
+    "url": "https://www.anthropic.com/news/announcements",
+    "summary": "URL Source: https://www.anthropic.com/news/announcements Markdown Content: [Skip to main content](https://www.anthropic.com/news/announcements#main-content) [News](https://www.anthropic.com/news)Research Policy Commitments [](https://www.anthropic.com/) Company Try Claude [](https://www.anthropic.com/search) [News](https://www.anthropic.com/news) # Announcements 79 ARTICLES Most recent Title Descr",
+    "published": "2026-11-12T06:49:48.522826",
+    "source_name": "Anthropic",
+    "source_url": "https://www.anthropic.com/news",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "Hacker News",
+    "url": "https://news.ycombinator.com/",
+    "summary": "URL Source: https://news.ycombinator.com/ Markdown Content: 1.[](https://news.ycombinator.com/vote?id=50459745&how=up&goto=news)[93% of paint splatters are valid Perl programs (2019)](https://www.mcmillen.dev/sigbovik/) ([mcmillen.dev](https://news.ycombinator.com/from?site=mcmillen.dev)) 347 points by [zenincognito](https://news.ycombinator.com/user?id=zenincognito)[8 hours ago](https://news.ycom",
+    "published": "2026-11-12T06:49:48.491779",
+    "source_name": "Hacker News",
+    "source_url": "https://news.ycombinator.com/",
+    "category": "foreign_media",
+    "author": null
+  },
+  {
+    "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+    "url": "https://www.anthropic.com/news/announcements",
+    "summary": "URL Source: https://www.anthropic.com/news/announcements Markdown Content: [Skip to main content](https://www.anthropic.com/news/announcements#main-content) [News](https://www.anthropic.com/news)Research Policy Commitments [](https://www.anthropic.com/) Company Try Claude [](https://www.anthropic.com/search) [News](https://www.anthropic.com/news) # Announcements 79 ARTICLES Most recent Title Descr",
+    "published": "2026-11-12T06:49:48.266509",
+    "source_name": "Anthropic",
+    "source_url": "https://www.anthropic.com/news",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "OpenAI News",
+    "url": "https://openai.com/news/",
+    "summary": "URL Source: https://openai.com/news/ Markdown Content: * * * Switch cards to show Media   Switch cards to hide Media ![Image 1: ChatGPT for Veterans > Cover Image](https://images.ctfassets.net/kftzwdyauwt9/2xsjEAOhgideekNE2Xxxqk/fe4d5c8aecf7d6498d1e8026a5a56599/oai_GA_Stories_1.1.png?w=3840&q=90&fm=webp) [ChatGPT Plus for veterans and servicemembers Company Nov 11, 2026](https://openai.com/index/c",
+    "published": "2026-11-12T06:49:48.247790",
+    "source_name": "OpenAI Blog",
+    "source_url": "https://openai.com/news/",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "Locating the source of a mysterious beep with Claude",
+    "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+    "summary": "URL Source: https://simonwillison.net/2026/Nov/9/mysterious-beeps/ Published Time: Thu, 12 Nov 2026 05:19:08 GMT Markdown Content: 9th November 2026 Our house has a box room, full of boxes that we still haven’t unpacked from our last move. A couple of weeks ago something in that room started _intermittently beeping_. The beeps were far enough apart that standing in the room and trying to determine",
+    "published": "2026-11-12T06:49:48.222649",
+    "source_name": "Simon Willison",
+    "source_url": "https://simonwillison.net/",
+    "category": "foreign_researcher",
+    "author": null
+  },
+  {
+    "title": "Gemini 4 Carbon is now available",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
+    "summary": "URL Source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/ Published Time: 2026-11-10T16:00:00+00:00 Markdown Content: Nov 10, 2026 | 12 min read Developers, enterprises, scientists, and consumers can now try our latest frontier model. * * * * * * [Audio 3](https://storage.googleapis.com/gweb-uniblog-publish-prod/media/tts_audio_86876_umbriel",
+    "published": "2026-11-12T06:49:48.168757",
+    "source_name": "Google DeepMind",
+    "source_url": "https://deepmind.google/blog/",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
+    "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+    "url": "https://www.anthropic.com/news/announcements",
+    "summary": "URL Source: https://www.anthropic.com/news/announcements Markdown Content: [Skip to main content](https://www.anthropic.com/news/announcements#main-content) [News](https://www.anthropic.com/news)Research Policy Commitments [](https://www.anthropic.com/) Company Try Claude [](https://www.anthropic.com/search) [News](https://www.anthropic.com/news) # Announcements 79 ARTICLES Most recent Title Descr",
+    "published": "2026-11-12T06:49:47.966078",
+    "source_name": "Anthropic",
+    "source_url": "https://www.anthropic.com/news",
+    "category": "foreign_official",
+    "author": null
+  },
+  {
     "title": "谷歌最强模型 Gemini 4 Carbon 全面开放：一夜重写 OpenCode 桌面应用、价格仅为 Fable 5.2 的 1/4",
     "url": "https://www.infoq.cn/article/YiANe38yfSYitvZOtab0?utm_source=rss&utm_medium=article",
     "summary": "AI 大模型的竞争，正在从谁更会回答问题，转向谁能真正完成一项复杂工作。刚刚，Google CEO Pichai 在 x 上宣布，旗下旗舰模型 Gemini 4 Carbon 正式向开发者、企业、科研人员和消费者扩大开放。10 月 28 日，Google 首次公布 Carbon 时，重点展示了其在网络安全、软件工程和长程任务方面的能力，但使用范围主要限制在特定网络安全防御团队。如今，这款模型终于走出受限测试阶段，开始进入 Google AI Studio、Gemini for business、Google Antigravity，以及面向 Google AI Ultra 订阅用户的 Gemi...",
@@ -18,266 +348,6 @@
     "source_url": "https://www.infoq.cn/ai",
     "category": "chinese_ai",
     "author": "李冬梅"
-  },
-  {
-    "title": "404 - The Register",
-    "url": "https://www.theregister.com/ai/",
-    "summary": "URL Source: https://www.theregister.com/ai/ Markdown Content: [Jump to main content](https://www.theregister.com/ai/#main) Search  TOPICS *   Security     *   [All Security](https://www.theregister.com/security)     *   [Cyber-crime](https://www.theregister.com/cyber_crime)     *   [Patches](https://www.theregister.com/patches)     *   [Research](https://www.theregister.com/research)     *   [CSO]",
-    "published": "2026-11-11T19:29:42.424411",
-    "source_name": "The Register AI",
-    "source_url": "https://www.theregister.com/ai/",
-    "category": "foreign_media",
-    "author": null
-  },
-  {
-    "title": "Multimodal Neurons in Artificial Neural Networks",
-    "url": "https://github.com/distillpub/post--multimodal/issues?q=is%3Aissue+label%3Apeer-review",
-    "summary": "Gabriel Goh, Nick Cammarata †, Chelsea Voss †, Shan Carter, Michael Petrov, Ludwig Schubert, Alec Radford, and Chris Olah",
-    "published": "2026-11-11T19:29:37.423107",
-    "source_name": "Distill.pub",
-    "source_url": "https://distill.pub/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "A Gentle Introduction to Graph Neural Networks",
-    "url": "https://github.com/distillpub/post--gnn-intro/issues?q=is%3Aissue+label%3Apeer-review",
-    "summary": "URL Source: https://github.com/distillpub/post--gnn-intro/issues?q=is:issue+label:peer-review Markdown Content: [Skip to content](https://github.com/distillpub/post--gnn-intro/issues?q=is:issue+label:peer-review#start-of-content) ## Navigation Menu [](https://github.com/) [Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fdistillpub%2Fpost--gnn-intro%2Fissues%3Fq%3Dis%3Aissue%",
-    "published": "2026-11-11T19:29:37.215292",
-    "source_name": "Distill.pub",
-    "source_url": "https://distill.pub/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "OpenAI",
-    "url": "https://openai.com/",
-    "summary": "URL Source: https://openai.com/ Markdown Content: [Skip to main content](https://openai.com/#main) [](https://openai.com/) *   [Research](https://openai.com/research/index/) *   Products *   [Business](https://openai.com/business/) *   [Developers](https://openai.com/api/) *   [Company](https://openai.com/about/) *   [Foundation(opens in a new window)](https://openaifoundation.org/) Log in[Contact",
-    "published": "2026-11-11T19:29:36.782383",
-    "source_name": "Andrej Karpathy",
-    "source_url": "https://karpathy.ai/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Understanding Convolutions on Graphs",
-    "url": "https://github.com/distillpub/post--understanding-gnns/issues?q=is%3Aissue+label%3Apeer-review",
-    "summary": "URL Source: https://github.com/distillpub/post--understanding-gnns/issues?q=is:issue+label:peer-review Markdown Content: [Skip to content](https://github.com/distillpub/post--understanding-gnns/issues?q=is:issue+label:peer-review#start-of-content) ## Navigation Menu [](https://github.com/) [Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fdistillpub%2Fpost--understanding-gnns",
-    "published": "2026-11-11T19:29:33.639280",
-    "source_name": "Distill.pub",
-    "source_url": "https://distill.pub/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "HeadlineLogic News Portal",
-    "url": "https://ai.hubtoday.app/",
-    "summary": "URL Source: https://ai.hubtoday.app/ Final URL: https://headlinelogic.com/?d=hubtoday.app&pcid=56&a=false&uuid=2b562cb7f33e977c2d6bd301356427d4&brand=hubtoday.app Markdown Content: [![Image 1: HeadlineLogic Banner](https://headlinelogic.com/templates/newstemplate/images/logo_small.png)](https://headlinelogic.com/) *   [](javascript:void(0);) *   [News](https://headlinelogic.com/ \"News\") *   [Enter",
-    "published": "2026-11-11T19:29:32.884926",
-    "source_name": "AI Hub Today",
-    "source_url": "https://ai.hubtoday.app/",
-    "category": "foreign_media",
-    "author": null
-  },
-  {
-    "title": "Reward Hacking in Reinforcement Learning",
-    "url": "https://lilianweng.github.io/posts/2024-11-28-reward-hacking/",
-    "summary": "Reward hacking occurs when a reinforcement learning (RL) agent exploits flaws or ambiguities in the reward function to achieve high rewards, without genuinely learning or completing the intended task. Reward hacking exists because RL environments are often imperfect, and it is fundamentally challeng",
-    "published": "2026-11-11T19:29:32.008306",
-    "source_name": "Lilian Weng",
-    "source_url": "https://lilianweng.github.io/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Why We Think",
-    "url": "https://lilianweng.github.io/posts/2025-05-01-thinking/",
-    "summary": "Special thanks to John Schulman for a lot of super valuable feedback and direct edits on this post.\nTest time compute (Graves et al. 2016, Ling, et al. 2017, Cobbe et al. 2021) and Chain-of-thought (CoT) (Wei et al. 2022, Nye et al. 2021), have led to significant improvements in model performance, w",
-    "published": "2026-11-11T19:29:31.917684",
-    "source_name": "Lilian Weng",
-    "source_url": "https://lilianweng.github.io/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Scaling Laws, Carefully",
-    "url": "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/",
-    "summary": "Scaling laws are one of the most critical empirical findings in deep learning. The observation is simple in form: the training loss $L$ decreases predictably as we scale up model size $N$, dataset size $D$, and compute $C$, following a power-law curve, which appears as a straight line on a log-log p",
-    "published": "2026-11-11T19:29:31.808984",
-    "source_name": "Lilian Weng",
-    "source_url": "https://lilianweng.github.io/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Harness Engineering for Self-Improvement",
-    "url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
-    "summary": "The concept of recursive self-improvement (RSI) dates back to I. J. Good (1965), where he defined an “ultraintelligent machine” as a system that can surpass humans in all intellectual activities and design better machines to improve itself. Yudkowsky (2008) used the phrase “recursive self-improvemen",
-    "published": "2026-11-11T19:29:31.704341",
-    "source_name": "Lilian Weng",
-    "source_url": "https://lilianweng.github.io/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "👋 Welcome to Lil’Log",
-    "url": "https://twitter.com/lilianweng/",
-    "summary": "URL Source: https://twitter.com/lilianweng/ Final URL: https://x.com/lilianweng Markdown Content: Lilian Weng 221 posts [![Image 1: Lilian Weng profile banner](https://pbs.twimg.com/profile_banners/96999384/1747461613/1500x500)](https://x.com/lilianweng/header_photo) [![Image 2: @lilianweng](https://pbs.twimg.com/profile_images/2099378394706448384/pkLvzVZe_400x400.jpg)](https://x.com/lilianweng/ph",
-    "published": "2026-11-11T19:29:31.592711",
-    "source_name": "Lilian Weng",
-    "source_url": "https://lilianweng.github.io/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "This Billionaire Invested in OpenAI in 2019. Here’s What He’s Betting on Next.",
-    "url": "https://www.entrepreneur.com/business-news/this-billionaire-invested-in-openai-in-2019-what-he-is-betting-on-next",
-    "summary": "URL Source: https://www.entrepreneur.com/business-news/this-billionaire-invested-in-openai-in-2019-what-he-is-betting-on-next Published Time: 2026-11-10T20:06:22+00:00 Markdown Content: Opens in a new window Opens an external website Opens an external website in a new window This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, persona",
-    "published": "2026-11-11T19:29:30.548827",
-    "source_name": "Entrepreneur AI",
-    "source_url": "https://www.entrepreneur.com/topic/artificial-intelligence",
-    "category": "foreign_media",
-    "author": null
-  },
-  {
-    "title": "Understanding Convolutions on Graphs",
-    "url": "https://github.com/distillpub/post--understanding-gnns/issues?q=is%3Aissue+label%3Apeer-review",
-    "summary": "URL Source: https://github.com/distillpub/post--understanding-gnns/issues?q=is:issue+label:peer-review Markdown Content: [Skip to content](https://github.com/distillpub/post--understanding-gnns/issues?q=is:issue+label:peer-review#start-of-content) ## Navigation Menu [](https://github.com/) [Sign in](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fdistillpub%2Fpost--understanding-gnns",
-    "published": "2026-11-11T19:29:30.483555",
-    "source_name": "Distill.pub",
-    "source_url": "https://distill.pub/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Access Denied",
-    "url": "https://www.businesstoday.in/artificial-intelligence",
-    "summary": "URL Source: https://www.businesstoday.in/artificial-intelligence Warning: Target URL returned error 403: Forbidden Markdown Content: You don't have permission to access \"http://www.businesstoday.in/artificial-intelligence\" on this server. Reference #18.c953d117.1794425368.19b4e281 https://errors.edgesuite.net/18.c953d117.1794425368.19b4e281",
-    "published": "2026-11-11T19:29:29.564933",
-    "source_name": "BusinessToday AI",
-    "source_url": "https://www.businesstoday.in/artificial-intelligence",
-    "category": "foreign_media",
-    "author": null
-  },
-  {
-    "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
-    "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-    "summary": "URL Source: https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/ Markdown Content: 3rd November 2026 Yesterday’s hot paper was [Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights](https://rikiyat.github.io/blog/weight-space-programming/) by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a ",
-    "published": "2026-11-11T19:29:28.735032",
-    "source_name": "Simon Willison",
-    "source_url": "https://simonwillison.net/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Thedocsyourcodingagent needs",
-    "url": "https://exa.ai/products/search",
-    "summary": "URL Source: https://exa.ai/products/search Markdown Content: /search Structured, token-efficient results for AI agents, drawn from the world's largest index of the public web and private information. Trusted by industry leaders and 900,000+ developers ## Search the public web and proprietary data through one API Give your agent fresh, comprehensive context through one search API. Exa brings togeth",
-    "published": "2026-11-11T19:29:27.942901",
-    "source_name": "Exa AI Search",
-    "source_url": "https://exa.ai/",
-    "category": "foreign_media",
-    "author": null
-  },
-  {
-    "title": "Early progress on accelerating drug development with Claude",
-    "url": "https://www.anthropic.com/science",
-    "summary": "URL Source: https://www.anthropic.com/science Markdown Content: [Skip to main content](https://www.anthropic.com/science#main-content) [News](https://www.anthropic.com/news)Research Policy Commitments [](https://www.anthropic.com/) Company Try Claude [](https://www.anthropic.com/search) # The Science effort at Anthropic focuses on how AI can increase the pace of scientific progress. We work to imp",
-    "published": "2026-11-11T19:29:27.852220",
-    "source_name": "Anthropic",
-    "source_url": "https://www.anthropic.com/news",
-    "category": "foreign_official",
-    "author": null
-  },
-  {
-    "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
-    "url": "https://www.anthropic.com/news/announcements",
-    "summary": "URL Source: https://www.anthropic.com/news/announcements Markdown Content: [Skip to main content](https://www.anthropic.com/news/announcements#main-content) [News](https://www.anthropic.com/news)Research Policy Commitments [](https://www.anthropic.com/) Company Try Claude [](https://www.anthropic.com/search) [News](https://www.anthropic.com/news) # Announcements 79 ARTICLES Most recent Title Descr",
-    "published": "2026-11-11T19:29:27.457499",
-    "source_name": "Anthropic",
-    "source_url": "https://www.anthropic.com/news",
-    "category": "foreign_official",
-    "author": null
-  },
-  {
-    "title": "Investing in the public benefit",
-    "url": "https://www.anthropic.com/news/announcements",
-    "summary": "URL Source: https://www.anthropic.com/news/announcements Markdown Content: [Skip to main content](https://www.anthropic.com/news/announcements#main-content) [News](https://www.anthropic.com/news)Research Policy Commitments [](https://www.anthropic.com/) Company Try Claude [](https://www.anthropic.com/search) [News](https://www.anthropic.com/news) # Announcements 79 ARTICLES Most recent Title Descr",
-    "published": "2026-11-11T19:29:27.172160",
-    "source_name": "Anthropic",
-    "source_url": "https://www.anthropic.com/news",
-    "category": "foreign_official",
-    "author": null
-  },
-  {
-    "title": "Hide your slop PR descriptions behind <details><summary>",
-    "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
-    "summary": "URL Source: https://simonwillison.net/2026/Nov/9/details-summary/ Published Time: Wed, 11 Nov 2026 17:26:48 GMT Markdown Content: 9th November 2026 Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work—I use them to bundle commits together, iterating on them until a feature is complete, document decisions and t",
-    "published": "2026-11-11T19:29:27.146946",
-    "source_name": "Simon Willison",
-    "source_url": "https://simonwillison.net/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
-    "url": "https://www.anthropic.com/news/announcements",
-    "summary": "URL Source: https://www.anthropic.com/news/announcements Markdown Content: [Skip to main content](https://www.anthropic.com/news/announcements#main-content) [News](https://www.anthropic.com/news)Research Policy Commitments [](https://www.anthropic.com/) Company Try Claude [](https://www.anthropic.com/search) [News](https://www.anthropic.com/news) # Announcements 79 ARTICLES Most recent Title Descr",
-    "published": "2026-11-11T19:29:26.917257",
-    "source_name": "Anthropic",
-    "source_url": "https://www.anthropic.com/news",
-    "category": "foreign_official",
-    "author": null
-  },
-  {
-    "title": "Hacker News",
-    "url": "https://news.ycombinator.com/",
-    "summary": "URL Source: https://news.ycombinator.com/ Markdown Content: [![Image 1](https://news.ycombinator.com/y18.svg)](https://news.ycombinator.com/)**[Hacker News](https://news.ycombinator.com/news)**[new](https://news.ycombinator.com/newest) | [past](https://news.ycombinator.com/front) | [comments](https://news.ycombinator.com/newcomments) | [ask](https://news.ycombinator.com/ask) | [show](https://news.",
-    "published": "2026-11-11T19:29:26.889036",
-    "source_name": "Hacker News",
-    "source_url": "https://news.ycombinator.com/",
-    "category": "foreign_media",
-    "author": null
-  },
-  {
-    "title": "Locating the source of a mysterious beep with Claude",
-    "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
-    "summary": "URL Source: https://simonwillison.net/2026/Nov/9/mysterious-beeps/ Published Time: Wed, 11 Nov 2026 17:25:29 GMT Markdown Content: 9th November 2026 Our house has a box room, full of boxes that we still haven’t unpacked from our last move. A couple of weeks ago something in that room started _intermittently beeping_. The beeps were far enough apart that standing in the room and trying to determine",
-    "published": "2026-11-11T19:29:26.809264",
-    "source_name": "Simon Willison",
-    "source_url": "https://simonwillison.net/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
-    "url": "https://www.anthropic.com/news/announcements",
-    "summary": "URL Source: https://www.anthropic.com/news/announcements Markdown Content: [Skip to main content](https://www.anthropic.com/news/announcements#main-content) [News](https://www.anthropic.com/news)Research Policy Commitments [](https://www.anthropic.com/) Company Try Claude [](https://www.anthropic.com/search) [News](https://www.anthropic.com/news) # Announcements 79 ARTICLES Most recent Title Descr",
-    "published": "2026-11-11T19:29:26.724291",
-    "source_name": "Anthropic",
-    "source_url": "https://www.anthropic.com/news",
-    "category": "foreign_official",
-    "author": null
-  },
-  {
-    "title": "Dario Amodei",
-    "url": "https://www.anthropic.com/",
-    "summary": "URL Source: https://www.anthropic.com/ Markdown Content: ## Claude Fable 5.2 and Mythos 5.2 Our most capable models for daunting technical work, setting a new bar in coding, finance, and the sciences. [Read more](https://www.anthropic.com/claude-fable-and-mythos-5-2)[Try Claude](https://claude.ai/) [Announcements](https://www.anthropic.com/news/announcements) Nov 9, 2026 ### [Introducing Fable 5.2",
-    "published": "2026-11-11T19:29:26.665637",
-    "source_name": "Dario Amodei",
-    "source_url": "https://darioamodei.com/",
-    "category": "foreign_researcher",
-    "author": null
-  },
-  {
-    "title": "OpenAI News",
-    "url": "https://openai.com/news/",
-    "summary": "URL Source: https://openai.com/news/ Markdown Content: * * * Switch cards to show Media   Switch cards to hide Media ![Image 1: ChatGPT for Veterans > Cover Image](https://images.ctfassets.net/kftzwdyauwt9/2xsjEAOhgideekNE2Xxxqk/fe4d5c8aecf7d6498d1e8026a5a56599/oai_GA_Stories_1.1.png?w=3840&q=90&fm=webp) [ChatGPT Plus for veterans and servicemembers Company Nov 11, 2026](https://openai.com/index/c",
-    "published": "2026-11-11T19:29:26.609312",
-    "source_name": "OpenAI Blog",
-    "source_url": "https://openai.com/news/",
-    "category": "foreign_official",
-    "author": null
   },
   {
     "title": "上下文也是成本：Agent 效率优化的新思路 ｜ 技术趋势",
@@ -338,76 +408,6 @@
     "source_url": "https://www.infoq.cn/ai",
     "category": "chinese_ai",
     "author": "蚂蚁数科"
-  },
-  {
-    "title": "Datadog 推出面向 SRE 故障排查的专用 AI 模型",
-    "url": "https://www.infoq.cn/article/py4PRbBWJSPm5aV10gHq?utm_source=rss&utm_medium=article",
-    "summary": "Datadog 发布 Scout ，一个用于排查生产问题的模型。它在 Bits Investigation（该公司的 AI SRE 产品）中运行，能够接收告警、查看遥测数据并给出问题根因推测。Datadog 工程师和少量客户正在使用其封闭预览版。排查故障可能需要多次调用模型，因为 Bits 会尝试查询、分析结果并决定下一步要检查什么。...",
-    "published": "2026-11-11T17:00:00",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "作者：Matt Saunders"
-  },
-  {
-    "title": "多云 FinOps：一种用于跨云成本优化的工程框架",
-    "url": "https://www.infoq.cn/article/0qQcqvV13GtRKGgmsPqW?utm_source=rss&utm_medium=article",
-    "summary": "简介 多云架构为团队提供了灵活性，使其能够针对可用性、供应商能力及地理覆盖范围进行优化。但这种灵活性也因数据在云服务提供商之间的迁移增加了隐性成本。通过服务部署决策、通信模式和扩展行为，这些成本会不断累积，并随着时间的推移呈复利增长。等到账单上显示出来时，架构层面的问题早已形成。大多数组织采取的都是被动应对措施，例如审查账单、协商费率以及生产环境上线后进行调优，但这些措施都没有从根本上解决问题。...",
-    "published": "2026-11-11T16:49:32",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "作者： Vivek Arora"
-  },
-  {
-    "title": "阿里云发布基于 AMD 第六代 EPYC 处理器的第十代 ECS 企业级实例",
-    "url": "https://www.infoq.cn/article/xCQx0qBofJYfBdVrxVxt?utm_source=rss&utm_medium=article",
-    "summary": "Agent 正在接手越来越多的工作，一场发生在模型之外的算力升级也悄然开始。2026 年 9 月，Meta 发布个人 AI 智能体 Muse，仅用了十余天，下载量就突破 250 万，一度登顶美国 App Store 免费榜，并快速霸占全球各大科技热榜头条。9 月底，OpenAI 发布了常驻于 Codex 的助手 dots；10 月，Google Cloud 推出面向工作场景的 Gemini Agent；11 月初，Perplexity 也推出了主打复杂任务协同的 Teammates。从 Personal Agent 到 Work Agent，AI 智能体正以惊人的速度向实际工作场景渗透，并成为...",
-    "published": "2026-11-11T14:44:48",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "凌敏"
-  },
-  {
-    "title": "Agent 从 Demo 到生产，究竟还差几步？4周实战课来了",
-    "url": "https://www.infoq.cn/article/gzNdPqAMp1Wh1JQ9d2JA?utm_source=rss&utm_medium=article",
-    "summary": "借助大模型、开发框架和各类工具，开发者可以快速搭建一个能够理解指令、调用工具、执行任务的 Agent。但 Agent 能跑起来，就意味着可以投入生产了吗？ 模型升级后，如何判断效果是变好了还是变差了？面对复杂任务，如何保证运行安全？当调用量持续增长，Token 成本又该如何控制？ 从一个能运行的 Demo，到稳定、可靠、可持续运行的生产级 Agent，中间还有不少工程难题需要解决。1、从能用到敢用，Agent 需要跨过哪些关？ 随着 Agent 从技术探索走向真实业务应用，开发者的关注点正在从“如何快速造出 Agent”，转向“如何造出一个好的 Agent”。在开发初期，团队更关注模型能否调用...",
-    "published": "2026-11-11T12:02:05",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "汪竹"
-  },
-  {
-    "title": "Cloudflare 推出面向 AI 应用程序的 Web Search API",
-    "url": "https://www.infoq.cn/article/SgXuVvzbHr8lKrihTAZW?utm_source=rss&utm_medium=article",
-    "summary": "最近，Cloudflare 通过 AI Gateway 推出 了一款测试版的 Web Search API。该 API 可以通过 REST API 和 Cloudflare Workers 访问，提供统一的日志记录、访问控制和计费功能，并支持自带提供商密钥。该 API 使 AI 代理能够从 Ceramic.ai、Exa 和 Linkup 实时获取网页搜索结果。它提供统一的接口，将搜索计费与 AI Gateway 集成，可以同时记录搜索请求和模型推理，并要求服务提供商遵守 经过验证的机器人要求 并返回来源链接。Cloudflare 的 Web Search API 允许 AI 应用程序检索最新的...",
-    "published": "2026-11-11T11:06:00",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "作者：Renato Losio"
-  },
-  {
-    "title": "基于 AgentKit 重塑研发协作：从编码提效到组织效能跃迁｜AICon北京",
-    "url": "https://www.infoq.cn/article/I49cXCJFBpOW3PcgPTW3?utm_source=rss&utm_medium=article",
-    "summary": "当 Agent 真正进入企业流程，哪些工作可以交给 AI ？50 + 实战案例揭晓答案！ AI 正在从回答问题的辅助工具，走向理解目标、调用系统、完成任务的工作承担者。当 Agent 真正进入企业流程，问题不再是 “如何把 AI 做出来”，而是哪些工作可以交给 AI、结果如何验收、权限、成本与风险如何收住。随着大模型向推理、工具调用、多模态和长任务延伸，开发重心正从单次调用转向上下文、工具、执行环境与反馈回路的设计，Coding Agent 也从代码补全演进为能理解代码库、运行测试、完成复杂任务的工程协作者。OpenAI、Google Cloud、Anthropic 的最新实践共同指向一个结论...",
-    "published": "2026-11-11T10:00:00",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "AICon 全球人工智能开发与应用大会"
-  },
-  {
-    "title": "微软 10 月安全更新修复 1400 余个漏洞，其中一个已遭利用",
-    "url": "https://www.infoq.cn/article/mfy0RUYOqEAW8imUrGTY?utm_source=rss&utm_medium=article",
-    "summary": "微软最新的月度安全更新修复了 1415 个漏洞 ，涉及多个产品。其中一个影响 Windows Shell 的漏洞已被利用，另有 85 个被归类为严重级别的漏洞。受影响的产品包括 Windows 操作系统、Office、Exchange、.NET、Edge，可能还包括 Hyper-V 和 Azure 组件。CVE-2026-96951 允许攻击者向 Windows Shell 注入特殊元素，“让未授权攻击者通过网络绕过安全机制”，也就是 Mark of the Web （MOTW）防御机制。微软指出，潜在的攻击媒介是包含恶意构造文件的电子邮件或即时消息 ，这些文件旨在利用该漏洞。...",
-    "published": "2026-11-11T09:06:00",
-    "source_name": "InfoQ AI",
-    "source_url": "https://www.infoq.cn/ai",
-    "category": "chinese_ai",
-    "author": "作者：Sergio De Simone"
   },
   {
     "title": "双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替",
